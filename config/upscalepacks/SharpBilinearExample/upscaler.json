@@ -1,0 +1,6 @@
+{
+  "name": "Sharp Bilinear (Example)",
+  "shader": "shader.fsh",
+  "filter": "linear",
+  "use_sharpness": true
+}

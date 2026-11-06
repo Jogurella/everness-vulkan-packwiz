@@ -1,0 +1,13 @@
+name = "Glowing 3D Armor x Fresh Animations"
+filename = "Glowing 3D Armor x FA.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/thIT30P4/versions/JxfVzXEU/Glowing%203D%20Armor%20x%20FA.zip"
+hash-format = "sha512"
+hash = "35340e22ad6514ab55b145fda3a81b59c9b9ee33938d1161d064a5db9da06f834138f9759d60e6da296caa3aa310311c6b23ac7c81b5e9635fa6059c00704877"
+
+[update.modrinth]
+mod-id = "thIT30P4"
+version = "JxfVzXEU"

@@ -1,0 +1,9 @@
+name = "Forever Everness Kartenclient"
+filename = "forever-map-client-26.3-0.3.3-vulkanfix.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-vulkan-packwiz/releases/download/v2026.11.06/forever-map-client-26.3-0.3.3-vulkanfix.jar"
+hash-format = "sha512"
+hash = "a7c2fb2e695cf4ed514871bbbe57cc60b3145129a7167cddccff8c3ac38861275c5c808822c6edbee7a1ee61ae0150b259ecd36aa12e617ae47074c54a0b04c0"

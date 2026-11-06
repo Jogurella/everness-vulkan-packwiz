@@ -1,0 +1,13 @@
+name = "Flowering Crops"
+filename = "Flowering Crops (26.3).zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/8KFdcxdj/versions/BwphCyhY/Flowering%20Crops%20%2826.3%29.zip"
+hash-format = "sha512"
+hash = "3dc1ae9be4b6e54a29fdbe0b6702145943d9778ae8593a852d498512be1cafcab48fba5fcba77186aa58d5aea56cbe054f29b0153fa7b3a0ee8cd79819a2bbf9"
+
+[update.modrinth]
+mod-id = "8KFdcxdj"
+version = "BwphCyhY"

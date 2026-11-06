@@ -1,0 +1,13 @@
+name = "Glowing 3D Armor"
+filename = "Glowing 3D Armor.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/WkLr6o3M/versions/IUWhhqas/Glowing%203D%20Armor.zip"
+hash-format = "sha512"
+hash = "2846d52ef2e3d8b311ba5df80a77c82757ce49017600af0f6e1cee04f3824339d891d671674fc62e43efd13e83e40a35bc4c36b73dee8e95bcd4b811627679aa"
+
+[update.modrinth]
+mod-id = "WkLr6o3M"
+version = "IUWhhqas"

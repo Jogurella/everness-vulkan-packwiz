@@ -1,0 +1,9 @@
+name = "PureScale Modern"
+filename = "purescale-modern-fabric-quilt-1.3.0.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/purescale-modern-fabric-quilt-1.3.0.jar"
+hash-format = "sha512"
+hash = "d3ff9ad7446f6f347946dc2ca920cabd90b69a3a77af2b95cf4982008073515b98217b731491f085a5e6ae2f455330fcc0ea78079caf863bd4474a03d9156a4c"

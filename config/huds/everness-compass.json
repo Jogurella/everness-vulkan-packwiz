@@ -1,0 +1,103 @@
+{
+	"showInScreens": false,
+	"showShadow": true,
+	"layoutRefH": 720.0,
+	"bgChroma": false,
+	"customScale": 1.0,
+	"relativeY": 3.0,
+	"shadowChroma": false,
+	"relativeX": 0.0,
+	"section": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Section",
+		"value": "TopCenter"
+	},
+	"anchorOffsetY": 0.0,
+	"anchorOffsetX": 0.0,
+	"showTicks": true,
+	"showBackground": false,
+	"showKey": -1,
+	"locked": false,
+	"shadowColor": 1073741824,
+	"anchorTargetId": "",
+	"textAlign": 1,
+	"tickColor": {
+		"value": [
+			220, 
+			220, 
+			220, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"staticWidth": true,
+	"textColor": -1,
+	"bgChromaSpeed": 1.0,
+	"layoutRefW": 1281.0,
+	"textUnderline": false,
+	"padBottom": 0.0,
+	"alignment": {
+		"class": "org.polyfrost.compose.layout.PolyAlign",
+		"value": "Center"
+	},
+	"fullShadow": false,
+	"toggleKey": -1,
+	"shadowOffsetX": 2.0,
+	"staticW": 250.0,
+	"shadowOffsetY": 2.0,
+	"markerColor": {
+		"value": [
+			255, 
+			255, 
+			255, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"hidden": false,
+	"anchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "TopLeft"
+	},
+	"selfAnchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"showInChat": true,
+	"keepBgWhenHidden": false,
+	"showHeading": false,
+	"caseType": 0,
+	"posSchema": 1,
+	"padRight": 0.0,
+	"bgColor": 0,
+	"textWeight": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Weight",
+		"value": "Regular"
+	},
+	"padLeft": 0.0,
+	"fadeEdges": true,
+	"showIntercardinals": true,
+	"mergeBackground": false,
+	"padTop": 0.0,
+	"showInF3": false,
+	"showInTab": true,
+	"textChroma": false,
+	"textScale": 1.0,
+	"useGuiScale": true,
+	"shadowChromaSpeed": 1.0,
+	"growthAnchor": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"staticH": 24.0,
+	"textChromaSpeed": 1.0,
+	"textItalic": false,
+	"textBold": false,
+	"hudClass": "org.polyfrost.evergreenhud.client.hud.direction.DirectionHud",
+	"mergeDiagonally": false,
+	"span": 120.0,
+	"font": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Font",
+		"value": "Minecraft"
+	},
+	"bgRadius": 0.0
+}

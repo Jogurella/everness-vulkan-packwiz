@@ -1,0 +1,94 @@
+{
+	"showInScreens": true,
+	"showShadow": false,
+	"layoutRefH": 720.0,
+	"bgChroma": false,
+	"customScale": 1.0,
+	"prefix": "FPS: ",
+	"relativeY": 3.0,
+	"shadowChroma": false,
+	"relativeX": -164.0,
+	"accuracy": 0,
+	"section": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Section",
+		"value": "TopCenter"
+	},
+	"suffix": "",
+	"showRange": [
+		0.0, 
+		100.0
+	],
+	"anchorOffsetY": 0.0,
+	"anchorOffsetX": 0.0,
+	"updateRate": 1.0,
+	"showBackground": true,
+	"showKey": -1,
+	"locked": false,
+	"shadowColor": 1073741824,
+	"anchorTargetId": "",
+	"textAlign": 1,
+	"staticWidth": false,
+	"textColor": -1,
+	"bgChromaSpeed": 1.0,
+	"brackets": false,
+	"layoutRefW": 1281.0,
+	"textUnderline": false,
+	"padBottom": 4.0,
+	"hideAboveNumber": 0,
+	"alignment": {
+		"class": "org.polyfrost.compose.layout.PolyAlign",
+		"value": "Center"
+	},
+	"fullShadow": false,
+	"formatString": "#fps",
+	"toggleKey": -1,
+	"shadowOffsetX": 2.0,
+	"staticW": -1.0,
+	"shadowOffsetY": 2.0,
+	"hidden": false,
+	"anchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "TopLeft"
+	},
+	"selfAnchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"showInChat": true,
+	"keepBgWhenHidden": false,
+	"spacingMigrated": true,
+	"caseType": 0,
+	"posSchema": 1,
+	"padRight": 4.0,
+	"bgColor": -2147483648,
+	"textWeight": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Weight",
+		"value": "Regular"
+	},
+	"trailingZeros": true,
+	"padLeft": 4.0,
+	"mergeBackground": true,
+	"padTop": 4.0,
+	"showInF3": true,
+	"showInTab": true,
+	"textChroma": false,
+	"textScale": 1.0,
+	"useGuiScale": true,
+	"shadowChromaSpeed": 1.0,
+	"growthAnchor": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"staticH": -1.0,
+	"textChromaSpeed": 1.0,
+	"textItalic": false,
+	"textBold": false,
+	"hudClass": "org.polyfrost.evergreenhud.client.hud.FpsHud",
+	"mergeDiagonally": false,
+	"colorByValue": false,
+	"font": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Font",
+		"value": "Minecraft"
+	},
+	"bgRadius": 4.0
+}

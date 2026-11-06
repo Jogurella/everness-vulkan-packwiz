@@ -1,0 +1,13 @@
+name = "OneConfig"
+filename = "OneConfig-26.3-fabric-1.6.2.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/AibBIVmj/versions/jwUujeSa/OneConfig-26.3-fabric-1.6.2.jar"
+hash-format = "sha512"
+hash = "fb6c26bbfbf23f7f172cd0f1d9a1af7a1122a50162028266f82ab92328b56467bcf5457026804dd46a046add9b16bcb85680d16ad332146c9cc3eeb724c4749d"
+
+[update.modrinth]
+mod-id = "AibBIVmj"
+version = "jwUujeSa"

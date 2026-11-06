@@ -1,0 +1,12 @@
+{
+	"knownHuds": [
+		"org.polyfrost.evergreenhud.client.hud.FpsHud", 
+		"org.polyfrost.evergreenhud.client.hud.direction.DirectionHud", 
+		"org.polyfrost.evergreenhud.client.hud.PositionHud", 
+		"org.polyfrost.evergreenhud.client.hud.ArmorHud", 
+		"org.polyfrost.evergreenhud.client.hud.media.MediaHud", 
+		"org.polyfrost.evergreenhud.client.hud.potion.PotionEffectsHud", 
+		"org.polyfrost.evergreenhud.client.hud.InventoryHud", 
+		"org.polyfrost.evergreenhud.client.hud.PlayerHeadHud"
+	]
+}

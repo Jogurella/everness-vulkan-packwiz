@@ -1,0 +1,9 @@
+name = "EvergreenHUD"
+filename = "evergreenhud-3.9.16+26.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/evergreenhud-3.9.16%2B26.3.jar"
+hash-format = "sha512"
+hash = "b1c504abd804c75373a816842005890862e0ec4f3c99a8ca015763d5cadb17a716fcb456813a1f783c7d61435f799873c5ab32e49ab964df2bd826da078aef22"

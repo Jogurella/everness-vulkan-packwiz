@@ -1,0 +1,13 @@
+name = "Better Shulker Boxes"
+filename = "better-shulker-boxes-fabric-1.6.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/UUntxQ5e/versions/iSCAzouq/better-shulker-boxes-fabric-1.6.3.jar"
+hash-format = "sha512"
+hash = "9ba16782dcae454ecd46bd4c3342845cd247cf7831a6af18a831c93fc897bd1a768542ccc2347f005876203fcdaa078679da85a988c0453f4ef8c6d9b2986617"
+
+[update.modrinth]
+mod-id = "UUntxQ5e"
+version = "iSCAzouq"

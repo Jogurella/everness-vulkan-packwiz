@@ -1,0 +1,5 @@
+pack=Tobias-Pixel.zip
+enabled=false
+shadowdistance=32
+renderscale=100
+shadowmapscale=100

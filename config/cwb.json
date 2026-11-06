@@ -1,0 +1,13 @@
+{
+  "fullscreenMode": "WINDOWED",
+  "preferredFullscreenMode": "WINDOWED",
+  "useDelayedFullscreen": true,
+  "useScaledFramebuffer": true,
+  "pauseOnLostFocusDuringMultiplayer": false,
+  "windowedFullscreenType": "windows:windowed",
+  "windows": {
+    "fullscreenMode": "WINDOWED",
+    "preferredFullscreenMode": "WINDOWED",
+    "windowedFullscreenType": "windows:windowed"
+  }
+}

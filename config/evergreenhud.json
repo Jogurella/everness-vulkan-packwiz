@@ -1,0 +1,53 @@
+{
+	"showShadow": false,
+	"shadowOffsetX": 2.0,
+	"shadowOffsetY": 2.0,
+	"customScale": 1.0,
+	"padTop": 4.0,
+	"textScale": 1.0,
+	"useGuiScale": true,
+	"textColor": {
+		"value": [
+			255, 
+			255, 
+			255, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"caseType": 0,
+	"padRight": 4.0,
+	"textUnderline": false,
+	"textItalic": false,
+	"bgColor": {
+		"value": [
+			0, 
+			0, 
+			0, 
+			128
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"textBold": false,
+	"showBackground": true,
+	"textWeight": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Weight",
+		"value": "Regular"
+	},
+	"padBottom": 4.0,
+	"shadowColor": {
+		"value": [
+			0, 
+			0, 
+			0, 
+			64
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"font": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Font",
+		"value": "Minecraft"
+	},
+	"bgRadius": 4.0,
+	"padLeft": 4.0
+}

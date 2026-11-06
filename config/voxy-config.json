@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "enable_rendering": true,
+  "ingest_enabled": true,
+  "section_render_distance": 12.5,
+  "service_threads": 2,
+  "sub_division_size": 77.4918,
+  "blaze3d_lod_uploads_per_frame": 8,
+  "fog_mode": "fog_and_fade",
+  "dont_use_sodium_builder_threads": false,
+  "renderer_backend": "native",
+  "show_blaze3d_iris_warning": true,
+  "ssao_mode": "better"
+}

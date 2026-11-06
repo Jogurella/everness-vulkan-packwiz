@@ -1,0 +1,13 @@
+name = "Assorted Frogs x Fresh Animations"
+filename = "Assorted Frogs x FA - V.1.0.1.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/KovKG313/versions/SINbhksx/Assorted%20Frogs%20x%20FA%20-%20V.1.0.1.zip"
+hash-format = "sha512"
+hash = "2b6e21acc694df0e825b52d5f83514bb26b5c9f7a93f791f5ee7defc8d78e0c2c2a8fd756f0f0e98a7e10e79309cb43e1ca67b58fb8dce59c0e529ca8d8cf6ad"
+
+[update.modrinth]
+mod-id = "KovKG313"
+version = "SINbhksx"

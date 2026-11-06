@@ -1,0 +1,21 @@
+{
+  "groups": {
+    "Default": {
+      "offset": {
+        "x": 0,
+        "y": 2
+      },
+      "layers": {
+        "minecraft:action_bar": {
+          "position": "BOTTOM"
+        },
+        "minecraft:hotbar": {
+          "position": "BOTTOM"
+        }
+      }
+    }
+  },
+  "settings": {
+    "selectionIndicator": "AUTO"
+  }
+}

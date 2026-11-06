@@ -1,0 +1,9 @@
+name = "photon_v1.4"
+filename = "photon_v1.4.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/photon_v1.4.zip"
+hash-format = "sha512"
+hash = "d59b5b28f69c8099d9ae0bdd32bada915beab746ec2aa3e2b6f0bc3f16fe0436247a013a3dca9b84978ccaafd9086999af9a72ffb6dbabc50c87a0726082b74c"

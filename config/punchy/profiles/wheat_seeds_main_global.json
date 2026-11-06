@@ -1,0 +1,5402 @@
+{
+  "item": {
+    "FISHING_ROD": {
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.01,
+          "offY": 0.019999985,
+          "offZ": 0.06999999,
+          "rotX": -56.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.10999997,
+          "pivotZ": -0.04,
+          "disable_sprint_lateral_tilt": true
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.01,
+          "offY": 0.019999985,
+          "offZ": 0.06999999,
+          "rotX": -56.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.10999997,
+          "pivotZ": -0.04,
+          "disable_sprint_lateral_tilt": true
+        }
+      }
+    },
+    "SWORD": {
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194,
+          "disable_sprint_lateral_tilt": true
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194,
+          "disable_sprint_lateral_tilt": true
+        }
+      }
+    },
+    "FULL_BLOCK": {
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593,
+          "disable_sprint_lateral_tilt": true
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593,
+          "disable_sprint_lateral_tilt": true
+        }
+      }
+    }
+  },
+  "armMesh": {
+    "global": {
+      "right": {
+        "scale": 1.0,
+        "offX": 0.0,
+        "offY": 0.0,
+        "offZ": 0.0,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "pivotX": 0.0,
+        "pivotY": 0.0,
+        "pivotZ": 0.0
+      },
+      "left": {
+        "scale": 1.0,
+        "offX": -0.0,
+        "offY": 0.0,
+        "offZ": 0.0,
+        "rotX": 0.0,
+        "rotY": -0.0,
+        "rotZ": -0.0,
+        "pivotX": 0.0,
+        "pivotY": 0.0,
+        "pivotZ": 0.0
+      }
+    }
+  },
+  "globalItem": {
+    "right": {
+      "scale": 1.0,
+      "offX": 0.0,
+      "offY": 0.0,
+      "offZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    },
+    "left": {
+      "scale": 1.0,
+      "offX": -0.0,
+      "offY": 0.0,
+      "offZ": 0.0,
+      "rotX": 0.0,
+      "rotY": -0.0,
+      "rotZ": -0.0,
+      "pivotX": -0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    }
+  },
+  "globalArm": {
+    "right": {
+      "scale": 0.50256944,
+      "offX": -0.013888836,
+      "offY": 0.025000095,
+      "offZ": -0.8166667,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    },
+    "left": {
+      "scale": 0.50256944,
+      "offX": 0.013888836,
+      "offY": 0.025000095,
+      "offZ": -0.8166667,
+      "rotX": 0.0,
+      "rotY": -0.0,
+      "rotZ": -0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    }
+  },
+  "fluidProxy": {
+    "lava": {
+      "scale": 0.58,
+      "offX": 0.0,
+      "offY": 0.06,
+      "offZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    },
+    "milk": {
+      "scale": 0.58,
+      "offX": 0.0,
+      "offY": 0.06,
+      "offZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    },
+    "water": {
+      "scale": 0.58,
+      "offX": 0.0,
+      "offY": 0.06,
+      "offZ": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "pivotX": 0.0,
+      "pivotY": 0.0,
+      "pivotZ": 0.0
+    }
+  },
+  "itemSpecific": {
+    "minecraft:iron_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:leaf_litter": {
+      "kind": "BLOCK",
+      "armKind": "BLOCK",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:iron_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:chainmail_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:shears": {
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:experience_bottle": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:powder_snow_bucket": {
+      "kind": "BUCKET",
+      "armKind": "BUCKET",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:ender_eye": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:chainmail_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:trident": {
+      "armKind": "TRIDENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:enchanting_table": {
+      "armKind": "BLOCK",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:oak_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:suspicious_stew": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:cooked_cod": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:sticky_piston": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.5700004,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 5.0,
+          "rotY": 18.0,
+          "rotZ": 12.0,
+          "pivotX": -0.09999999,
+          "pivotY": 0.33999994,
+          "pivotZ": -0.24000002
+        },
+        "left": {
+          "scale": 0.5700004,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 5.0,
+          "rotY": -18.0,
+          "rotZ": -12.0,
+          "pivotX": 0.09999999,
+          "pivotY": 0.33999994,
+          "pivotZ": -0.24000002
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:mushroom_stew": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:cod": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:leather_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:cherry_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:iron_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:filled_map": {
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:flow_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:wooden_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:lava_bucket": {
+      "kind": "BUCKET",
+      "armKind": "BUCKET",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:wind_charge": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:rabbit_stew": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:salmon": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:elytra": {
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.002000019,
+          "offY": -0.03999994,
+          "offZ": 0.079999976,
+          "rotX": 559.0,
+          "rotY": -266.0,
+          "rotZ": 62.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.030000372,
+          "pivotZ": -0.040000014,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.002000019,
+          "offY": -0.03999994,
+          "offZ": 0.079999976,
+          "rotX": 559.0,
+          "rotY": 266.0,
+          "rotZ": -62.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.030000372,
+          "pivotZ": -0.040000014,
+          "physics": "FORWARD_PENDULUM"
+        }
+      }
+    },
+    "minecraft:iron_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:flowering_azalea_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:chainmail_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:wildflowers": {
+      "kind": "BLOCK",
+      "armKind": "BLOCK",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:milk_bucket": {
+      "kind": "BUCKET",
+      "armKind": "BUCKET",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:lingering_potion": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:goat_horn": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:dark_oak_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:acacia_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_dandelion": {
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:ender_pearl": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "adorablehamsterpets:cheese": {},
+    "minecraft:leather_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:azalea_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:beetroot_soup": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.0,
+          "offY": -0.125,
+          "offZ": 0.268,
+          "rotX": -85.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:mangrove_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:stone_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:jungle_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:leather_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:bolt_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:snowball": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:chainmail_boots": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:buried_treasure_map": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 2.804251,
+          "offX": -0.18021059,
+          "offY": 0.21453643,
+          "offZ": 0.09725642,
+          "rotX": -27.803925,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.007151246,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 2.804251,
+          "offX": 0.18021059,
+          "offY": 0.21453643,
+          "offZ": 0.09725642,
+          "rotX": -27.803925,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.007151246,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:leather_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond": {
+      "armKind": "AXE",
+      "armTransforms": {
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:water_bucket": {
+      "kind": "BUCKET",
+      "armKind": "BUCKET",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:iron_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:egg": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:copper_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:splash_potion": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:pink_petals": {
+      "kind": "BLOCK",
+      "armKind": "BLOCK",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond_helmet": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:pufferfish": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:spruce_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:shaper_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:stick": {
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:tropical_fish": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:piston": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.5700004,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 5.0,
+          "rotY": 18.0,
+          "rotZ": 12.0,
+          "pivotX": -0.09999999,
+          "pivotY": 0.33999994,
+          "pivotZ": -0.24000002
+        },
+        "left": {
+          "scale": 0.5700004,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 5.0,
+          "rotY": -18.0,
+          "rotZ": -12.0,
+          "pivotX": 0.09999999,
+          "pivotY": 0.33999994,
+          "pivotZ": -0.24000002
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:flint": {
+      "armKind": "INGREDIENT",
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:birch_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:diamond_leggings": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.15,
+          "offX": 0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": 39.0,
+          "rotZ": 1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.15,
+          "offX": -0.03,
+          "offY": 0.01,
+          "offZ": 0.02,
+          "rotX": -6.0,
+          "rotY": -39.0,
+          "rotZ": -1.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.13999999,
+          "offZ": -0.050000012,
+          "rotX": 0.0,
+          "rotY": -3.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.18,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:golden_chestplate": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "physics": [
+        {
+          "name": "FORWARD_PENDULUM",
+          "force": 0.05,
+          "speed": 1.0
+        }
+      ],
+      "transforms": {
+        "right": {
+          "scale": 1.6499988,
+          "offX": -0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 363.0,
+          "rotY": -233.0,
+          "rotZ": 77.0,
+          "pivotX": -0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        },
+        "left": {
+          "scale": 1.6499988,
+          "offX": 0.03200002,
+          "offY": -0.14999993,
+          "offZ": 0.019999983,
+          "rotX": 372.0,
+          "rotY": 227.0,
+          "rotZ": -68.0,
+          "pivotX": 0.010000059,
+          "pivotY": 0.060000367,
+          "pivotZ": -0.09,
+          "physics": "FORWARD_PENDULUM"
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 0.7900002,
+          "offX": 0.21000002,
+          "offY": 0.119999975,
+          "offZ": -0.31999993,
+          "rotX": 7.0,
+          "rotY": -92.0,
+          "rotZ": 24.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 0.7900001,
+          "offX": -0.21000001,
+          "offY": 0.109999985,
+          "offZ": -0.31999993,
+          "rotX": -8.0,
+          "rotY": 92.0,
+          "rotZ": -10.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:pale_oak_leaves": {
+      "kind": "FULL_BLOCK",
+      "armKind": "FULL_BLOCK",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 0.95758754,
+          "offX": -0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": -24.0,
+          "rotZ": 3.0,
+          "pivotX": -0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        },
+        "left": {
+          "scale": 0.95758754,
+          "offX": 0.19000006,
+          "offY": 0.26,
+          "offZ": 0.03999996,
+          "rotX": 4.0000153,
+          "rotY": 24.0,
+          "rotZ": -3.0,
+          "pivotX": 0.00999999,
+          "pivotY": -0.029999971,
+          "pivotZ": 0.18871593
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:host_armor_trim_smithing_template": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1832685,
+          "offX": 0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": 64.785995,
+          "rotZ": -1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1832685,
+          "offX": -0.023346186,
+          "offY": 0.26459146,
+          "offZ": 0.08171201,
+          "rotX": -8.054474,
+          "rotY": -64.785995,
+          "rotZ": 1.7509613,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": -0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": 4.90271,
+          "rotZ": 2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.03891051,
+          "offY": -0.08949411,
+          "offZ": -0.09338522,
+          "rotX": -2.1011658,
+          "rotY": -4.90271,
+          "rotZ": -2.8015594,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:cooked_salmon": {
+      "kind": "INGREDIENT",
+      "armKind": "INGREDIENT",
+      "transforms": {
+        "right": {
+          "scale": 1.1,
+          "offX": -0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": 86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.1,
+          "offX": 0.04,
+          "offY": 0.0,
+          "offZ": -0.14,
+          "rotX": 84.0,
+          "rotY": 0.0,
+          "rotZ": -86.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    },
+    "minecraft:netherite_sword": {
+      "kind": "SWORD",
+      "armKind": "SWORD",
+      "disable_sprint_lateral_tilt": true,
+      "transforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": 2.8015594,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": -0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 12.256821,
+          "rotY": -2.8015594,
+          "rotZ": -0.0,
+          "pivotX": -0.0,
+          "pivotY": 0.03891051,
+          "pivotZ": 0.019455194
+        }
+      },
+      "armTransforms": {
+        "right": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": 0.0,
+          "rotZ": 0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        },
+        "left": {
+          "scale": 1.0,
+          "offX": 0.0,
+          "offY": 0.0,
+          "offZ": 0.0,
+          "rotX": 0.0,
+          "rotY": -0.0,
+          "rotZ": -0.0,
+          "pivotX": 0.0,
+          "pivotY": 0.0,
+          "pivotZ": 0.0
+        }
+      }
+    }
+  }
+}

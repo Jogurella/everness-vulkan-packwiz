@@ -1,0 +1,13 @@
+name = "Animated 3D Wind Charge | Compatible with Punchy!"
+filename = "Animated 3D Wind Charge [1.1].zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/EHP4vB6U/versions/vihG9Bf4/Animated%203D%20Wind%20Charge%20%5B1.1%5D.zip"
+hash-format = "sha512"
+hash = "3af0ffc3d73b3818c62d8d2488ad1964c96ad8c014353d2a82786a52220ed9b25dd958895f4f3b8b41be2b6f91126d45d881553210e414b3b16f0bef897e051e"
+
+[update.modrinth]
+mod-id = "EHP4vB6U"
+version = "vihG9Bf4"

@@ -1,0 +1,1039 @@
+{
+  "Colors": {
+    "areaSelectionBoxSideColor": "#30FFFFFF",
+    "hightlightBlockInInventoryColor": "#30FF30FF",
+    "materialListHudItemCountsColor": "#FFFFAA00",
+    "schematicRebuildBreakPlaceOverlayColor": "#4C33CC33",
+    "schematicRebuildBreakExceptPlaceOverlayColor": "#4CF03030",
+    "schematicRebuildReplaceOverlayColor": "#4CF0A010",
+    "schematicOverlayColorDiffBlock": "#30F8D650",
+    "schematicOverlayColorExtra": "#4CFF4CE6",
+    "schematicOverlayColorMissing": "#2C33B3E6",
+    "schematicOverlayColorWrongBlock": "#4CFF3333",
+    "schematicOverlayColorWrongState": "#4CFF9010"
+  },
+  "Generic": {
+    "placementManagerThreadCount": 2,
+    "areaSelectionsPerWorld": true,
+    "changeSelectedCornerOnMove": true,
+    "cloneAtOriginalPosition": false,
+    "commandDisableFeedback": true,
+    "commandFillNoChunkClamp": false,
+    "commandUseWorldEdit": false,
+    "commandUseStrict": true,
+    "customSchematicBaseDirectoryEnabled": false,
+    "debugHudMode": "default",
+    "debugHudWorld": true,
+    "debugHudPMThreads": false,
+    "debugLogging": false,
+    "displayFileOpsFeedback": false,
+    "datafixerMode": "always",
+    "datafixerDefaultSchema": 1139,
+    "deduplicateSchematicEntities": false,
+    "easyPlaceClickAdjacent": false,
+    "easyPlaceFirst": true,
+    "easyPlaceHoldEnabled": true,
+    "easyPlaceMode": false,
+    "easyPlacePostRewrite": false,
+    "easyPlaceSinglePlayerHandling": true,
+    "easyPlaceSinglePlayerValidation": true,
+    "easyPlaceProtocolVersion": "auto",
+    "easyPlaceSwingHand": true,
+    "easyPlaceVanillaReach": false,
+    "enableDifferentBlocks": false,
+    "entityDataSync": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "entityDataSyncBackup": false,
+    "entityDataSyncCacheTimeout": 2.75,
+    "executeRequireHoldingTool": true,
+    "fixChestMirror": true,
+    "fixRailRotation": true,
+    "fixStairsMirror": true,
+    "generateLowercaseNames": false,
+    "highlightBlockInInventory": false,
+    "itemUsePacketCheckBypass": true,
+    "layerModeFollowsPlayer": false,
+    "materialListCountEnderCache": false,
+    "materialListIgnoreState": false,
+    "materialListRecipeDetails": true,
+    "pasteAlwaysUseFill": false,
+    "pasteAlwaysUsePersistent": false,
+    "pasteIgnoreBlockEntitiesEntirely": false,
+    "pasteIgnoreBlockEntitiesFromFill": true,
+    "pasteIgnoreCommandLimitWithNbtRestore": true,
+    "pasteIgnoreEntities": false,
+    "pasteIgnoreInventories": false,
+    "pasteNbtRestoreBehavior": "none",
+    "pasteToMcFunctionFiles": false,
+    "pasteUseFillCommand": true,
+    "pasteUsingCommandsInSp": false,
+    "pasteUsingServux": true,
+    "pickBlockAvoidDamageable": true,
+    "pickBlockAvoidTools": false,
+    "pickBlockEnabled": true,
+    "pickBlockShulkers": false,
+    "placementReplaceBehavior": "all",
+    "placementRestriction": false,
+    "placementRestrictionWarn": "actionbar",
+    "reverseOperationModeDirection": false,
+    "renderMaterialListInGuis": true,
+    "renderThreadNoTimeout": true,
+    "serverNbtRequestRate": 2,
+    "signTextPaste": true,
+    "toolItemEnabled": false,
+    "unhideSchematicVCS": false,
+    "pasteReplaceBehavior": "none",
+    "pasteLayerBehavior": "all",
+    "schematicVcsDeleteMode": "matching_block",
+    "selectionCornersMode": "corners",
+    "commandFillMaxVolume": 32768,
+    "commandLimitPerTick": 8,
+    "commandNameClone": "clone",
+    "commandNameFill": "fill",
+    "commandNameSetblock": "setblock",
+    "commandNameSummon": "summon",
+    "commandTaskInterval": 1,
+    "customSchematicBaseDirectory": "schematics",
+    "easyPlaceSwapInterval": 0,
+    "pickBlockableSlots": "1,2,3,4,5",
+    "toolItem": "minecraft:stick",
+    "toolItemComponents": "empty",
+    "translationLanguage": "en_us",
+    "translationMode": "vanilla"
+  },
+  "Hotkeys": {
+    "addSelectionBox": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F13",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "cloneSelection": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F15",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "deleteSelectionBox": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F14",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "easyPlaceUseKey": {
+      "keys": "MOUSE_RIGHT"
+    },
+    "easyPlaceFirst": {
+      "keys": "LEFT_CONTROL,F17",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "easyPlaceToggle": {
+      "keys": "LEFT_CONTROL,F16",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "executeOperation": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F15",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "invertGhostBlockRenderState": {
+      "keys": "LEFT_ALT,F23",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "invertOverlayRenderState": {
+      "keys": "LEFT_ALT,F24",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "layerModeNext": {
+      "keys": "LEFT_CONTROL,F14",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "layerModePrevious": {
+      "keys": "LEFT_CONTROL,F15",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "layerNext": {
+      "keys": "F23",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "layerPrevious": {
+      "keys": "F24",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "layerSetHere": {
+      "keys": "LEFT_CONTROL,F13",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "nudgeSelectionNegative": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F23",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "nudgeSelectionPositive": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F22",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "moveEntireSelection": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F24",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiAreaSettings": {
+      "keys": "F20",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiLoadedSchematics": {
+      "keys": "F18",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiMainMenu": {
+      "keys": "F13",
+      "settings": {
+        "activate_on": "RELEASE",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": true,
+        "cancel": true
+      }
+    },
+    "openGuiMaterialList": {
+      "keys": "F15",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiPlacementSettings": {
+      "keys": "F17",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSchematicPlacements": {
+      "keys": "F16",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSchematicProjects": {
+      "keys": "F22",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSchematicVerifier": {
+      "keys": "F21",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSelectionManager": {
+      "keys": "F19",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "openGuiSettings": {
+      "keys": "F14",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "operationModeChangeModifier": {
+      "keys": "LEFT_CONTROL"
+    },
+    "pickBlockFirst": {
+      "keys": "MOUSE_MIDDLE"
+    },
+    "pickBlockLast": {
+      "keys": ""
+    },
+    "pickBlockToggle": {
+      "keys": "LEFT_CONTROL,F19",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "renderInfoOverlay": {
+      "keys": "I"
+    },
+    "renderOverlayThroughBlocks": {
+      "keys": "RIGHT_CONTROL"
+    },
+    "rerenderSchematic": {
+      "keys": "LEFT_ALT,F22",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "saveAreaAsInMemorySchematic": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F14",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "saveAreaAsSchematicToFile": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F13",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "schematicEditBreakPlaceAll": {
+      "keys": ""
+    },
+    "schematicEditBreakAllExcept": {
+      "keys": ""
+    },
+    "schematicEditBreakPlaceDirection": {
+      "keys": ""
+    },
+    "schematicEditReplaceAll": {
+      "keys": ""
+    },
+    "schematicEditReplaceBlock": {
+      "keys": ""
+    },
+    "schematicEditReplaceDirection": {
+      "keys": ""
+    },
+    "schematicEditReplaceSelection": {
+      "keys": ""
+    },
+    "schematicPlacementRotation": {
+      "keys": ""
+    },
+    "schematicPlacementMirror": {
+      "keys": ""
+    },
+    "schematicVCSDeleteBlockByPlacement": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F18",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "schematicVersionCycleModifier": {
+      "keys": ""
+    },
+    "schematicVersionCycleNext": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F16",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "schematicVersionCyclePrevious": {
+      "keys": "LEFT_CONTROL,LEFT_SHIFT,LEFT_ALT,F17",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "selectionGrabModifier": {
+      "keys": ""
+    },
+    "selectionGrow": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F20",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "selectionGrowModifier": {
+      "keys": ""
+    },
+    "selectionNudgeModifier": {
+      "keys": "LEFT_ALT"
+    },
+    "selectionModeCycle": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F19",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "selectionShrink": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F21",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "setAreaOrigin": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F18",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "setSelectionBoxPosition1": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F16",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "setSelectionBoxPosition2": {
+      "keys": "LEFT_CONTROL,LEFT_ALT,F17",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleAllRendering": {
+      "keys": "LEFT_CONTROL,F23",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleAreaSelectionBoxesRendering": {
+      "keys": "LEFT_ALT,F17",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleInfoOverlayRendering": {
+      "keys": "LEFT_ALT,F19",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleOverlayRendering": {
+      "keys": "LEFT_ALT,F14",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleOverlayOutlineRendering": {
+      "keys": "LEFT_ALT,F15",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleOverlaySideRendering": {
+      "keys": "LEFT_ALT,F16",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "togglePlacementBoxesRendering": {
+      "keys": "LEFT_ALT,F18",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "togglePlacementRestriction": {
+      "keys": "LEFT_CONTROL,F20",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleSchematicBlockRendering": {
+      "keys": "LEFT_ALT,F13",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleSchematicRendering": {
+      "keys": "LEFT_CONTROL,F24",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleSignTextPaste": {
+      "keys": "LEFT_CONTROL,F21",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleTranslucentRendering": {
+      "keys": "LEFT_ALT,F21",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toggleVerifierOverlayRendering": {
+      "keys": "LEFT_ALT,F20",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toolEnabledToggle": {
+      "keys": "LEFT_CONTROL,F18",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    },
+    "toolPlaceCorner1": {
+      "keys": "MOUSE_LEFT"
+    },
+    "toolPlaceCorner2": {
+      "keys": "MOUSE_RIGHT"
+    },
+    "toolSelectElements": {
+      "keys": "MOUSE_MIDDLE"
+    },
+    "toolSelectModifierBlock1": {
+      "keys": "LEFT_ALT"
+    },
+    "toolSelectModifierBlock2": {
+      "keys": "LEFT_SHIFT"
+    },
+    "unloadCurrentSchematic": {
+      "keys": "LEFT_CONTROL,F22",
+      "settings": {
+        "activate_on": "PRESS",
+        "context": "INGAME",
+        "allow_empty": false,
+        "allow_extra_keys": false,
+        "order_sensitive": false,
+        "exclusive": false,
+        "cancel": true
+      }
+    }
+  },
+  "InfoOverlays": {
+    "defaultSelectionMode": "simple",
+    "blockInfoLinesEnabled": true,
+    "blockInfoOverlayEnabled": true,
+    "infoOverlaysTargetFluids": false,
+    "statusInfoHud": false,
+    "statusInfoHudAuto": true,
+    "verifierOverlayEnabled": true,
+    "warnDisabledRendering": true,
+    "blockInfoLinesAlignment": "top_right",
+    "blockInfoOverlayAlignment": "top_center",
+    "infoHudAlignment": "bottom_right",
+    "toolHudAlignment": "bottom_left",
+    "blockInfoLinesOffsetX": 4,
+    "blockInfoLinesOffsetY": 4,
+    "blockInfoLinesFontScale": 0.5,
+    "blockInfoOverlayOffsetY": 6,
+    "infoHudMaxLines": 10,
+    "infoHudOffsetX": 1,
+    "infoHudOffsetY": 1,
+    "infoHudScale": 1.0,
+    "materialListHudMaxLines": 10,
+    "materialListHudScale": 1.0,
+    "toolHudOffsetX": 1,
+    "toolHudOffsetY": 1,
+    "toolHudScale": 1.0,
+    "verifierErrorHilightAlpha": 0.2,
+    "verifierErrorHilightMaxPositions": 1000
+  },
+  "Visuals": {
+    "enableRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableAreaSelectionBoxesRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enablePlacementBoxesRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicBlocksRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicFluidRendering": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicEntityHitboxes": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicFakeLighting": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicOverlay": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "enableSchematicOverlayCulling": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "ignoreExistingFluids": false,
+    "ignoreExistingBlocks": false,
+    "ignorableExistingBlocks": [],
+    "ignoreCropAge": false,
+    "overlayReducedInnerSides": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderAOModernEnable": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderAreaSelectionBoxSides": true,
+    "renderBlocksAsTranslucent": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderEnableTranslucentResorting": true,
+    "renderCollidingSchematicBlocks": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderErrorMarkerConnections": false,
+    "renderErrorMarkerSides": true,
+    "renderFakeLightingLevel": 15,
+    "renderPlacementBoxSides": false,
+    "renderPlacementEnclosingBox": true,
+    "renderPlacementEnclosingBoxSides": false,
+    "renderSchematicEntities": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderSchematicTileEntities": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "renderTranslucentBlockInnerSides": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayEnableOutlines": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayEnableSides": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayModelOutline": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayModelSides": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayRenderThroughBlocks": {
+      "enabled": false,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayTypeDiffBlock": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayTypeExtra": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayTypeMissing": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayTypeWrongBlock": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "schematicOverlayTypeWrongState": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
+    "ghostBlockAlpha": 0.5,
+    "placementBoxSideAlpha": 0.2,
+    "schematicOverlayOutlineWidth": 1.0,
+    "schematicOverlayOutlineWidthThrough": 3.0
+  }
+}

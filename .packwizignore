@@ -1,0 +1,23 @@
+# Pack development files are not installed into Minecraft.
+.git
+.github
+.gitignore
+.gitattributes
+.packwizignore
+.packwiz-cache
+README.md
+LICENSE
+THIRD-PARTY.md
+MODLIST.md
+PACK-STATUS.md
+manual-files.json
+snapshot.json
+tools
+patches
+licenses
+docs
+*.mrpack
+*.zip
+!mods/*.pw.toml
+!resourcepacks/*.pw.toml
+!shaderpacks/*.pw.toml

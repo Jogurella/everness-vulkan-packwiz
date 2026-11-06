@@ -1,0 +1,13 @@
+name = "Texture Builder"
+filename = "texture-builder - 26.3 - 1.1.0.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/eApKqn79/versions/s4y6rZYU/texture-builder%20-%2026.3%20-%201.1.0.jar"
+hash-format = "sha512"
+hash = "28c186f999e6f3bb597cba7b21f1442474fe23fd2ae35a751737ea0188091e896e6937d5737191d64ca7bcc2c596d40cb26ddf51885f4f77c2167c2fd030870f"
+
+[update.modrinth]
+mod-id = "eApKqn79"
+version = "s4y6rZYU"

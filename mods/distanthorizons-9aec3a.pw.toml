@@ -1,0 +1,9 @@
+name = "Distant Horizons"
+filename = "DistantHorizons-3.3.4-26.3-fabric-neoforge.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-vulkan-packwiz/releases/download/v2026.11.06/DistantHorizons-3.3.4-26.3-fabric-neoforge.jar"
+hash-format = "sha512"
+hash = "09ac0bbb1b27a7c701e0e63f832c8729f0c8ed0ebec97ee755e7c934e9810cc08f877ad57e3b62c68858c01007b242b1ac8b041104b9654f60a46d4c7b9873e5"

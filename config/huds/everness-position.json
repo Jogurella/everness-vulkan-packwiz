@@ -1,0 +1,142 @@
+{
+	"showInScreens": false,
+	"showShadow": true,
+	"layoutRefH": 720.0,
+	"bgChroma": false,
+	"customScale": 1.0,
+	"prefix": "",
+	"relativeY": 2.8673096,
+	"shadowChroma": false,
+	"relativeX": -163.66669,
+	"perAxisColors": false,
+	"accuracy": 2,
+	"showYaw": false,
+	"section": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Section",
+		"value": "BottomCenter"
+	},
+	"suffix": "",
+	"anchorOffsetY": 0.0,
+	"anchorOffsetX": 0.0,
+	"showBackground": true,
+	"zColor": {
+		"value": [
+			85, 
+			85, 
+			255, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"showKey": -1,
+	"locked": false,
+	"shadowColor": 1073741824,
+	"pitchColor": {
+		"value": [
+			255, 
+			255, 
+			255, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"anchorTargetId": "",
+	"textAlign": 0,
+	"alignDirection": true,
+	"yawColor": {
+		"value": [
+			255, 
+			255, 
+			255, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"staticWidth": false,
+	"textColor": -1,
+	"displayMode": 0,
+	"bgChromaSpeed": 1.0,
+	"brackets": false,
+	"layoutRefW": 1281.0,
+	"textUnderline": false,
+	"yColor": {
+		"value": [
+			85, 
+			255, 
+			85, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"padBottom": 3.0,
+	"alignment": {
+		"class": "org.polyfrost.compose.layout.PolyAlign",
+		"value": "Center"
+	},
+	"fullShadow": false,
+	"toggleKey": -1,
+	"shadowOffsetX": 2.0,
+	"staticW": -1.0,
+	"shadowOffsetY": 2.0,
+	"hidden": false,
+	"anchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "TopLeft"
+	},
+	"selfAnchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"showInChat": true,
+	"keepBgWhenHidden": false,
+	"spacingMigrated": true,
+	"caseType": 0,
+	"posSchema": 1,
+	"padRight": 5.0,
+	"bgColor": -2147483648,
+	"dimensionMode": 2,
+	"textWeight": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Weight",
+		"value": "Regular"
+	},
+	"trailingZeros": true,
+	"padLeft": 5.0,
+	"xColor": {
+		"value": [
+			255, 
+			85, 
+			85, 
+			255
+		],
+		"class": "org.polyfrost.compose.render.PolyColor"
+	},
+	"showDirection": false,
+	"mergeBackground": false,
+	"padTop": 3.0,
+	"showInF3": false,
+	"showInTab": true,
+	"textChroma": false,
+	"textScale": 0.9117862,
+	"useGuiScale": true,
+	"shadowChromaSpeed": 1.0,
+	"growthAnchor": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"staticH": -1.0,
+	"textChromaSpeed": 1.0,
+	"textItalic": false,
+	"showPitch": false,
+	"textBold": false,
+	"showZ": true,
+	"showY": true,
+	"showAxis": true,
+	"hudClass": "org.polyfrost.evergreenhud.client.hud.PositionHud",
+	"mergeDiagonally": false,
+	"showX": true,
+	"font": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Font",
+		"value": "Minecraft"
+	},
+	"bgRadius": 3.0
+}

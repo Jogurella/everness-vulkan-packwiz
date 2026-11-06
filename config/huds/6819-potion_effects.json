@@ -1,0 +1,2516 @@
+{
+	"layoutRefH": 720.0,
+	"bgChroma": false,
+	"customScale": 0.5,
+	"regeneration": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"mining_fatigue": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"instant_damage": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"showKey": -1,
+	"darkness": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"shadowColor": 1073741824,
+	"blindness": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"absorption": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"neutral": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"fire_resistance": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"unluck": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"bgChromaSpeed": 1.0,
+	"resistance": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"invisibility": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"layoutRefW": 1281.0,
+	"hideVanillaEffects": false,
+	"textUnderline": false,
+	"breath_of_the_nautilus": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"toggleKey": -1,
+	"shadowOffsetX": 2.0,
+	"staticW": 398.0,
+	"shadowOffsetY": 2.0,
+	"selfAnchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"showInChat": true,
+	"keepBgWhenHidden": false,
+	"global": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"categoryFilter": [
+			true, 
+			true, 
+			true
+		],
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"separateFormatting": false,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"nameBlink": true
+	},
+	"ambient": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"overrideOptionsVersion": 2,
+	"posSchema": 1,
+	"padRight": 0.0,
+	"spacing": 2.0,
+	"textWeight": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Weight",
+		"value": "Regular"
+	},
+	"health_boost": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"levitation": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"poison": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"padTop": 0.0,
+	"showInTab": true,
+	"textChroma": false,
+	"textScale": 1.0,
+	"useGuiScale": true,
+	"overrides": [],
+	"haste": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"staticH": 38.0,
+	"glowing": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"textBold": false,
+	"infested": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"font": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Font",
+		"value": "Minecraft"
+	},
+	"bgRadius": 4.0,
+	"showInScreens": true,
+	"showShadow": false,
+	"bad_omen": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"trial_omen": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"luck": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"hero_of_the_village": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"strength": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"relativeY": -85.0,
+	"shadowChroma": false,
+	"relativeX": 1.0,
+	"section": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.Section",
+		"value": "CenterLeft"
+	},
+	"harmful": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"anchorOffsetY": 0.0,
+	"saturation": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"anchorOffsetX": 0.0,
+	"weaving": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"conduit_power": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"showBackground": true,
+	"locked": false,
+	"formattingInitialized": false,
+	"night_vision": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"anchorTargetId": "",
+	"textAlign": 1,
+	"water_breathing": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"slowness": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"staticWidth": false,
+	"textColor": -1,
+	"jump_boost": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"nausea": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"hunger": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"slow_falling": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"wind_charged": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"beneficial": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"layoutMode": 3,
+	"oozing": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"listDirection": 1,
+	"padBottom": 0.0,
+	"alignment": {
+		"class": "org.polyfrost.compose.layout.PolyAlign",
+		"value": "Center"
+	},
+	"fullShadow": false,
+	"hidden": false,
+	"anchorPoint": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "TopLeft"
+	},
+	"dolphins_grace": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"speed": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"caseType": 0,
+	"weakness": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"raid_omen": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"bgColor": -2147483648,
+	"sorting": [],
+	"padLeft": 0.0,
+	"instant_health": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"mergeBackground": true,
+	"showInF3": true,
+	"shadowChromaSpeed": 1.0,
+	"growthAnchor": {
+		"class": "org.polyfrost.oneconfig.api.hud.v1.HudAnchor",
+		"value": "Auto"
+	},
+	"textChromaSpeed": 1.0,
+	"textItalic": false,
+	"textAlignment": 0,
+	"hudClass": "org.polyfrost.evergreenhud.client.hud.potion.PotionEffectsHud",
+	"mergeDiagonally": false,
+	"wither": {
+		"iconBlink": true,
+		"iconSpacing": 3.0,
+		"iconEnabled": true,
+		"permanentEffects": [
+			true, 
+			true
+		],
+		"showAmplifier": true,
+		"nameColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"ambientFilter": [
+			true, 
+			true
+		],
+		"customName": "#effect",
+		"amplifierStyle": 0,
+		"durationRange": [],
+		"nameEnabled": true,
+		"nameFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"durationBlink": true,
+		"caseType": 0,
+		"durationFormatting": [
+			false, 
+			false, 
+			false
+		],
+		"showEffects": true,
+		"amplifierRange": [],
+		"durationColor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"blinkThreshold": 10.0,
+		"durationEnabled": true,
+		"overriddenOptions": [],
+		"nameBlink": true
+	},
+	"reversed": false
+}
