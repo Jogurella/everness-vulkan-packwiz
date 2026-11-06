@@ -1,11 +1,15 @@
-# Herkunft und Lizenzen
+# Herkunft, lokale Änderungen und Lizenzen
 
-Modrinth-Dateien werden direkt von den verifizierten Autoren-Downloads geladen. Dieses Repository spiegelt diese Dateien nicht. Der Dateiname allein genügt nicht: die packwiz-Metadaten enthalten die exakte SHA-512-Prüfsumme der erfassten Installation.
+Die Modrinth-Einträge verwenden weiterhin die exakt erfassten Autoren-Downloads. Die bisher nicht eingebundenen Archivstände aus der bestehenden lokalen Installation werden auf ausdrücklichen Wunsch des Pack-Inhabers unverändert als versionierte Release-Dateien bereitgestellt. Die Archive behalten ihre enthaltenen Originaltexte, Credits und Lizenzdateien. Lokale Änderungen werden nicht als offizielle Autorenversionen ausgegeben.
 
-Die Release-Dateien sind getrennte Komponenten mit ihren jeweiligen Lizenzbedingungen. EvergreenHUD: GPL-3.0; Distant Horizons und Vitrail: LGPL-3.0; Forever Everness Kartenclient: MIT laut Mod-Metadaten; PureScale Modern: CC0-1.0 laut Mod-Metadaten, enthaltene Drittanbieterkomponenten behalten ihre Hinweise; Photon: Photon Shaders License Agreement (Weitergabe als Modpack ist darin ausdrücklich erlaubt). Originale Lizenzdateien innerhalb der Archive bleiben erhalten.
+## Bestehende lokale Mod-Änderungen
 
-Lokale Änderungen werden nicht als offizielle Autorenversionen ausgegeben. Die aktualisierten HUD-, DH- und Vitrail-Dateien sind die bereits eingebauten Everness-Kompatibilitätsstände. Die Änderungssourcen und Herkunftshinweise stehen unter `patches/`. Upstream-Quellen: https://github.com/Polyfrost/EvergreenHUD, https://gitlab.com/distant-horizons-team/distant-horizons/ und https://github.com/avpbynf/Vitrail-Shaders. Bestehende Mod- und Komponenten-Lizenzen gelten weiter.
+Camera Utils enthält den Superzoom; My Totem Doll die vorhandenen Render-/GUI-Korrekturen; Punchy die vorhandene Kreativflug-Korrektur; das OpenGL-Voxy die bisherige Kompatibilitätsfassung. Die bereits veröffentlichten HUD-, DH- und Vitrail-Änderungsquellen stehen unter `patches/`. Die Kartenmod ist der vorhandene Forever-Everness-Client; die Vulkan-Fassung enthält dessen PBO-Kompatibilitätskorrektur.
 
-Nicht öffentlich freigegebene, persönlich angepasste oder nicht eindeutig zuordenbare Dateien werden ausdrücklich nicht hochgeladen. Dazu zählen insbesondere der SEUS-Shader sowie die persönlich geänderten Camera-Utils-, Punchy-, My-Totem-Doll- und Voxy-Dateien. Die Liste in `manual-files.json` beschreibt nur Dateinamen und Hashes und erteilt keine Weitergaberechte.
+## Drittanbieterbedingungen bleiben bestehen
 
-Die MIT-Lizenz im Stamm gilt ausschließlich für die eigenen Manifest-/Dokumentations-/Wartungsdateien, nicht für fremde Inhalte oder die unter GPL/LGPL stehenden Änderungen.
+Dieses Repository erteilt keine zusätzlichen Rechte an fremden Mods, Ressourcenpacks oder Shadern. Einige Komponenten führen weitergehende Beschränkungen in ihren eigenen Lizenzen auf. Die MIT-Lizenz im Stamm gilt ausschließlich für die neu erstellten Manifest-, Dokumentations- und Wartungsdateien, nicht für fremde Inhalte oder die unter GPL/LGPL stehenden Änderungen.
+
+Beispiele: EvergreenHUD GPL-3.0; Distant Horizons und Vitrail LGPL-3.0; My Totem Doll CC BY-ND 4.0 laut beiliegender Lizenz; Punchy mit eigener Custom License; Camera Utils und Voxy mit den jeweiligen Rechtevorbehalten; SEUS mit seiner beiliegenden SEUS-Lizenz. Die Lizenzhinweise werden durch diese Zusammenstellung nicht ersetzt.
+
+Upstream-Quellen der schon dokumentierten Änderungen: https://github.com/Polyfrost/EvergreenHUD, https://gitlab.com/distant-horizons-team/distant-horizons/ und https://github.com/avpbynf/Vitrail-Shaders.

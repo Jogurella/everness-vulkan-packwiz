@@ -1,0 +1,9 @@
+name = "My Totem Doll"
+filename = "MyTotemDoll-2.7.0+26.3+fabric.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/mod-mytotemdoll-2-7-0-26-3-fabric-20d8643e80.jar"
+hash-format = "sha512"
+hash = "20d8643e80d21b32fbdc4fe711433b05a297834562a10d52e3cab42072644bbc117971a3cd14421373da72aadacf14d8f02bf58c9992d15204d761e450bdefbb"

@@ -1,0 +1,9 @@
+name = "§aBetter Fresher 3D Books v1.5.1"
+filename = "§aBetter Fresher 3D Books v1.5.1.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-better-fresher-3d-books-v1-5-1-68e54f0f7d.zip"
+hash-format = "sha512"
+hash = "68e54f0f7d0eeec9d9f490767d150804b1ec288b2b9fef647c590d111bd44ab50ae027f05affafa626ed74f3384d5c9b2869a18146920ddb35afd7d076c65283"

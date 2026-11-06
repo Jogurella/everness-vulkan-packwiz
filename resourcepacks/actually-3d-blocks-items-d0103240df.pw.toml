@@ -1,0 +1,9 @@
+name = "§f§lActually §6§l3D §fBlocks & Items!§7"
+filename = "§f§lActually §6§l3D §fBlocks & Items!§7.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-actually-3d-blocks-items-d0103240df.zip"
+hash-format = "sha512"
+hash = "d0103240dfa0591140263c244c57fe5406a0a3a7229177659ed18cf8a6c89a9bd155a37822ce6f7087d31bc98dfd7d6f4a60988c1297090d5d7ac02358f3fe3f"

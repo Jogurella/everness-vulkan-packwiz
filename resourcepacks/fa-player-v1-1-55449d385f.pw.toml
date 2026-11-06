@@ -1,0 +1,9 @@
+name = "FA+Player-v1.1"
+filename = "FA+Player-v1.1.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-fa-player-v1-1-55449d385f.zip"
+hash-format = "sha512"
+hash = "55449d385f482d0b31a1c5294dcdbcff21c2945d2ebe1b72978dbfa6064eb3c43e5d836d66ce4e6d16cbbef9dafd76af8f4ebb0820a24e214b791478a7cfab90"

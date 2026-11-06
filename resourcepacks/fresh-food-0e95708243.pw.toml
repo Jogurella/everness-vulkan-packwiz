@@ -1,0 +1,9 @@
+name = "Fresh Food"
+filename = "Fresh Food.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-fresh-food-0e95708243.zip"
+hash-format = "sha512"
+hash = "0e9570824335d1635c8d56a9b67913a5960f317b5b104bf6926ce0c67979f2c038d2838e092b6457182a8b0c95f37c6c96b4cd4d7e48b924bd50b703e759c873"

@@ -1,0 +1,9 @@
+name = "Enchantment Outlines"
+filename = "Enchantment Outlines.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-enchantment-outlines-6e37ff241a.zip"
+hash-format = "sha512"
+hash = "6e37ff241a7551aa2e453206903a89ef1d2a4d85d4c94a8d1e6d02398074ca50e3eb68c7afa0d6d6fc5f20e0016cd1bc7e4c009bab53bd344c0de7875deb00f8"

@@ -1,13 +1,14 @@
-# Pack-Status 2026.11.06
+# Vollständiger Pack-Status — 2026.11.06.1
 
-Abbild des Prism-Profils **Everness-Vulkan**, Minecraft 26.3, Fabric 0.19.5. Renderer: Vitrail + Distant Horizons (BLAZE_3D).
+Abbild von **Everness-Vulkan**, Minecraft **26.3**, Fabric **0.19.5**; Vitrail und Distant Horizons über BLAZE_3D.
 
-- 97 Mod-/Ressourcenpack-/Shaderarchive im Originalprofil erfasst.
-- 83 Archive mit SHA-512-geprüften öffentlichen Downloads in packwiz verwaltet.
-- **14 lokale Zusatzdateien**, darunter **3 Mod-JARs**, sind absichtlich nicht öffentlich gespiegelt. Ihre exakten Dateinamen und Prüfsummen stehen in `manual-files.json`.
-- 122 Einstellungsdateien einschließlich Hotkeys, HUD-Layout, Shaderoptionen und Ressourcenpack-Reihenfolge übernommen.
-- Welten, Konto-/Cookie-Dateien, Spielerverzeichnisse, Karten-/LOD-Caches, Bildschirmfotos und Diagnoseaufnahmen sind ausgeschlossen.
+- **97 von 97 Archiven** automatisch über packwiz eingebunden.
+- **64 Mod-JARs**, 29 Ressourcenpacks, 4 Shaderarchive.
+- **Keine manuell zu ergänzenden Zusatzdateien.** Die zuvor ausgelassenen persönlichen Anpassungen sind exakt nach SHA-512 eingebunden.
+- Originale Archivdateien einschließlich enthaltener Credits und Lizenztexte bleiben bytegenau erhalten.
+- Die vorhandenen Export-Einstellungen, Hotkeys, HUD-Anordnung, Shaderoptionen und Ressourcenpack-Reihenfolge bleiben im Snapshot erhalten.
+- Keine Konto-/Cookie-Dateien, Welten, persönlichen Karten-/LOD-Caches oder Diagnoseaufnahmen im Export.
 
-**Die öffentliche Installation allein ist keine vollständige 1:1-Kopie.** Für den bisherigen Funktionsumfang zuerst die lokalen Zusätze aus einer berechtigten vorhandenen Installation mit `tools/import-local.py` übernehmen. Gerade die lokale Superzoom-/Totem-/Animationskorrektur wird nicht durch eine unpassende Originalversion ersetzt. Bestehende Installationen behalten diese nicht von packwiz verwalteten Dateien.
+Die Modrinth-Autoren-Downloads bleiben direkt verlinkt. Die bereits vorhandenen lokalen Archivstände sind als separate, fest gepinnte GitHub-Release-Dateien eingebunden und werden nicht als offizielle Autoren-Releases bezeichnet. Die vorhandenen Drittanbieter-Lizenzen gelten weiter; dieses Repository erteilt keine zusätzlichen Rechte an ihnen.
 
-Das Repository wurde als Dateipaket geprüft. Es ist kein neuer Spiel-/FPS-/Langzeit-Stabilitätstest.
+Die Installation wird in einem getrennten Verzeichnis geprüft. Das ist ein Datei-/Installer-Test und kein neuer Spiel-, FPS- oder Langzeit-Stabilitätstest.

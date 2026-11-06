@@ -1,53 +1,37 @@
 # Everness Visuals — Vulkan
 
-Client-Modpack für **Minecraft 26.3 · Fabric 0.19.5 · Java 25**. Vitrail + Distant Horizons (BLAZE_3D). Version **2026.11.06**.
+**Minecraft 26.3 · Fabric 0.19.5 · Java 25 · Pack-Version 2026.11.06.1**
 
-## Installation in Prism
+Vitrail und Distant Horizons über BLAZE_3D. Vollständiger Archivstand des bisherigen Prism-Profils: **97 Downloads**, einschließlich aller lokalen Mod-, Ressourcenpack- und Shaderanpassungen. **Keine zusätzliche lokale Dateisammlung erforderlich.**
 
-1. Den passenden **Prism-Starter** aus [Releases](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.06) herunterladen und über **Instanz hinzufügen → Import aus ZIP** importieren. Das ist ein getrenntes Profil, kein automatischer Serverbeitritt.
-2. Die lokalen Zusätze gemäß [Pack-Status](PACK-STATUS.md) aus einer vorhandenen, berechtigten Installation übernehmen. Beispiel mit Python 3.11 oder neuer, im geklonten Repository:
+## In Prism installieren
 
-   ```powershell
-   python tools/import-local.py --from-game "PFAD_ZUM_BISHERIGEN_MINECRAFT_ORDNER" --to-game "PFAD_ZUM_NEUEN_MINECRAFT_ORDNER"
-   ```
+1. Unter [Releases](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.06.1) **Everness-vulkan-Prism-Starter.zip** herunterladen.
+2. In Prism **Instanz hinzufügen → Import aus ZIP** wählen und diese ZIP importieren.
+3. Java 25 verwenden, dein Microsoft-Konto im Launcher selbst anmelden und starten. Der Pre-Launch-Updater lädt das vollständige Pack automatisch und prüft die Dateien.
 
-3. Microsoft-Anmeldung im Launcher selbst erledigen und starten. Der Pre-Launch-Befehl lädt die öffentlich verwalteten Dateien herunter und prüft deren Hashes. Der Server **Forever Ever Server** ist voreingetragen.
+Der neue Starter wird getrennt importiert. Es erfolgt kein automatischer Serverbeitritt. **Forever Ever Server** ist bereits in der Serverliste eingetragen.
 
-Pack-URL: [https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml)
+## Packwiz-URL
 
-Für eine bereits vorhandene Instanz lautet der normale packwiz-Pre-Launch-Befehl:
+[https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml)
+
+Für eigene Launcher und bestehende packwiz-Installationen:
 
 ```text
 "$INST_JAVA" -jar packwiz-installer-bootstrap.jar -g -s client https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml
 ```
 
-Die offizielle `packwiz-installer-bootstrap.jar` muss im Minecraft-Ordner der Instanz liegen. Der Starter bringt sie unverändert mit. Standard-Fenster-/Grafik-, Mod- und Tastenwerte stammen aus dem jeweiligen bisherigen Prism-Profil. Kontoauswahl und Java-Pfad werden nicht importiert.
+Die offizielle Bootstrap-JAR liegt im Minecraft-Ordner des Prism-Starters. Wer bereits die frühere Starter-Version verwendet, erhält die zusätzlichen Archive beim nächsten packwiz-Update über dieselbe Pack-URL.
 
-## Umfang und lokale Dateien
+## Enthalten
 
-83 Download-Einträge sind exakt gepinnt; 14 lokale Dateien werden aus Rechte-/Versionsgründen nicht öffentlich gespiegelt. **Ohne diese Zusätze entspricht eine frische Installation nicht dem vollständigen bisherigen Pack.** Keine Ersatzversionen werden stillschweigend installiert. Details und SHA-512: [manual-files.json](manual-files.json).
+64 Mod-JARs, 29 Ressourcenpacks und 4 Shaderarchive. Die bisherigen Tastenbelegungen, Mod-Einstellungen, HUDs, Shaderprofile und die Ressourcenpack-Reihenfolge sind übernommen. Quellen und exakte SHA-512-Hashes stehen in den `*.pw.toml`-Dateien; [Mod-/Packliste](MODLIST.md) und [Pack-Status](PACK-STATUS.md) erläutern den Stand.
 
-| Lokal benötigte Datei | Typ |
-| --- | --- |
-| `mods/camerautils-fabric-1.1.2+26.3-superzoom-fix.jar` | mods |
-| `mods/MyTotemDoll-2.7.0+26.3+fabric.jar` | mods |
-| `mods/punchy-2.8g-fabric-26.3.jar` | mods |
-| `resourcepacks/Darkmode - V.1.2 - jannik6879.zip` | resourcepacks |
-| `resourcepacks/Deepslate-Tuff-Hellrot-26.3.zip` | resourcepacks |
-| `resourcepacks/Enchantment Outlines.zip` | resourcepacks |
-| `resourcepacks/FA+Player-v1.1.zip` | resourcepacks |
-| `resourcepacks/Fresh Food.zip` | resourcepacks |
-| `resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip` | resourcepacks |
-| `resourcepacks/§aBetter Fresher 3D Books v1.5.1.zip` | resourcepacks |
-| `resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip` | resourcepacks |
-| `resourcepacks/§lColourful Containers§8.zip` | resourcepacks |
-| `shaderpacks/ComplementaryReimagined_r5.9.3.zip` | shaderpacks |
-| `shaderpacks/Tobias-Pixel.zip` | shaderpacks |
+Accountdateien, Cookies, Spielstände und persönliche Karten-/LOD-Caches werden nicht verteilt. Der Export verändert die bestehenden Spielprofile nicht.
 
 ## Wartung
 
-Mit [packwiz](https://packwiz.infra.link/) im Repository arbeiten. Nach gewollten Dateiänderungen `packwiz refresh` und `python tools/validate.py` ausführen. Modupdates bewusst einzeln prüfen und gegebenenfalls mit `packwiz unpin` freigeben; die zwei Renderer haben unterschiedliche Kompatibilitätsanforderungen. Keine pauschale Versionsanhebung.
+Mit [packwiz](https://packwiz.infra.link/) bearbeiten. Nach beabsichtigten Änderungen `packwiz refresh` und `python tools/validate.py` ausführen. Downloads bleiben gepinnt, damit Versionsupdates die Renderer und persönlichen Fixes nicht stillschweigend verändern. Updates gezielt testen.
 
-Die unveränderten lokalen Spielprofile werden durch dieses Repository nicht angepasst. `tools/import-local.py --check-only` prüft die Zusätze, ohne Dateien zu ändern. Beim Import werden abweichende vorhandene Zieldateien zuerst lokal gesichert.
-
-Siehe [Modliste](MODLIST.md), [Lizenz-/Herkunftshinweise](THIRD-PARTY.md) und [Pack-Status](PACK-STATUS.md).
+Die Archivstände enthalten zum Teil lokale Änderungen. Es sind keine offiziellen Autoren-Builds; vorhandene Credits und Drittanbieter-Lizenzen bleiben erhalten. Siehe [THIRD-PARTY.md](THIRD-PARTY.md).

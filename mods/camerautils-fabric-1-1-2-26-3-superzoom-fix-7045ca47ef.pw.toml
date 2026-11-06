@@ -1,0 +1,9 @@
+name = "Camera Utils"
+filename = "camerautils-fabric-1.1.2+26.3-superzoom-fix.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/mod-camerautils-fabric-1-1-2-26-3-superzoom-fix-7045ca47ef.jar"
+hash-format = "sha512"
+hash = "7045ca47efa447161e7ca8cfa19129fee3f970fc743ae666df9be7ff76fdc6c576270ec7bc145000ce3c044193ae3ffdbbd3a8f93c7a4955556e152973e8d96d"

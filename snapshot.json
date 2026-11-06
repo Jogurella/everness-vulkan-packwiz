@@ -1,17 +1,19 @@
 {
-  "version": "2026.11.06",
+  "version": "2026.11.06.1",
   "minecraft": "26.3",
   "fabric": "0.19.5",
   "renderer": "vulkan",
   "sourceProfile": "Everness-Vulkan",
   "archiveCount": 97,
-  "managedArchiveCount": 83,
-  "manualArchiveCount": 14,
+  "managedArchiveCount": 97,
+  "manualArchiveCount": 0,
   "settingsFileCount": 122,
   "accountSanitization": [
     "config/litematica.json: absolute machine path cleared",
     "config/my_totem_doll.json5: personal default skin removed"
   ],
   "originalInstancesModified": false,
-  "serverJoined": false
+  "serverJoined": false,
+  "archiveBytesPreserved": true,
+  "localAdditionImportRequired": false
 }

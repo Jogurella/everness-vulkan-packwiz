@@ -1,0 +1,9 @@
+name = "VanillaTweaks_r144903_MC1.21.x"
+filename = "VanillaTweaks_r144903_MC1.21.x.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-vanillatweaks-r144903-mc1-21-x-ea51c5b70f.zip"
+hash-format = "sha512"
+hash = "ea51c5b70f9c2bfcd29da61a41b5353ed3f16c225c466965545c652d8f277cc4b61e3b2cb3f21bca38cee6f13259443faf3f1225f3979b9a7fa71d7c067c7095"

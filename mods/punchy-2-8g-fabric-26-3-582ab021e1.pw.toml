@@ -1,0 +1,9 @@
+name = "Punchy"
+filename = "punchy-2.8g-fabric-26.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/mod-punchy-2-8g-fabric-26-3-582ab021e1.jar"
+hash-format = "sha512"
+hash = "582ab021e12b218162829ffdeefc11f09047c9807b4f7f18811c954d245bceba19a198d9dbf12626031c7f84c2d9c439af5c4a554efeefce34809ea0ef07814e"

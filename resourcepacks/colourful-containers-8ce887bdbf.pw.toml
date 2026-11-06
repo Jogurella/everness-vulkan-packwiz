@@ -1,0 +1,9 @@
+name = "§lColourful Containers§8"
+filename = "§lColourful Containers§8.zip"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-colourful-containers-8ce887bdbf.zip"
+hash-format = "sha512"
+hash = "8ce887bdbf63385b02a624c189aac4b4fb8b0fd1a56e5a02246ab4611b1bc17898cac865674b83076300506f09caa5ed505afd170057f215f5a69134fcbad58e"
