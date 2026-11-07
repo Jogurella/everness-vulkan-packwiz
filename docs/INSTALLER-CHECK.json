@@ -1,14 +1,16 @@
 {
-  "packVersion": "2026.11.07.3",
+  "packVersion": "2026.11.07.4",
+  "previousVersion": "2026.11.07.3",
   "installer": "official packwiz installer",
-  "previousVersion": "2026.11.07.2",
-  "previousModJars": 64,
-  "currentModJars": 65,
-  "downloadedArchiveHashesVerified": 98,
-  "DistantHorizonsRemovedByNormalUpdate": true,
+  "previousModJars": 65,
+  "currentModJars": 66,
+  "downloadedArchiveHashesVerified": 99,
+  "newAddonAndShaderDownloadedFromPublicURLs": true,
   "repeatUpdateSucceeded": true,
-  "settingsFilesVerified": 131,
+  "settingsFilesVerified": 134,
   "settingsRestoreBackupAndIdempotency": true,
+  "autoSwitchChord": "LEFT_ALT,B",
+  "excludedItemsRestored": 9,
   "worldsOrAccountsUsed": false,
-  "gamePlayBenchmark": false
+  "newGameplayTestCompleted": false
 }

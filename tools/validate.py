@@ -24,7 +24,7 @@ assert 'config/punchy/profiles/.active_profile' in entries
 assert pack['versions']=={'fabric':'0.20.1','minecraft':'26.3'}
 assert pack['options']['everness']['settings-sha256']==hashlib.sha256((r/'settings-manifest.json').read_bytes()).hexdigest()
 mods=[tomllib.loads(f.read_text()) for f in (r/'mods').glob('*.pw.toml')]
-assert len(mods)==65
+assert len(mods)==66
 assert not any('distanthorizons' in m['filename'].lower() or 'vulkanmod' in m['filename'].lower() for m in mods)
 assert {'viris-0.3.6+mc26.3.jar','voxy-0.2.20-beta.jar','sodium-fabric-0.9.2+mc26.3.jar','vitrail-0.13.0-beta+mc26.3.jar'}.issubset({m['filename'] for m in mods})
 assert 'config/voxy-config.json' in entries

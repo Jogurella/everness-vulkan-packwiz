@@ -19,3 +19,7 @@ Upstream-Quellen der schon dokumentierten Änderungen: https://github.com/Polyfr
 VIRIS 0.3.6 ist von laurensanp unter MIT: https://github.com/laurensanp/viris. Der offizielle Autoren-Build wird direkt verlinkt; die Renderer-Anbindung wurde hier nicht selbst entwickelt. Lizenzkopie: `licenses/VIRIS-MIT.txt`.
 
 Voxy 0.2.20-beta ist von MCRcortex und All Rights Reserved. Es wird separat über den offiziellen Modrinth-Download installiert, nicht in VIRIS eingebettet und nicht erneut hier hochgeladen. Vitrail (LGPL-3.0) bleibt als getrennte vorhandene Komponente erhalten. Historische DH-Patches in diesem Repository sind keine aktive Installation von DH.
+
+## AutoSwitch-Erweiterung 2026.11.07.4
+
+`atlas-inventory-controls-0.1.6+mc26.3.jar` ist die bisher im eigenen SMP-Profil verwendete Client-Erweiterung (Metadaten: MIT), hier bytegenau übernommen. AutoSwitch, ClientSort, MaLiLib und Better Shulker Boxes bleiben eigenständige Komponenten. Tobias-Pixel bleibt das vorhandene angepasste Shaderpack; verändert wurden nur die An/Aus-Tokens seiner vier Profildefinitionen, keine Shaderquellen.

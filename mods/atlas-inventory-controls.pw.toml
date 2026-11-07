@@ -1,0 +1,9 @@
+name = "Atlas Inventarsteuerung + AutoTotem"
+filename = "atlas-inventory-controls-0.1.6+mc26.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/atlas-inventory-controls-0.1.6%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "077c69e07f277fc66d5945f91e1554acb1456cc2149a24dea490e9b0ddf1071483ebc6d6f8dd14b44d661a0c0269df12c17b4de92d15298ad61f6cacf49737be"

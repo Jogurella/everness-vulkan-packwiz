@@ -1,6 +1,6 @@
 # Everness Visuals — Vulkan
 
-**Minecraft 26.3 · Fabric 0.20.1 · Java 25 · Update 2026.11.07.3**
+**Minecraft 26.3 · Fabric 0.20.1 · Java 25 · Update 2026.11.07.4**
 
 Das Vulkan-Pack verwendet jetzt **Voxy + VIRIS + Vitrail**. Gemeint ist Minecrafts eingebauter Vulkan-Renderer, **kein VulkanMod**. Distant Horizons ist aus dem aktuellen Installationsstand entfernt.
 
@@ -37,10 +37,14 @@ https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.to
 
 Der normale packwiz-Update entfernt die bisher verwaltete DH-JAR und ergänzt Voxy und VIRIS. Falls DH außerhalb von packwiz manuell installiert wurde, die zusätzliche DH-JAR aus `mods` entfernen. Persönliche LOD-Daten werden nicht gelöscht oder verteilt.
 
+## AutoSwitch-Erweiterung
+
+Die bisherige Atlas-Inventarsteuerung ist wieder enthalten: **Alt+B** schaltet AutoSwitch um. Unter **Mods → AutoSwitch → Konfigurieren** lassen sich Tastenkombination und Item-Ausschlüsse bearbeiten. Die Zusatzmod enthält außerdem die bisherigen Shulker-Werkzeugfunktionen und AutoTotem-Einstellungen. Die drei zugehörigen Einstellungsdateien werden mitgeliefert. Tobias-Pixel behält seine vier Profile nach dem Speichern; die Profilschreibweise wurde für Vitrail korrigiert.
+
 ## Einstellungen, Inhalt und Prüfstand
 
-**65 Mod-JARs, 29 Ressourcenpacks, vier Shaderarchive.** Der Stand übernimmt die gemeinsamen Einstellungen des getesteten VIRIS-Profils: Hotkeys, FOV, HUD, Inventarmods, Punchy, Animationen, Ressourcenpack-Reihenfolge und Shaderwerte. [Einstellungsübernahme](SETTINGS.md) · [Downloads und exakte Quellen](MODLIST.md) · [Prüfstand und bekannte Grenzen](PACK-STATUS.md).
+**66 Mod-JARs, 29 Ressourcenpacks, vier Shaderarchive.** Der Stand übernimmt die gemeinsamen Einstellungen des getesteten VIRIS-Profils: Hotkeys, FOV, HUD, Inventarmods, Punchy, Animationen, Ressourcenpack-Reihenfolge und Shaderwerte. [Einstellungsübernahme](SETTINGS.md) · [Downloads und exakte Quellen](MODLIST.md) · [Prüfstand und bekannte Grenzen](PACK-STATUS.md).
 
 Der Nutzer hat das vollständige Pack als funktionierend zurückgemeldet. Eine vollständige automatische Prüfung aller Shader-/Wasser-/Nebel-/Reload-/Wiedereintrittsfälle und ein Langzeitvergleich sind nicht abgeschlossen. Insbesondere hat VIRIS noch **keine Schatten auf LODs**; Wasserübergänge und hohe Wolken haben dokumentierte Grenzen. Das Beispielbild ist kein Nachweis dieser Funktionen.
 
-Voxy wird **separat direkt vom Autoren-Download** bezogen und nicht in VIRIS oder dieses Repository eingebettet. VIRIS wird als offizieller MIT-Autoren-Build bezogen; die Klassen sind mit dem hier gebauten Teststand identisch. Vorhandene lokale Archivkorrekturen bleiben unverändert. [Herkunft und Lizenzen](THIRD-PARTY.md).
+Voxy wird **separat direkt vom Autoren-Download** bezogen und nicht in VIRIS oder dieses Repository eingebettet. VIRIS wird als offizieller MIT-Autoren-Build bezogen; die Klassen sind mit dem hier gebauten Teststand identisch. Die AutoSwitch-Zusatzmod entspricht dem bisherigen eigenen Build; bei Tobias-Pixel wurde ausschließlich die Schreibweise der An/Aus-Profilwerte berichtigt. [Herkunft und Lizenzen](THIRD-PARTY.md).

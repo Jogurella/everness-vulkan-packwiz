@@ -1,6 +1,6 @@
 # Vollständige Downloadliste
 
-98 Archive, jeweils mit SHA-512 gepinnt. Voxy und VIRIS kommen direkt von ihren Autoren; Distant Horizons ist entfernt.
+99 Archive mit SHA-512, einschließlich der bisherigen AutoSwitch-Erweiterung.
 
 | Name | Installationsdatei | Quelle |
 | --- | --- | --- |
@@ -10,9 +10,10 @@
 | [EMF] Entity Model Features | `mods/entity_model_features-3.3.12-26.3-fabric.jar` | [Download](https://cdn.modrinth.com/data/4I1XuqiY/versions/vF6qLXsA/entity_model_features-3.3.12-26.3-fabric.jar) |
 | [ETF] Entity Texture Features | `mods/entity_texture_features-7.2.6-26.3-fabric.jar` | [Download](https://cdn.modrinth.com/data/BVzZfTc1/versions/OOEycXyN/entity_texture_features-7.2.6-26.3-fabric.jar) |
 | Accurate Block Placement Reborn | `mods/AccurateBlockPlacement-Reborn-1.4.8+mc-26.3.jar` | [Download](https://cdn.modrinth.com/data/kzwxhsjp/versions/bQR5qyoO/AccurateBlockPlacement-Reborn-1.4.8%2Bmc-26.3.jar) |
-| Animated 3D Wind Charge | Compatible with Punchy! | `resourcepacks/Animated 3D Wind Charge [1.1].zip` | [Download](https://cdn.modrinth.com/data/EHP4vB6U/versions/vihG9Bf4/Animated%203D%20Wind%20Charge%20%5B1.1%5D.zip) |
+| Animated 3D Wind Charge \| Compatible with Punchy! | `resourcepacks/Animated 3D Wind Charge [1.1].zip` | [Download](https://cdn.modrinth.com/data/EHP4vB6U/versions/vihG9Bf4/Animated%203D%20Wind%20Charge%20%5B1.1%5D.zip) |
 | AppleSkin | `mods/appleskin-fabric-mc26.3-3.0.10.jar` | [Download](https://cdn.modrinth.com/data/EsAfCjCV/versions/PHjDtQay/appleskin-fabric-mc26.3-3.0.10.jar) |
 | Assorted Frogs x Fresh Animations | `resourcepacks/Assorted Frogs x FA - V.1.0.1.zip` | [Download](https://cdn.modrinth.com/data/KovKG313/versions/SINbhksx/Assorted%20Frogs%20x%20FA%20-%20V.1.0.1.zip) |
+| Atlas Inventarsteuerung + AutoTotem | `mods/atlas-inventory-controls-0.1.6+mc26.3.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/atlas-inventory-controls-0.1.6%2Bmc26.3.jar) |
 | AutoSwitch | `mods/autoswitch-fabric-17.0.0.jar` | [Download](https://cdn.modrinth.com/data/uSdcnlts/versions/psVHvP54/autoswitch-fabric-17.0.0.jar) |
 | Better Shulker Boxes | `mods/better-shulker-boxes-fabric-1.6.3.jar` | [Download](https://cdn.modrinth.com/data/UUntxQ5e/versions/iSCAzouq/better-shulker-boxes-fabric-1.6.3.jar) |
 | Bobby | `mods/bobby-5.2.16+mc26.3.jar` | [Download](https://cdn.modrinth.com/data/M08ruV16/versions/J7YnfCss/bobby-5.2.16%2Bmc26.3.jar) |
@@ -88,7 +89,7 @@
 | spark | `mods/spark-1.10.187-fabric.jar` | [Download](https://cdn.modrinth.com/data/l6YH9Als/versions/e3hsPc1o/spark-1.10.187-fabric.jar) |
 | Text Placeholder API | `mods/placeholder-api-3.2.0+26.3.jar` | [Download](https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar) |
 | Texture Builder | `mods/texture-builder - 26.3 - 1.1.0.jar` | [Download](https://cdn.modrinth.com/data/eApKqn79/versions/s4y6rZYU/texture-builder%20-%2026.3%20-%201.1.0.jar) |
-| Tobias-Pixel | `shaderpacks/Tobias-Pixel.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/shaderpack-tobias-pixel-2f71832bfc.zip) |
+| Tobias-Pixel | `shaderpacks/Tobias-Pixel.zip` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/shaderpacks/Tobias-Pixel-vitrail-profilefix-2026.11.07.zip) |
 | Tweakeroo | `mods/tweakeroo-fabric-26.3-0.30.1.jar` | [Download](https://cdn.modrinth.com/data/t5wuYk45/versions/fWxKATn6/tweakeroo-fabric-26.3-0.30.1.jar) |
 | VanillaTweaks_r144903_MC1.21.x | `resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-vanillatweaks-r144903-mc1-21-x-ea51c5b70f.zip) |
 | VIRIS | `mods/viris-0.3.6+mc26.3.jar` | [Download](https://github.com/laurensanp/viris/releases/download/v0.3.6/viris-0.3.6%2Bmc26.3.jar) |

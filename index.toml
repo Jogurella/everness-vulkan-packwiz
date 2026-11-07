@@ -16,6 +16,21 @@ hash = "65edc28ca2bf6bd3e3684ae545fb74bcc0ec935a40d6ac60cb68c00c152e34fb"
 preserve = true
 
 [[files]]
+file = "config/atlas-autoswitch-exclusions.json"
+hash = "470eab05e6a520cf3511e58cea6b80165410344c848fb29421e1abf9efa76b20"
+preserve = true
+
+[[files]]
+file = "config/atlas-autototem.json"
+hash = "67427334d72581d7b409e0091056e7c353eed5c5cec606836f85008598f8062a"
+preserve = true
+
+[[files]]
+file = "config/atlas-inventory-controls.json"
+hash = "8506740c894b399443d95fb9cbd186adaace8fb401a2f088b2ebf50894015aba"
+preserve = true
+
+[[files]]
 file = "config/autoswitch.conf"
 hash = "23df963acc3e601da7e649a9bfa1a63a52b32c46b72b37863cba75230257de44"
 preserve = true
@@ -621,6 +636,11 @@ hash = "75bae1e978f5bfd437477d8df3d29f62eacdf9b5d487fd081077f1be829d3de3"
 metafile = true
 
 [[files]]
+file = "mods/atlas-inventory-controls.pw.toml"
+hash = "c4e2bfd637bbe400ad8964c3db81addc32ee5fba2aa0579a60bb34d200425fd7"
+metafile = true
+
+[[files]]
 file = "mods/autoswitch-bfc7321f8d-3438c0.pw.toml"
 hash = "5ac6a953608f58cc2baba7485423325fca378ce3fd61d66a4645800a9eacc526"
 metafile = true
@@ -1127,7 +1147,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/tobias-pixel-2f71832bfc.pw.toml"
-hash = "830f076d1d8fbbdf9755408e35da46aba5e152d21662114fab86fde38e6c9701"
+hash = "b8ef6711b77f03165367b2a42758bde7d5927c7ff16499d0576834fa8cd638a8"
 metafile = true
 
 [[files]]

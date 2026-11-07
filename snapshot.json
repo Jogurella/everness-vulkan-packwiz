@@ -1,19 +1,19 @@
 {
-  "version": "2026.11.07.3",
+  "version": "2026.11.07.4",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
   "sourceProfile": "VIRIS Vulkan 26.3 - Kompletttest",
-  "archiveCount": 98,
-  "managedArchiveCount": 98,
+  "archiveCount": 99,
+  "managedArchiveCount": 99,
   "manualArchiveCount": 0,
-  "settingsFileCount": 131,
+  "settingsFileCount": 134,
   "accountSanitization": [
     "config/litematica.json: absolute machine path cleared",
     "config/my_totem_doll.json5: personal default skin removed"
   ],
   "originalInstancesModified": false,
-  "archiveBytesPreserved": true,
+  "archiveBytesPreserved": false,
   "localAdditionImportRequired": false,
   "settingsSnapshot": "settings-manifest.json",
   "settingsAudit": {
@@ -49,5 +49,14 @@
     "distribution": "official upstream release",
     "classBytesIdenticalToLocalBuild": true,
     "VoxyEmbedded": false
+  },
+  "qolRestoration": {
+    "addon": "atlasinventory 0.1.6+mc26.3",
+    "source": "Existing SMP original",
+    "settingsFiles": 3,
+    "shortcut": "LEFT_ALT,B",
+    "unchangedArchiveCount": 97,
+    "tobiasPixelProfileRoundtripsPassed": 16,
+    "newGameplayTestCompleted": false
   }
 }

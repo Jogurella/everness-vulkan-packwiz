@@ -1,4 +1,12 @@
-# 2026.11.07.3
+# 2026.11.07.4
+
+- Fehlende Atlas-Inventarsteuerung 0.1.6+mc26.3 wieder ergänzt, unverändert aus dem bisherigen SMP-Profil.
+- Alt+B, frei belegbare Tastenkombination, Item-Ausschlüsse und AutoTotem-/Shulker-Einstellungen als drei Konfigurationsdateien ergänzt.
+- Tobias-Pixel: 197 An/Aus-Werte je Profil in die reguläre Toggle-Schreibweise gebracht. Alle vier Profile bestehen 16 Speicher-/Ladewechsel mit Vitrail. Shaderquellen und logische Profilwerte bleiben gleich.
+- 66 Mods, 29 Ressourcenpacks, vier Shaderarchive; 134 gemeinsame Einstellungsdateien.
+- OpenGL-Repository und bestehende Welten bleiben unverändert.
+
+## 2026.11.07.3
 
 - Distant Horizons aus den aktiven Downloads und der Einstellungs-Vorlage entfernt.
 - Voxy 0.2.20-beta und VIRIS 0.3.6 über gepinnte Original-Autoren-Downloads ergänzt; kein Einbetten von Voxy.
