@@ -1,0 +1,94 @@
+WIEDERVERWENDBARER AUFTRAG: EVERNESS-MODPACK-UPDATE
+
+Diesen Text in den Chat kopieren, der das jeweilige Pack-Repository pflegt.
+Platzhalter vor dem Absenden ersetzen.
+
+Bitte aktualisiere das Everness-Pack <OpenGL oder Vulkan> im bestehenden
+Repository <Repository-URL> auf die neue Pack-Version <NEUE_VERSION>.
+Gewünschte Änderungen: <Mods, Fehlerkorrekturen, Einstellungen, Erklärungen>.
+
+1. Pack und Versionsnummer
+- OpenGL und Vulkan getrennt behandeln. Nur das beauftragte Repository ändern.
+- Die Version in pack.toml bei jeder veröffentlichten Inhaltsänderung erhöhen,
+  auch wenn Minecraft- und Fabric-Version gleich bleiben. Beispiel: 2026.11.08.1.
+- Reale Modänderungen, Abhängigkeiten und Prüfsummen kontrollieren; keine
+  erfundenen Leistungsversprechen oder ungeprüften Kompatibilitätsaussagen.
+- Persönliche Kontodaten, Welten, Caches und Logdateien nicht veröffentlichen.
+
+2. Änderungsnotizen: CHANGELOG.md im Repository-Hauptordner
+- Neue Version mit exakt derselben Versionsnummer wie pack.toml ganz oben
+  ergänzen. Vorherige Versionen darunter erhalten. UTF-8 verwenden.
+- Überschrift exakt in diesem Format:
+
+## [2026.11.08.1] - 2026-11-08
+### Neu
+- <Was wurde hinzugefügt, und was kann der Spieler damit machen?>
+### Behoben
+- <Welcher konkrete Fehler wurde behoben?>
+### Geändert
+- <Was verhält sich jetzt anders?>
+### Hinweise für Spieler
+- <Neue Bedienung/Hotkeys, notwendige Schritte oder bekannte Grenzen.>
+
+- Leere Unterpunkte weglassen. Nur Änderungen dieser Version beschreiben.
+- Everness erstellt daraus automatisch den Beitrag in Everness News.
+  Ab Launcher 0.9.7 wird der passende Versionsabschnitt ausgewählt.
+- Kein separates GitHub-Release nötig, damit dieser Pack-Beitrag entsteht.
+  Die Änderungen müssen im konfigurierten Branch des Pack-Repos veröffentlicht sein.
+- Ein GitHub-Commit allein ist kein vollständiger erklärender Newsartikel.
+
+3. Eigenes Updatebild
+- Datei im selben Repo ablegen, z. B.:
+  .github/assets/update-2026.11.08.1.png
+- PNG, JPG oder WebP, maximal 8 MiB, bevorzugt 16:9. Für jede Version ein
+  eigener Dateiname. Keine lokalen Windows-Pfade oder fremden Bildadressen.
+- In der vorhandenen pack.toml den Schlüssel ergänzen/aktualisieren; eine
+  bereits bestehende Tabelle [options.everness] nicht doppelt anlegen:
+
+[options.everness]
+news-image = ".github/assets/update-2026.11.08.1.png"
+
+- Vorhandene settings-template- und settings-sha256-Schlüssel erhalten.
+- Stil: am aktuellen Everness-Modpack-Updatebild orientieren. Hochwertige
+  Minecraft-Voxelwelt, dunkle Informationsflächen, starke helle Blockschrift,
+  grüne/türkise Akzente. Eigenes Motiv und eigener Aufbau je Update.
+- Im Bild den Packnamen, die neue Version und zwei bis vier konkrete Änderungen
+  als schnelle Vorschau darstellen. Kurze Erklärungen direkt dazuschreiben,
+  z. B. "AutoSwitch zurück – Werkzeuge automatisch wechseln".
+- Keine alten Update-Motive vollständig kopieren und keine Funktionen bewerben,
+  die das neue Update nicht enthält. Text muss auch verkleinert lesbar sein.
+- Beispielbilder/Renderings klar als Illustration kennzeichnen, wenn sie sonst
+  für reale Messungen oder echte Spielvergleiche gehalten werden könnten.
+- Das Bild auch im README unter der aktuellen Updatebeschreibung verlinken:
+
+![Everness-Update 2026.11.08.1](.github/assets/update-2026.11.08.1.png)
+
+Die explizite news-image-Angabe hat im Launcher Vorrang vor README-Bildern.
+CHANGELOG.md enthält die ausführliche Erklärung; das Updatebild erscheint
+in der Newsvorschau und im geöffneten Artikel.
+
+4. Packwiz und Veröffentlichung
+- packwiz refresh ausführen und Index-/Dateiprüfsummen konsistent aktualisieren.
+- Newsbilder und reine Dokumentation über .packwizignore vom installierbaren
+  Pack ausschließen. Vorhandene Ignore-Regeln beachten, keine Optionen oder
+  Moddateien unbeabsichtigt ausschließen.
+- Wenn eine indizierte Einstellungs-Vorlage vorhanden ist, Version, Dateihashes,
+  Manifest und settings-sha256 gemeinsam aktualisieren.
+- Vorhandene Repo-Prüfung ausführen, z. B. python tools/validate.py.
+- Verifizieren: alle Downloads erreichbar, Prüfsummen korrekt, keine geheimen
+  Dateien, CHANGELOG-Version stimmt, news-image verweist auf vorhandene Datei.
+- Änderungen zusammen in den konfigurierten Branch committen und pushen.
+  Bei mehrstufigen Uploads erst den vollständigen konsistenten Stand freigeben.
+
+5. Abschlussbericht
+Nenne neue Pack-Version, Commit, wichtigste Änderungen, durchgeführte Tests,
+Link zu CHANGELOG.md und direktem Updatebild sowie bekannte Einschränkungen.
+Prüfe danach im Everness-Launcher: News aktualisieren -> Everness News ->
+passenden Pack-Beitrag öffnen. Bild und aktuelle Erläuterung müssen sichtbar
+sein, auch bevor das Pack installiert/aktualisiert wurde.
+
+Technischer Hinweis: Der Launcher prüft News beim sichtbaren Betrieb regelmäßig
+mit einem Cache von bis zu fünf Minuten. "News aktualisieren" erzwingt die
+Abfrage. Ein gestörter Download/API-Zugriff kann eine sichtbare Meldung und
+zwischengespeicherte News verursachen. Ein Launcher-Update und ein Pack-Update
+haben getrennte Versionsnummern und getrennte Veröffentlichungen.
