@@ -1,0 +1,3 @@
+Built-in image_gen, edit of the generated comparison scene.
+Final edit prompt:
+Edit only the bottom footer caption of this existing Minecraft comparison image. Replace the entire bottom line 'KI-Illustration · Keine Spielaufnahme oder FPS-Messung' with the single German word 'Beispielbild', centered in the same cream serif font, at a similar size. Preserve all other image content, dimensions, scene details, both comparison panels, identical camera composition, all header text, all labels, colours, divider, border and decorative horizontal lines exactly as they are. Do not change anything else. No other new wording.

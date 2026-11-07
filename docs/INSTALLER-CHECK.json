@@ -1,0 +1,14 @@
+{
+  "packVersion": "2026.11.07.3",
+  "installer": "official packwiz installer",
+  "previousVersion": "2026.11.07.2",
+  "previousModJars": 64,
+  "currentModJars": 65,
+  "downloadedArchiveHashesVerified": 98,
+  "DistantHorizonsRemovedByNormalUpdate": true,
+  "repeatUpdateSucceeded": true,
+  "settingsFilesVerified": 131,
+  "settingsRestoreBackupAndIdempotency": true,
+  "worldsOrAccountsUsed": false,
+  "gamePlayBenchmark": false
+}

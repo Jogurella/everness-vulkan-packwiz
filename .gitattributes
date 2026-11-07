@@ -1,6 +1,8 @@
-* text=auto
+* text=auto eol=lf
 *.toml text eol=lf
 *.json text eol=lf
 *.py text eol=lf
 *.md text eol=lf
 *.dat binary
+*.png binary
+*.zip binary

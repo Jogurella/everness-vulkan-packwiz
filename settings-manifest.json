@@ -1,19 +1,15 @@
 {
   "schema": 1,
-  "version": "2026.11.07.2",
+  "version": "2026.11.07.3",
   "profile": "Everness-Vulkan",
   "files": [
-    {
-      "path": "config/DistantHorizons.toml",
-      "sha256": "db26d68508a04485920b1cce857498e181589f178550c9e0a46b8dbe10a14600"
-    },
     {
       "path": "config/MouseTweaks.cfg",
       "sha256": "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
     },
     {
       "path": "config/accurateblockplacement.properties",
-      "sha256": "6d90890cd6f63bdf38e64afc83efdbb6c69db6904ece51454e5606e66f0dbd91"
+      "sha256": "ca0ef1adcbe22013dfedba31871485bd2750187045d90ebcc9a8d0aae24d6f14"
     },
     {
       "path": "config/appleskin.json5",
@@ -25,7 +21,7 @@
     },
     {
       "path": "config/bettershulker-plus.properties",
-      "sha256": "8e46201b36de28e4cf671a42bae96dc8febff9a17db8693cf62f2ae31c8c66f3"
+      "sha256": "73f233f5e85a964badf01559276221e492eac727ab7c49182f57b82ff923e2f5"
     },
     {
       "path": "config/bobby.conf",
@@ -53,7 +49,7 @@
     },
     {
       "path": "config/clientsort.json",
-      "sha256": "2fa39b81d4a69afcf85c92a01f9fad3196f5f197039a89dd7719203fae27db17"
+      "sha256": "1274901ce2f0ac22947ed6492cd2c0f4008b3f630b8a36a86b48bad0a8a00749"
     },
     {
       "path": "config/continuity.json",
@@ -101,7 +97,7 @@
     },
     {
       "path": "config/forever-map-q1.json",
-      "sha256": "34121bda5769898e97625a812a258de3eb28423d72937dae93c370be8ade5235"
+      "sha256": "d72c580bd8c3662c2301f584160c97895a90bed6545113262f8436a43e3ac23a"
     },
     {
       "path": "config/forever-map-q2.json",
@@ -189,7 +185,7 @@
     },
     {
       "path": "config/jade/jade.json",
-      "sha256": "006f5e06407cf80c5c76afea8384878293a3d35b2030220a34e420b5d5a37b73"
+      "sha256": "8b412d25a1e41149cdc78174e31cf6ea45e1c5ebece91db1652913ea5d8b1a6c"
     },
     {
       "path": "config/jade/profiles/1/jade.json",
@@ -301,7 +297,7 @@
     },
     {
       "path": "config/packetfixer.properties",
-      "sha256": "1f7844592070843f1b64d5044a477327be55645f43ee1c5ff16676a97b91ff4b"
+      "sha256": "14854ebcd2f9e5d59d0e82825f8a6843a331d7b63b924c64e9473b8c9ff125fd"
     },
     {
       "path": "config/particlerain/config.json",
@@ -333,7 +329,7 @@
     },
     {
       "path": "config/purescale-modern.json",
-      "sha256": "e4084e6de83faa4fe3c65118495f8ce86b1ffbf42302ce18ac8b7fb082f17668"
+      "sha256": "2de5a3b3b6121e00f9e66d36a73d4325d2cbe664078de077be976d68355325a9"
     },
     {
       "path": "config/purescale-profiles/profile 1.json",
@@ -413,7 +409,7 @@
     },
     {
       "path": "config/voxy-config.json",
-      "sha256": "c09923ee0da414d4574baabf0cc3d2f77f8627a83c8b832cb31e719ab282a715"
+      "sha256": "93708cd873629c4f9ec3dfa980a456ec86ff9ad90bead31b541b8f49f0b01c97"
     },
     {
       "path": "config/waveycapes.json",
@@ -497,7 +493,7 @@
     },
     {
       "path": "options.txt",
-      "sha256": "a8bad207f3ed2719cf4b9338cadfba749b6b0b791837087eca8092918b7030b8"
+      "sha256": "61cbdf88b7d041e741b88544c7e933c30edaef86db85b4c8bd112045885a7ef8"
     },
     {
       "path": "servers.dat",
@@ -513,7 +509,7 @@
     },
     {
       "path": "shaderpacks/Tobias-Pixel.zip.txt",
-      "sha256": "a8c43a88c45f79e579a04495553393ba1b31b8d3d2a14cd8926e1f76d64b93ff"
+      "sha256": "cefef975d4836da5e7ef8599277224b5bee94fa1f17e68ed5ec05d094b6d07e0"
     },
     {
       "path": "shaderpacks/photon_v1.4.zip.txt",
@@ -529,13 +525,13 @@
     },
     {
       "path": "vitrail/pack.txt",
-      "sha256": "ba4dc36cfd73f881e86310e0b323d45f3669558c82272c1aa2112a5da5186cf1"
+      "sha256": "0f9869acd79b7e870b5aed5a42efe619fb4c9488fbf55628955e8da17b5c40b8"
     }
   ],
   "portableAdjustments": [
     {
       "path": "config/litematica.json",
-      "change": "customSchematicBaseDirectory uses relative schematics folder"
+      "change": "relative schematics directory"
     }
   ],
   "launcherDefaults": {

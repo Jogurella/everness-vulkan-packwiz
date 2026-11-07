@@ -32,8 +32,8 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"false"
 cloudRange:2
-renderDistance:32
-simulationDistance:32
+renderDistance:17
+simulationDistance:17
 screenEffectScale:1.0
 soundDevice:""
 vignette:false
@@ -318,7 +318,7 @@ key_gui.xaero_toggle_dimension:key.keyboard.unknown
 key_key.punchy.triggerable.punchy_sword_inspect_old:key.keyboard.home
 key_key.punchy.triggerable.punchy_sword_inspect_rework:key.keyboard.scroll.lock
 soundCategory_master:0.3090507686138153
-soundCategory_music:0.061421655118465424
+soundCategory_music:0.038464781400532375
 soundCategory_record:0.7863849997520447
 soundCategory_weather:0.4084506928920746
 soundCategory_block:0.6314554214477539

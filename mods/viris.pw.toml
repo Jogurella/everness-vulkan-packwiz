@@ -1,0 +1,9 @@
+name = "VIRIS"
+filename = "viris-0.3.6+mc26.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/laurensanp/viris/releases/download/v0.3.6/viris-0.3.6%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "79e1588ce802fda208a6dbb09528a75e26c4d4587a2bcd1e06e62aec0aef91f800a91bcf3f40c5e218edc4e93280085efe117ad017e4e34ab74d3e6f26273ca9"

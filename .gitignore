@@ -22,3 +22,7 @@ crash-reports/
 forever-map/
 Distant_Horizons_server_data/
 private-additions/
+
+# Published, small Prism starters and preference bundles.
+!downloads/
+!downloads/*.zip

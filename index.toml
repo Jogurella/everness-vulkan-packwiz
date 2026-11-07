@@ -1,18 +1,13 @@
 hash-format = "sha256"
 
 [[files]]
-file = "config/DistantHorizons.toml"
-hash = "db26d68508a04485920b1cce857498e181589f178550c9e0a46b8dbe10a14600"
-preserve = true
-
-[[files]]
 file = "config/MouseTweaks.cfg"
 hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
 preserve = true
 
 [[files]]
 file = "config/accurateblockplacement.properties"
-hash = "6d90890cd6f63bdf38e64afc83efdbb6c69db6904ece51454e5606e66f0dbd91"
+hash = "ca0ef1adcbe22013dfedba31871485bd2750187045d90ebcc9a8d0aae24d6f14"
 preserve = true
 
 [[files]]
@@ -27,7 +22,7 @@ preserve = true
 
 [[files]]
 file = "config/bettershulker-plus.properties"
-hash = "8e46201b36de28e4cf671a42bae96dc8febff9a17db8693cf62f2ae31c8c66f3"
+hash = "73f233f5e85a964badf01559276221e492eac727ab7c49182f57b82ff923e2f5"
 preserve = true
 
 [[files]]
@@ -62,7 +57,7 @@ preserve = true
 
 [[files]]
 file = "config/clientsort.json"
-hash = "2fa39b81d4a69afcf85c92a01f9fad3196f5f197039a89dd7719203fae27db17"
+hash = "1274901ce2f0ac22947ed6492cd2c0f4008b3f630b8a36a86b48bad0a8a00749"
 preserve = true
 
 [[files]]
@@ -122,7 +117,7 @@ preserve = true
 
 [[files]]
 file = "config/forever-map-q1.json"
-hash = "34121bda5769898e97625a812a258de3eb28423d72937dae93c370be8ade5235"
+hash = "d72c580bd8c3662c2301f584160c97895a90bed6545113262f8436a43e3ac23a"
 preserve = true
 
 [[files]]
@@ -232,7 +227,7 @@ preserve = true
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "006f5e06407cf80c5c76afea8384878293a3d35b2030220a34e420b5d5a37b73"
+hash = "8b412d25a1e41149cdc78174e31cf6ea45e1c5ebece91db1652913ea5d8b1a6c"
 preserve = true
 
 [[files]]
@@ -372,7 +367,7 @@ preserve = true
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "1f7844592070843f1b64d5044a477327be55645f43ee1c5ff16676a97b91ff4b"
+hash = "14854ebcd2f9e5d59d0e82825f8a6843a331d7b63b924c64e9473b8c9ff125fd"
 preserve = true
 
 [[files]]
@@ -412,7 +407,7 @@ preserve = true
 
 [[files]]
 file = "config/purescale-modern.json"
-hash = "e4084e6de83faa4fe3c65118495f8ce86b1ffbf42302ce18ac8b7fb082f17668"
+hash = "2de5a3b3b6121e00f9e66d36a73d4325d2cbe664078de077be976d68355325a9"
 preserve = true
 
 [[files]]
@@ -512,7 +507,7 @@ preserve = true
 
 [[files]]
 file = "config/voxy-config.json"
-hash = "c09923ee0da414d4574baabf0cc3d2f77f8627a83c8b832cb31e719ab282a715"
+hash = "93708cd873629c4f9ec3dfa980a456ec86ff9ad90bead31b541b8f49f0b01c97"
 preserve = true
 
 [[files]]
@@ -688,11 +683,6 @@ metafile = true
 [[files]]
 file = "mods/cubes-without-borders-abd2338408-45ecbd.pw.toml"
 hash = "0c3f3dd37d0540bb18f1b5b38f9d37a6561e740d0c654b39ceb82ae164b36d8d"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons-9aec3a.pw.toml"
-hash = "acb03258c22211895c9d25b4bd4e73ff985a3301f0f50cf18f764001d1743dd9"
 metafile = true
 
 [[files]]
@@ -901,6 +891,11 @@ hash = "9247e324d0820d6f2c0388b912d9cbf22f3a447b4f62cc0ab32c912f6ba94bac"
 metafile = true
 
 [[files]]
+file = "mods/viris.pw.toml"
+hash = "20e57d7393ffe0cd27b0c0a31cdc3d7cb4985177e00b22016f6e65bde4cd5619"
+metafile = true
+
+[[files]]
 file = "mods/visuality-90145cad54-f2379a.pw.toml"
 hash = "945c4cac454e30652e1c675895d2ca1e38cb17fb193edfe83976da6894d0dae4"
 metafile = true
@@ -908,6 +903,11 @@ metafile = true
 [[files]]
 file = "mods/vitrail-21722e.pw.toml"
 hash = "3fe93e4dae248562ce8f0922ffdbe81a71dd3acdcb4b95b380e6033cd03014f2"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "09727d44c42538b9780e340d7da2c230d13b1bc7913db037984020401be339da"
 metafile = true
 
 [[files]]
@@ -937,7 +937,7 @@ preserve = true
 
 [[files]]
 file = "options.txt"
-hash = "a8bad207f3ed2719cf4b9338cadfba749b6b0b791837087eca8092918b7030b8"
+hash = "61cbdf88b7d041e741b88544c7e933c30edaef86db85b4c8bd112045885a7ef8"
 preserve = true
 
 [[files]]
@@ -1102,7 +1102,7 @@ preserve = true
 
 [[files]]
 file = "shaderpacks/Tobias-Pixel.zip.txt"
-hash = "a8c43a88c45f79e579a04495553393ba1b31b8d3d2a14cd8926e1f76d64b93ff"
+hash = "cefef975d4836da5e7ef8599277224b5bee94fa1f17e68ed5ec05d094b6d07e0"
 preserve = true
 
 [[files]]
@@ -1142,5 +1142,5 @@ preserve = true
 
 [[files]]
 file = "vitrail/pack.txt"
-hash = "ba4dc36cfd73f881e86310e0b323d45f3669558c82272c1aa2112a5da5186cf1"
+hash = "0f9869acd79b7e870b5aed5a42efe619fb4c9488fbf55628955e8da17b5c40b8"
 preserve = true

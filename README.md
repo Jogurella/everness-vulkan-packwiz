@@ -1,41 +1,46 @@
 # Everness Visuals — Vulkan
 
-**Minecraft 26.3 · Fabric 0.19.5 · Java 25 · Pack-Version 2026.11.07.2**
+**Minecraft 26.3 · Fabric 0.20.1 · Java 25 · Update 2026.11.07.3**
 
-Vitrail und Distant Horizons über BLAZE_3D. Vollständiger Archivstand des bisherigen Prism-Profils: **97 Downloads**, einschließlich aller lokalen Mod-, Ressourcenpack- und Shaderanpassungen. **Keine zusätzliche lokale Dateisammlung erforderlich.**
+Das Vulkan-Pack verwendet jetzt **Voxy + VIRIS + Vitrail**. Gemeint ist Minecrafts eingebauter Vulkan-Renderer, **kein VulkanMod**. Distant Horizons ist aus dem aktuellen Installationsstand entfernt.
 
-## In Prism installieren
+![Beispielbild: Distant Horizons und Voxy mit VIRIS](.github/assets/dh-voxy-beispielbild.png)
 
-1. Unter [Releases](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.07.2) **Everness-vulkan-Prism-Starter.zip** herunterladen.
-2. In Prism **Instanz hinzufügen → Import aus ZIP** wählen und diese ZIP importieren.
-3. Java 25 verwenden, dein Microsoft-Konto im Launcher selbst anmelden und starten. Der Pre-Launch-Updater lädt das vollständige Pack automatisch und prüft die Dateien.
+*Beispielbild: schematische Gegenüberstellung. Keine Spielaufnahme oder FPS-Messung; das tatsächliche Bild hängt von Detailstufe, Shader und Szene ab.*
 
-Der neue Starter wird getrennt importiert. Es erfolgt kein automatischer Serverbeitritt. **Forever Ever Server** ist bereits in der Serverliste eingetragen.
+## Warum Voxy für dieses Pack?
 
-## Packwiz-URL
+- **Texturierte Fernlandschaft:** Voxy verwendet seinen eigenen texturierten LOD-Renderer. VIRIS führt ihn in einem versteckten OpenGL-Kontext aus und teilt die Ergebnisbilder mit Minecraft-Vulkan.
+- **Anbindung an die vorhandenen Shader:** Complementary Reimagined, Complementary Unbound und Photon enthalten Voxy-Patches. VIRIS bindet diese über Vitrail ein, damit die Shader ihre eigenen LOD-Programme für Farbe, Wasser und Nebel verwenden können.
+- **Ein Weg für die Ferne:** Dieses Pack verwendet Voxy und entfernt den bisherigen DH-Pfad. Die vom Nutzer getestete Kombination ist damit als gemeinsamer, gepinnter Stand verfügbar.
 
-[https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml)
+Das macht Voxy für die gewünschte texturierte Fernsicht in **diesem Pack** passender. Es ist kein allgemeiner Beleg, dass Voxy auf jedem PC schneller oder stabiler als DH ist. VIRIS benötigt zusätzlich Interop; ein kontrollierter FPS-Vergleich mit DH liegt nicht vor. [VIRIS-Implementierung und Grenzen](https://github.com/laurensanp/viris), [Voxy](https://github.com/MCRcortex/voxy).
 
-Für eigene Launcher und bestehende packwiz-Installationen:
+## Installieren
+
+1. [Aktuellen Prism-Starter herunterladen](https://github.com/Jogurella/everness-vulkan-packwiz/raw/refs/heads/main/downloads/Everness-vulkan-Prism-Starter.zip).
+2. In Prism **Instanz hinzufügen → Import aus ZIP** wählen.
+3. **Java 25** und das eigene Microsoft-Konto verwenden. Der Starter enthält Fabric **0.20.1** und die Einstellungsdateien; packwiz lädt die Archive mit Prüfsummen nach.
+4. Minecraft auf **Vulkan** starten. Shader über Vitrail auswählen. Die übernommene Auswahl ist `Tobias-Pixel.zip`; außerdem sind Reimagined, Unbound und Photon enthalten.
+
+Es erfolgt kein automatischer Serverbeitritt. **Forever Ever Server** ist einmal in der Serverliste eingetragen.
+
+## Bestehende Installation aktualisieren
+
+**Wichtig für ältere Prism-Starter:** Unter **Instanz bearbeiten → Version → Fabric Loader** auf **0.20.1 oder neuer** aktualisieren. packwiz aktualisiert Mods, aber nicht Prisms Loader-Komponente. Im aktuellen Everness-Launcher wird die zu `pack.toml` passende Fabric-Version beim Spielstart vorbereitet.
+
+Die Pack-URL bleibt gleich:
 
 ```text
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar -g -s client https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml
+https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/pack.toml
 ```
 
-Die offizielle Bootstrap-JAR liegt im Minecraft-Ordner des Prism-Starters. Wer bereits die frühere Starter-Version verwendet, erhält die zusätzlichen Archive beim nächsten packwiz-Update über dieselbe Pack-URL.
+Der normale packwiz-Update entfernt die bisher verwaltete DH-JAR und ergänzt Voxy und VIRIS. Falls DH außerhalb von packwiz manuell installiert wurde, die zusätzliche DH-JAR aus `mods` entfernen. Persönliche LOD-Daten werden nicht gelöscht oder verteilt.
 
-## Einstellungen und Hotkeys
+## Einstellungen, Inhalt und Prüfstand
 
-Die vollständige Einstellungsübernahme wurde korrigiert, einschließlich Punchy-Profilwahl und Launcher-Fensterwerten. Im Everness-Launcher wird der vollständige Vorlagenstand **automatisch vor dem Spielstart mit Sicherung übernommen**: [Einstellungsanleitung](SETTINGS.md). Der neue Starter bringt alle Optionen schon mit.
+**65 Mod-JARs, 29 Ressourcenpacks, vier Shaderarchive.** Der Stand übernimmt die gemeinsamen Einstellungen des getesteten VIRIS-Profils: Hotkeys, FOV, HUD, Inventarmods, Punchy, Animationen, Ressourcenpack-Reihenfolge und Shaderwerte. [Einstellungsübernahme](SETTINGS.md) · [Downloads und exakte Quellen](MODLIST.md) · [Prüfstand und bekannte Grenzen](PACK-STATUS.md).
 
-## Enthalten
+Der Nutzer hat das vollständige Pack als funktionierend zurückgemeldet. Eine vollständige automatische Prüfung aller Shader-/Wasser-/Nebel-/Reload-/Wiedereintrittsfälle und ein Langzeitvergleich sind nicht abgeschlossen. Insbesondere hat VIRIS noch **keine Schatten auf LODs**; Wasserübergänge und hohe Wolken haben dokumentierte Grenzen. Das Beispielbild ist kein Nachweis dieser Funktionen.
 
-64 Mod-JARs, 29 Ressourcenpacks und 4 Shaderarchive. Die bisherigen Tastenbelegungen, Mod-Einstellungen, HUDs, Shaderprofile und die Ressourcenpack-Reihenfolge sind übernommen. Quellen und exakte SHA-512-Hashes stehen in den `*.pw.toml`-Dateien; [Mod-/Packliste](MODLIST.md) und [Pack-Status](PACK-STATUS.md) erläutern den Stand.
-
-Accountdateien, Cookies, Spielstände und persönliche Karten-/LOD-Caches werden nicht verteilt. Der Export verändert die bestehenden Spielprofile nicht.
-
-## Wartung
-
-Mit [packwiz](https://packwiz.infra.link/) bearbeiten. Nach beabsichtigten Änderungen `packwiz refresh` und `python tools/validate.py` ausführen. Downloads bleiben gepinnt, damit Versionsupdates die Renderer und persönlichen Fixes nicht stillschweigend verändern. Updates gezielt testen.
-
-Die Archivstände enthalten zum Teil lokale Änderungen. Es sind keine offiziellen Autoren-Builds; vorhandene Credits und Drittanbieter-Lizenzen bleiben erhalten. Siehe [THIRD-PARTY.md](THIRD-PARTY.md).
+Voxy wird **separat direkt vom Autoren-Download** bezogen und nicht in VIRIS oder dieses Repository eingebettet. VIRIS wird als offizieller MIT-Autoren-Build bezogen; die Klassen sind mit dem hier gebauten Teststand identisch. Vorhandene lokale Archivkorrekturen bleiben unverändert. [Herkunft und Lizenzen](THIRD-PARTY.md).
