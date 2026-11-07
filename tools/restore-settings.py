@@ -5,7 +5,7 @@ import argparse, datetime, hashlib, json, os, pathlib, shutil, sys, uuid
 def digest(data): return hashlib.sha256(data).hexdigest()
 
 def restore(bundle, game, check=False, again=False):
-    bundle=bundle.resolve(); game=game.resolve()
+    bundle=bundle.resolve(); game=pathlib.Path(os.path.abspath(game))
     manifest_bytes=(bundle/'settings-manifest.json').read_bytes()
     manifest=json.loads(manifest_bytes); revision=digest(manifest_bytes)
     if not game.is_dir() or not (game/'mods').is_dir():

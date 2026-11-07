@@ -1,4 +1,4 @@
-# 2026.11.07.1
+# 2026.11.07.2
 
 - Fehlende Einstellungsdateien und versteckte Punchy-Profilwahl ergänzt.
 - Aktuelle Tasten, HUD-, Mod-, Xaero-, Shader- und Totemwerte je Ausgangsprofil abgeglichen.

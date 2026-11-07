@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2026.11.07.1",
+  "version": "2026.11.07.2",
   "profile": "Everness-Vulkan",
   "files": [
     {
@@ -537,5 +537,9 @@
       "path": "config/litematica.json",
       "change": "customSchematicBaseDirectory uses relative schematics folder"
     }
-  ]
+  ],
+  "launcherDefaults": {
+    "ramGb": 8,
+    "resolution": "1600x900"
+  }
 }

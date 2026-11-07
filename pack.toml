@@ -1,6 +1,6 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.07.1"
+version = "2026.11.07.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
@@ -11,3 +11,8 @@ hash = "69b5f01cef0a384ba334f75ed6f01f05636cfcefa431ae94bc867c88d8f2bc62"
 [versions]
 fabric = "0.19.5"
 minecraft = "26.3"
+
+[options]
+[options.everness]
+settings-sha256 = "45baeff0e55121632cc9d955cf1159dbb64c8340857030aa560149033aa9bd43"
+settings-template = "settings-manifest.json"

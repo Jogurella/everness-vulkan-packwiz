@@ -1,12 +1,18 @@
-# Einstellungen 2026.11.07.1
+# Einstellungen 2026.11.07.2
 
 Vollständiger, portabler Einstellungsstand aus **Everness-Vulkan**: 132 Dateien und 206 Minecraft-/Mod-Tastenbelegungen. Die beiden Renderer behalten ihre jeweiligen Werte.
 
 Enthalten: Minecraft-Optionen samt Ressourcenpack-Reihenfolge, CameraUtils-Zoom, Punchy einschließlich des versteckten aktiven Profils, EvergreenHUD/OneConfig, Jade, Xaero, JEI, Inventar-/Werkzeugfunktionen, Totem, Animationen, Shader-Auswahl und alle gespeicherten Shaderprofile. `settings-manifest.json` nennt jeden Pfad und SHA-256-Hash. `launcher-settings.json` dokumentiert RAM, JVM- und Fensterwerte; der neue Prism-Starter setzt sie bereits.
 
+## Automatisch vor dem Spielstart
+
+Der Everness-Launcher übernimmt diese vollständige, per SHA-256 gebundene Vorlage vor dem ersten Start bzw. beim Wechsel auf einen geänderten Vorlagenstand. Vorhandene falsche Standardwerte werden mit Sicherung ersetzt. Dazu gehören FOV, sämtliche Minecraft-Optionen und Tasten, aktive Ressourcenpacks und deren Reihenfolge, Shader-Auswahl und Shaderfunktionen sowie die Mod-Konfigurationen. RAM und Fensterwerte werden gemeinsam übernommen.
+
+Jede Datei wird im tatsächlichen Spielordner geprüft. Der Nachweis und der Sicherungspfad stehen unter `.everness/settings-audit.json`. Eine unveränderte Vorlage setzt spätere eigene Anpassungen nicht bei jedem Start zurück. Ein reines Archivupdate ohne geänderte Vorgaben setzt ebenfalls keine eigenen Einstellungen zurück.
+
 ## Neue Installation
 
-Den [aktuellen Prism-Starter](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.07.1) importieren. Er enthält die Einstellungen bereits vor dem ersten Spielstart; packwiz lädt die unveränderten gepinnten Mod-/Packarchive nach.
+Den [aktuellen Prism-Starter](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.07.2) importieren. Er enthält die Einstellungen bereits vor dem ersten Spielstart; packwiz lädt die unveränderten gepinnten Mod-/Packarchive nach.
 
 ## Bereits installiertes GitHub-Profil korrigieren
 
