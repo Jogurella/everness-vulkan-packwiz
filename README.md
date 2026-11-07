@@ -2,6 +2,10 @@
 
 **Minecraft 26.3 · Fabric 0.20.1 · Java 25 · Update 2026.11.07.4**
 
+![AutoSwitch und Tobias-Pixel – Update 2026.11.07.4](.github/assets/update-2026.11.07.4-autoswitch.png)
+
+*Beispielbild zum aktuellen Update: AutoSwitch-Zusatzmod mit Alt+B, Tastenkombinationen, Item-Ausschlüssen und Shulker-Werkzeugen; Tobias-Pixel-Profile korrigiert.*
+
 Das Vulkan-Pack verwendet jetzt **Voxy + VIRIS + Vitrail**. Gemeint ist Minecrafts eingebauter Vulkan-Renderer, **kein VulkanMod**. Distant Horizons ist aus dem aktuellen Installationsstand entfernt.
 
 ![Beispielbild: Distant Horizons und Voxy mit VIRIS](.github/assets/dh-voxy-beispielbild.png)

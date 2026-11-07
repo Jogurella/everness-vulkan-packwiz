@@ -1,6 +1,7 @@
 # Pack development files are not installed into Minecraft.
 .git
 .github
+AGENTS.md
 .gitignore
 .gitattributes
 .packwizignore
