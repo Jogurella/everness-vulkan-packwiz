@@ -1,12 +1,12 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.06.1"
+version = "2026.11.07"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "86077f7c7c18fe0ee5a06e636788ca895bf9aa7fd1f38423853c3254a915a5f4"
+hash = "69b5f01cef0a384ba334f75ed6f01f05636cfcefa431ae94bc867c88d8f2bc62"
 
 [versions]
 fabric = "0.19.5"

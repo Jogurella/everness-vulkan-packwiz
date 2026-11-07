@@ -21,6 +21,7 @@
       "rotationZ": 0.0
     }
   },
+  "standard_doll_skin_data": "PixelMaxHD",
   "standard_doll_skin_type": "player",
   "selected_standard_doll_model_data": "my_totem_doll:dolls/3d_doll.bbmodel",
   "standard_doll_model_data": "my_totem_doll:dolls/3d_doll.bbmodel",

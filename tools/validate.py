@@ -15,4 +15,10 @@ for item in index['files']:
         count+=1
 manual=json.loads((r/'manual-files.json').read_text());all_paths=[x['path'] for x in manual['files']]
 assert len(all_paths)==len(set(all_paths))
+manifest=json.loads((r/'settings-manifest.json').read_text(encoding='utf-8'))
+entries={item['file']:item for item in index['files']}
+for item in manifest['files']:
+    f=r/item['path'];assert hashlib.sha256(f.read_bytes()).hexdigest()==item['sha256'],item['path']
+    assert entries[item['path']].get('preserve') is True,item['path']
+assert 'config/punchy/profiles/.active_profile' in entries
 print(json.dumps({'pack':pack['name'],'index_files':len(index['files']),'download_metadata':count,'local_additions':len(all_paths),'result':'PASS'}))

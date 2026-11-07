@@ -1,12 +1,12 @@
 # Everness Visuals — Vulkan
 
-**Minecraft 26.3 · Fabric 0.19.5 · Java 25 · Pack-Version 2026.11.06.1**
+**Minecraft 26.3 · Fabric 0.19.5 · Java 25 · Pack-Version 2026.11.07**
 
 Vitrail und Distant Horizons über BLAZE_3D. Vollständiger Archivstand des bisherigen Prism-Profils: **97 Downloads**, einschließlich aller lokalen Mod-, Ressourcenpack- und Shaderanpassungen. **Keine zusätzliche lokale Dateisammlung erforderlich.**
 
 ## In Prism installieren
 
-1. Unter [Releases](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.06.1) **Everness-vulkan-Prism-Starter.zip** herunterladen.
+1. Unter [Releases](https://github.com/Jogurella/everness-vulkan-packwiz/releases/tag/v2026.11.07) **Everness-vulkan-Prism-Starter.zip** herunterladen.
 2. In Prism **Instanz hinzufügen → Import aus ZIP** wählen und diese ZIP importieren.
 3. Java 25 verwenden, dein Microsoft-Konto im Launcher selbst anmelden und starten. Der Pre-Launch-Updater lädt das vollständige Pack automatisch und prüft die Dateien.
 
@@ -23,6 +23,10 @@ Für eigene Launcher und bestehende packwiz-Installationen:
 ```
 
 Die offizielle Bootstrap-JAR liegt im Minecraft-Ordner des Prism-Starters. Wer bereits die frühere Starter-Version verwendet, erhält die zusätzlichen Archive beim nächsten packwiz-Update über dieselbe Pack-URL.
+
+## Einstellungen und Hotkeys
+
+Die vollständige Einstellungsübernahme wurde korrigiert, einschließlich Punchy-Profilwahl und Launcher-Fensterwerten. Bei bereits installierten GitHub-Profilen den Stand **einmal gesichert wiederherstellen**: [Einstellungsanleitung](SETTINGS.md). Der neue Starter bringt alle Optionen schon mit.
 
 ## Enthalten
 

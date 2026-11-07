@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.06.1",
+  "version": "2026.11.07",
   "minecraft": "26.3",
   "fabric": "0.19.5",
   "renderer": "vulkan",
@@ -7,7 +7,7 @@
   "archiveCount": 97,
   "managedArchiveCount": 97,
   "manualArchiveCount": 0,
-  "settingsFileCount": 122,
+  "settingsFileCount": 132,
   "accountSanitization": [
     "config/litematica.json: absolute machine path cleared",
     "config/my_totem_doll.json5: personal default skin removed"
@@ -15,5 +15,18 @@
   "originalInstancesModified": false,
   "serverJoined": false,
   "archiveBytesPreserved": true,
-  "localAdditionImportRequired": false
+  "localAdditionImportRequired": false,
+  "settingsSnapshot": "settings-manifest.json",
+  "settingsAudit": {
+    "hotkeys": 206,
+    "resourcePackOrderCopied": true,
+    "activePunchyProfileIncluded": true,
+    "instanceWindowPreferencesIncluded": true,
+    "portableAdjustments": [
+      {
+        "path": "config/litematica.json",
+        "change": "customSchematicBaseDirectory uses relative schematics folder"
+      }
+    ]
+  }
 }

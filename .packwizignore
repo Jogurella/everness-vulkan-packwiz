@@ -21,3 +21,8 @@ docs
 !mods/*.pw.toml
 !resourcepacks/*.pw.toml
 !shaderpacks/*.pw.toml
+settings-manifest.json
+launcher-settings.json
+SETTINGS.md
+CHANGELOG.md
+!config/punchy/profiles/.active_profile

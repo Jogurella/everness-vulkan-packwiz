@@ -288,7 +288,7 @@ key_key.vitrail.toggle_shaders:key.keyboard.keypad.multiply
 key_gui.xaero_zoom_in:key.keyboard.unknown
 key_gui.xaero_zoom_out:key.keyboard.unknown
 key_gui.xaero_new_waypoint:key.keyboard.unknown
-key_gui.xaero_waypoints_key:key.keyboard.u
+key_gui.xaero_waypoints_key:key.keyboard.unknown
 key_gui.xaero_enlarge_map:key.keyboard.z
 key_gui.xaero_toggle_map:key.keyboard.unknown
 key_gui.xaero_toggle_waypoints:key.keyboard.unknown
