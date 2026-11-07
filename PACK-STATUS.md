@@ -1,4 +1,4 @@
-# Vollständiger Pack-Status — 2026.11.07
+# Vollständiger Pack-Status — 2026.11.07.1
 
 Abbild von **Everness-Vulkan**, Minecraft **26.3**, Fabric **0.19.5**; Vitrail und Distant Horizons über BLAZE_3D.
 

@@ -1,6 +1,6 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.07"
+version = "2026.11.07.1"
 pack-format = "packwiz:1.1.0"
 
 [index]

@@ -18,8 +18,16 @@ def restore(bundle, game, check=False, again=False):
         if not (rel.parts[0] in {'config','oneconfig','shaderpacks','upscalepacks','vitrail'} or str(rel) in {'options.txt','servers.dat'}):
             raise ValueError('Not a preference path: '+str(rel))
         src=bundle.joinpath(*rel.parts); dst=game.joinpath(*rel.parts)
-        if not src.resolve().is_relative_to(bundle) or not dst.resolve().is_relative_to(game):
+        if not src.resolve().is_relative_to(bundle) or not dst.is_relative_to(game):
             raise ValueError('Linked path escapes the selected folder')
+        # Check actual links component by component. Windows MSIX may return a
+        # redirected LocalCache path for an ordinary AppData file; that is not
+        # a symlink and must not reject a legitimate installed game folder.
+        current=game
+        for part in rel.parts:
+            current=current/part
+            if current.is_symlink() or getattr(current,'is_junction',lambda:False)():
+                raise ValueError('Linked destination preference: '+str(rel))
         data=src.read_bytes()
         if digest(data)!=item['sha256']: raise ValueError('Snapshot checksum failed: '+str(rel))
         records.append((str(rel),src,dst,data))
@@ -66,4 +74,4 @@ if __name__=='__main__':
     p.add_argument('--bundle',type=pathlib.Path,default=pathlib.Path(__file__).resolve().parents[1])
     p.add_argument('--check-only',action='store_true'); p.add_argument('--again',action='store_true')
     a=p.parse_args()
-    print(json.dumps(restore(a.bundle,a.game,a.check_only,a.again),ensure_ascii=False,indent=2))
+    print(json.dumps(restore(a.bundle,a.game_dir,a.check_only,a.again),ensure_ascii=False,indent=2))
