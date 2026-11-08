@@ -1,5 +1,5 @@
 # Auftragsstand 2026.11.08.2
 
-Weather Glass ist in **beiden** Packs mit Version 0.6.0 für Fabric 26.3 aufgenommen. Cozy Companion r3 wurde zusätzlich als lokal rekonstruierte Shader-Variante ergänzt. Eigene Weather-/Cozy-Updatebilder, Changelog und News-Verknüpfung gehören zur selben Veröffentlichung.
+Weather Glass 0.6.0 und Cozy Companion r3 sind in beiden Pack-Repositories aufgenommen, einschließlich eigener Updatebilder, Changelogs und News-Verknüpfung. Die zunächst offene Sichtprüfung wurde nachgeholt: [Prüfbericht](WEATHER-GLASS-ABNAHME.md).
 
-Dateien, Abhängigkeiten, vollständige Mod-Laufzeit, Einstellungs-Erhalt und Exporte werden durch die Pack-Prüfung erfasst. Die sichtbare Glas-/Shader-Matrix bleibt wegen der verweigerten Windows-Fenstersteuerung offen: [Prüfstand](../PACK-STATUS.md). Kein universelles Kompatibilitätsversprechen.
+Regen unter Vulkan, Schneefall unter beiden Backends, Frost/Beschlag unter OpenGL und beide Launcher-Artikel mit Bildern wurden gesehen. Die volle Vulkan-Frostschicht ist noch nicht abschließend sichtbar abgenommen. Ein zusätzlicher Vulkan-Prozessabbruch ist weiter ungeklärt; keine vollständige Stabilitätsfreigabe. Weitere Grenzen und Einzeltests im Prüfbericht beachten. Keine neuen Moddateien oder Spieleinstellungen wurden durch diese reine Berichtsaktualisierung verändert.

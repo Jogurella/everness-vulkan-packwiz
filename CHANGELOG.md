@@ -8,8 +8,8 @@
 - Einstellungs-Vorlage, Prism-Starter, Downloadliste und Prüfsummen auf den neuen Stand gebracht. Vorhandene Hotkeys, HUD-Positionen, FOV, Vollbild, Sichtweite und aktive Shaderauswahl wurden in der Vorlage nicht verändert.
 ### Hinweise für Spieler
 - Pack im Everness Launcher aktualisieren und Minecraft neu starten. **Cozy-Companion-r3** steht anschließend in der Shaderauswahl; das gewünschte Cozy-Profil wird in dessen Shader-Einstellungen gewählt. Vorhandene eigene Cozy-Dateien werden erhalten, niemals still ersetzt.
-- Laufzeitprüfung: vollständiges Vulkan-Pack mit geladenem Cozy-Shader und Weather Glass, normale/gefärbte/getönte Glasblöcke und Scheiben in einer separaten Regen-/Schnee-Testwelt; 165 Sekunden und reguläres Beenden. Kein Multiplayer-Server wurde betreten und kein FPS-Gewinn gemessen.
-- **Sichtprüfung noch offen:** Windows verweigerte die Fenstersteuerung. Der Laufzeitnachweis ist keine Freigabe gegen alle Glas-, Textur- oder Shaderfehler. Die Autorenseite nennt weiterhin mögliche Fehler bei Scheiben in Vierergruppen sowie noch ungetestetes Nvidium. Die vollständige Shader-/Dimensionswechsel-Matrix ist nicht geprüft; frühere unregelmäßige native Abbrüche bleiben als bekannte Grenze dokumentiert.
+- Nachprüfung: Regen unter Vulkan, Schneefall unter beiden Backends und Frost/Beschlag unter OpenGL sichtbar. Die vollständig entwickelte Vulkan-Frostschicht ist noch nicht abschließend sichtbar abgenommen. Die korrigierten Schnee-Testkopien liefen jeweils 180 Sekunden und endeten regulär. Der erste 165-Sekunden-Test hatte wegen eines zu großen Test-Biombereichs noch keinen Schnee nachgewiesen. Kein Server wurde betreten und kein FPS-Gewinn gemessen.
+- **Sichtprüfung nachgeholt:** beide Updateartikel und Bilder sind im Launcher sichtbar. Ein zusätzlicher Vulkan-Test wurde unerwartet mit `0xCFFFFFFF` beendet; der anschließende Gegenlauf war erfolgreich, die Ursache bleibt offen. Keine allgemeine Stabilitätsfreigabe und keine vollständige Shader-/Dimensionswechsel-Matrix. [Genauer Prüfbericht](docs/WEATHER-GLASS-ABNAHME.md).
 
 ## [2026.11.08.1] - 2026-11-08
 ### Behoben

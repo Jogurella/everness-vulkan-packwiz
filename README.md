@@ -10,7 +10,7 @@ Regen und Frost auf Fenstern mit Weather Glass 0.6.0. Leichte Vanilla-Details (1
 
 **Cozy Companion r3** bietet **Cozy - Normal** und **Cozy - Pixelated**. Grundlage ist [Complementary Unbound r5.9.3 von EminGT / Complementary Development](https://www.complementary.dev/). Der separat über Modrinth geladene Originalshader bleibt erhalten. Die MIT-Start-Hilfe erstellt nur auf deinem Rechner die lokale Cozy-Variante und erhält vorhandene eigene Dateien. Keine vollständige geänderte Complementary-Kopie wird hier hochgeladen; [Quellen und Funktionsweise](patches/cozy-companion-setup). Für die Pack-Zusammenstellung und die lokalen Anpassungen ist Everness verantwortlich.
 
-**Prüfstand:** beide Renderer mit geladenem Cozy/Weather Glass jeweils 165 Sekunden in einer Offline-Regen-/Schnee-Szene regulär beendet. Die sichtbare Abnahme ist wegen verweigerter Windows-Fenstersteuerung noch offen. [Details und bekannte Grenzen](PACK-STATUS.md).
+**Prüfstand:** Regen unter Vulkan, Schneefall unter beiden Backends und Frost/Beschlag unter OpenGL am Bildschirm geprüft; beide korrigierten Schneeläufe regulär beendet. Beide Launcher-Artikel samt Updatebildern sind sichtbar. Ein zusätzlicher Vulkan-Start endete jedoch unerwartet; dessen Ursache bleibt offen. [Details und bekannte Grenzen](docs/WEATHER-GLASS-ABNAHME.md).
 
 Der Stand enthält **68 Mods, 29 Ressourcenpacks, 4 direkt heruntergeladene Shaderarchive und die lokal erzeugte Cozy-Variante**. Shaderwahl, Hotkeys, HUD und andere bestehende Mod-Optionen bleiben erhalten. Eine Neuinstallation benötigt ein eigenes Minecraft-Konto und Java 25.
 
