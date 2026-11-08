@@ -1,3 +1,12 @@
+## [2026.11.08.1] - 2026-11-08
+### Behoben
+- Absturz beim ersten Zeichnen der Hand mit reduzierter Vitrail-Render-Skalierung: Der separate Hand-/HUD-Tiefenpuffer folgt jetzt der aktiven Weltauflösung.
+### Geändert
+- Vitrail 0.13.0-beta mit eng begrenzter Everness-Tiefenpufferkorrektur; Minecraft 26.3, Fabric 0.20.1, VIRIS 0.3.6 und Voxy 0.2.20-beta bleiben erhalten.
+### Hinweise für Spieler
+- Minecraft zum Aktualisieren vollständig beenden. Vorhandene eigene Grafikwerte bleiben beim normalen Pack-Update erhalten; der Standard bleibt native Render-Skalierung 100 %.
+- Offline-Prüfstand und offene Grenzen: [PACK-STATUS.md](PACK-STATUS.md). Es wurde kein Multiplayer-Server für Tests betreten.
+
 # 2026.11.07.4
 
 - Fehlende Atlas-Inventarsteuerung 0.1.6+mc26.3 wieder ergänzt, unverändert aus dem bisherigen SMP-Profil.

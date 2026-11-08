@@ -23,3 +23,7 @@ Voxy 0.2.20-beta ist von MCRcortex und All Rights Reserved. Es wird separat übe
 ## AutoSwitch-Erweiterung 2026.11.07.4
 
 `atlas-inventory-controls-0.1.6+mc26.3.jar` ist die bisher im eigenen SMP-Profil verwendete Client-Erweiterung (Metadaten: MIT), hier bytegenau übernommen. AutoSwitch, ClientSort, MaLiLib und Better Shulker Boxes bleiben eigenständige Komponenten. Tobias-Pixel bleibt das vorhandene angepasste Shaderpack; verändert wurden nur die An/Aus-Tokens seiner vier Profildefinitionen, keine Shaderquellen.
+
+## 2026.11.08.1: Vitrail-Tiefenpuffer
+
+Vitrail bleibt LGPL-3.0-only, Originalprojekt avpbynf/Vitrail-Shaders. Die eigene Änderung und die vollständigen gepinnten Quellen liegen unter [patches/vitrail-depthfix](patches/vitrail-depthfix). Voxy bleibt separat über die offizielle Quelle eingebunden.

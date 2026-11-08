@@ -1,0 +1,31 @@
+--- a/common/src/mc26.3/java/dev/vitrail/mixin/GameRendererScaleMixin.java
++++ b/common/src/mc26.3/java/dev/vitrail/mixin/GameRendererScaleMixin.java
+@@ -45,6 +45,17 @@
+ 	@Shadow
+ 	public abstract RenderTarget mainRenderTarget();
+ 
++	/** Everness fix: 26.3's separate hand/HUD depth must follow the active world target. */
++	@Shadow
++	private RenderTarget hud3DTarget;
++
++	private void everness$matchHudDepth(RenderTarget main) {
++		if (main != null && hud3DTarget != null
++				&& (hud3DTarget.width != main.width || hud3DTarget.height != main.height)) {
++			hud3DTarget.resize(main.width, main.height);
++		}
++	}
++
+ 	/**
+ 	 * Two things, and both have to happen at the head. The recovery first: a frame that died
+ 	 * between the two clears left the scaled set installed, and the game's resize check, which
+@@ -79,7 +90,9 @@
+ 	private void vitrail$scaleWorld(CommandEncoder encoder, GpuTexture colour, Vector4fc clearColour,
+ 			GpuTexture depth, double clearDepth, Operation<Void> original) {
+ 		RenderTarget main = mainRenderTarget();
+-		if (RenderScale.beginWorld(main)) {
++		boolean scaled = RenderScale.beginWorld(main);
++		everness$matchHudDepth(main);
++		if (scaled) {
+ 			original.call(encoder, main.getColorTexture(), clearColour, main.getDepthTexture(),
+ 					clearDepth);
+ 		} else {

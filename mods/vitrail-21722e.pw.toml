@@ -1,9 +1,9 @@
 name = "Vitrail"
-filename = "vitrail-0.13.0-beta+mc26.3.jar"
+filename = "vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar"
 side = "client"
 pin = true
 
 [download]
-url = "https://github.com/Jogurella/everness-vulkan-packwiz/releases/download/v2026.11.06/vitrail-0.13.0-beta%2Bmc26.3.jar"
+url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/vitrail-0.13.0-beta%2Bmc26.3-everness-depthfix.1.jar"
 hash-format = "sha512"
-hash = "991de0aa93d2bfa057ae40ed21054bd42879843c16d4c61c068a4b37d4b39c25aa938eb2717dc0439bbe973d511047d1f9ef39a3e6ce389fc661f4f2c70499a9"
+hash = "cfc6fe6b091fce31f54cbf10d070a7357ea02452153b010183b2a9414127adbc68edfd4e65a9e1e54eaebe93dfe0b713d3d4c735ff95de5c8c7b11581bab1ec9"

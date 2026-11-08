@@ -31,9 +31,21 @@ def restore(bundle, game, check=False, again=False):
         data=src.read_bytes()
         if digest(data)!=item['sha256']: raise ValueError('Snapshot checksum failed: '+str(rel))
         records.append((str(rel),src,dst,data))
+    retired=[]
+    active_paths={r[0] for r in records}
+    for name in manifest.get('retiredFiles',[]):
+        rel=pathlib.PurePosixPath(name)
+        if rel.is_absolute() or '..' in rel.parts or '\\' in name or ':' in name or not name.startswith('config/huds/') or name in active_paths:
+            raise ValueError('Unsafe retired HUD path')
+        dst=game.joinpath(*rel.parts)
+        if dst.is_symlink() or getattr(dst,'is_junction',lambda:False)() or not dst.resolve().is_relative_to(game.resolve()):
+            raise ValueError('Linked retired HUD path')
+        if dst.exists():
+            if not dst.is_file():raise ValueError('Retired HUD is not a file')
+            retired.append((name,dst))
     differences=[r for r in records if not r[2].is_file() or digest(r[2].read_bytes())!=digest(r[3])]
-    result={'profile':manifest['profile'],'version':manifest['version'],'files':len(records),'different':len(differences),'game':str(game)}
-    if check: return {**result,'result':'MATCH' if not differences else 'DIFFERENT','paths':[r[0] for r in differences]}
+    result={'profile':manifest['profile'],'version':manifest['version'],'files':len(records),'different':len(differences)+len(retired),'game':str(game)}
+    if check: return {**result,'result':'MATCH' if not differences and not retired else 'DIFFERENT','paths':[r[0] for r in differences]+[r[0] for r in retired]}
     marker=game/'.everness-settings'/('restored-'+revision+'.json')
     if marker.exists() and not again: return {**result,'result':'ALREADY_RESTORED'}
     stamp=datetime.datetime.now().strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:8]
@@ -46,9 +58,14 @@ def restore(bundle, game, check=False, again=False):
         old=backup.joinpath(*pathlib.PurePosixPath(rel).parts)
         if dst.exists(): old.parent.mkdir(parents=True,exist_ok=True); shutil.copy2(dst,old)
         journal.append({'path':rel,'existed':dst.exists()})
+    for rel,dst in retired:
+        old=backup.joinpath(*pathlib.PurePosixPath(rel).parts)
+        old.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(dst,old)
+        journal.append({'path':rel,'existed':True,'retired':True})
     (backup/'restore-journal.json').write_text(json.dumps(journal,indent=2),encoding='utf-8')
     written=[]
     try:
+        for rel,dst in retired:dst.unlink()
         for rel,src,dst,data in differences:
             dst.parent.mkdir(parents=True,exist_ok=True)
             temp=dst.with_name(dst.name+'.'+uuid.uuid4().hex+'.tmp')

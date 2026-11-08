@@ -1,12 +1,12 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.07.4"
+version = "2026.11.08.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1453798d7cc9b963460d70c7bf05f30a762f4d56ce43df893b630e69c9e24680"
+hash = "53cd4e941c80a0d604bc6875909f94dfdfd7d3566b45b91418ce4818068c2154"
 
 [versions]
 fabric = "0.20.1"
@@ -14,6 +14,6 @@ minecraft = "26.3"
 
 [options]
 [options.everness]
-news-image = ".github/assets/update-2026.11.07.4-autoswitch.png"
-settings-sha256 = "06426ae423f478ae9f451a6c92d2f5e489f2cab94b7bced3d87cac683da8d2ab"
+news-image = ".github/assets/update-2026.11.08.1-depthfix.png"
+settings-sha256 = "18d35e316ed150aa1e13f24af4be58f5a16f3dce56bbdbf6db45ae3ff5066fe9"
 settings-template = "settings-manifest.json"

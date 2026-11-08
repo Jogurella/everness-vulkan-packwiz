@@ -1,32 +1,28 @@
-# Prüfstand — 2026.11.07.4
+# Prüfstand 2026.11.08.1
 
-**Windows, RTX 4090, Minecraft 26.3, Fabric Loader 0.20.1, Java 25.** Nativer Minecraft-Vulkan-Renderer; kein VulkanMod und kein Distant Horizons im aktiven Pack.
+66 Mods, 29 Ressourcenpacks und 4 Shaderarchive. Minecraft 26.3, Fabric 0.20.1, Java 25. Tests ausschließlich in einer separaten Singleplayer-Welt; keine produktiven Welten oder Server verändert.
 
-## Inhalt und Herkunft
+## Vulkan-Korrektur
 
-- 99 gepinnte Downloads: 66 Mod-JARs, 29 Ressourcenpacks, vier Shaderarchive.
-- Kern: Sodium 0.9.2+mc26.3, Vitrail 0.13.0-beta, Voxy 0.2.20-beta und VIRIS 0.3.6. Fabric API bleibt 0.163.0+26.3 wie im vollständigen Profil.
-- Gegenüber 2026.11.07.3 sind 97 Archive identisch; die bestehende eigene Inventarsteuerung wurde ergänzt und die Tobias-Pixel-Profilsyntax berichtigt.
-- Die vorhandene Vitrail-JAR mit der lokalen Änderung in `DistantProgram.class` bleibt erhalten; die eigentliche VIRIS-Anbindung stammt unverändert aus dem MIT-Projekt von laurensanp.
-- Der offizielle VIRIS-Download enthält dieselben Klassen wie der lokale Build. Unterschiede betreffen die Build-Metadaten (Loom 1.19.3/1.19.4) und JSON-Zeilenenden, nicht die Mixin-Konfiguration.
-- 134 gemeinsame Einstellungsdateien mit SHA-256-Manifest. Keine Konten, Cookies, Welten, persönlichen Karten-/LOD-Caches oder Diagnoseaufnahmen.
+- Ursprünglichen Java-Absturz mit 80 % Vitrail-Render-Skalierung in der separaten Offline-Welt reproduziert: 3842 × 2160 Tiefenpuffer trifft auf 3073 × 1728 Farbpuffer.
+- Geänderte Vitrail-Klasse passt den zusätzlichen Hand-/HUD-Tiefenpuffer an das aktive Weltziel an; alle übrigen Klassen des bisherigen Builds bleiben gleich.
+- Erfolgreiche 60-Sekunden-Läufe mit sichtbarer Hand, Schwert und Totem sowie Shader und Voxy bei 80 % und 100 % dokumentiert. Die Prüftabelle nennt jeden einzelnen Lauf.
+- Beim Sichttest waren Hände, die Farmplattform und die Landschaft sichtbar. Kein vollständiger Test aller Texturen, Dimensionen, Wetterzustände oder Shaderwechsel.
 
-## Prüfung des AutoSwitch-/Profil-Updates
+## Offene Grenzen
 
-- AutoSwitch 17.0.0, ClientSort 3.104.1, MaLiLib 0.30.2, Mouse Tweaks und Better Shulker Boxes entsprechen bytegenau den Archiven des bisherigen funktionierenden SMP-Profils.
-- Alle sieben harten Zusatzmod-Abhängigkeiten mit Fabric Loaders eigener Versionsprüfung bestätigt. Keine direkten OpenGL- oder Lunar-Runtime-Hooks in der Zusatzmod.
-- 16 Profilwechsel einschließlich Dateischreiben, erneutem Einlesen und Rückkehr aus Custom mit unverändertem Vitrail 0.13.0-beta geprüft.
-- Der neue gemeinsame Spielstand wurde noch nicht erneut im Spiel geprüft; die früheren Rückmeldungen unten gelten für den Stand vor dieser Ergänzung.
+In zwei weiteren Startversuchen brach der Java-Prozess nativ mit `0xC0000005` ab, ohne den ursprünglichen Java-Größenfehler. Windows nannte einmal `ntdll.dll`, einmal `jvm.dll`. Die Ursache dieser zusätzlichen, unregelmäßigen Abbrüche ist nicht nachgewiesen; sie werden durch die erfolgreiche Größenkorrektur nicht als behoben ausgegeben. Shader-Neuladen und eine vollständige Shaderwechsel-Matrix sind nicht freigeprüft. Es wurde kein Multiplayer-Server betreten und keine allgemeine Absturzfreiheit zugesichert.
 
-## Bisher tatsächlich geprüft
+## Protokollierte Teilprüfungen
 
-- VIRIS-Quellcode mit JDK 25.0.5+8 gebaut; keine Voxy-, Sodium- oder Vitrail-Klassen/JARs eingebettet.
-- In der getrennten Basistestinstanz auf der RTX 4090 nativen Vulkan-Backend, OpenGL-4.6-Interop und die Aufrufe der Voxy-Shaderpipeline beobachtet.
-- Der Nutzer hat zuerst die Basistestinstanz und danach das vollständige Pack ohne DH als funktionierend zurückgemeldet. Ein Server wurde durch die Automatisierung nicht betreten.
-- Datei-/Installer- und Updateprüfungen dieses Exports werden in `docs/INSTALLER-CHECK.json` festgehalten.
+| Lauf | 60 Sekunden mit Hand | Größenfehler | Ergebniscode |
+| --- | --- | --- | --- |
+| unpatched80 | Nein | Ja | 15 |
+| patched80 | Nein | Nein | 3221225477 |
+| patched80-repeat | Ja | Nein | 0 |
+| patched100 | Nein | Nein | 3221225477 |
+| patched100-repeat | Ja | Nein | 0 |
+| patched-photon80 | Ja | Nein | 0 |
+| opengl-parity | Ja | Nein | 0 |
 
-## Offen und bekannte Grenzen
-
-Keine vollständig automatisierte Matrix aller drei Shader, Wasser-/Nebelszenen, Shaderwechsel, Reloads, erneuten Weltbeitritte oder Langzeitläufe. Keine garantierte FPS-Zahl und kein kontrollierter DH/Voxy-Leistungsvergleich.
-
-VIRIS 0.3.6 ist experimentell und Windows-spezifisch. Laut [Upstream](https://github.com/laurensanp/viris#known-issues) fehlen Schatten auf LODs; Wasser oberhalb des Meeresspiegels kann Stufen zeigen, flaches Wasser kann Linien behalten, und Complementary-Wolken oberhalb der Kamera können Übergänge beeinflussen. Diese Grenzen werden durch das Beispielbild nicht als behoben dargestellt.
+Eine Messung der FPS-Steigerung war nicht Gegenstand dieses Fehlers; es wird kein FPS-Gewinn behauptet.

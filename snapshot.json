@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.07.4",
+  "version": "2026.11.08.1",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
@@ -58,5 +58,12 @@
     "unchangedArchiveCount": 97,
     "tobiasPixelProfileRoundtripsPassed": 16,
     "newGameplayTestCompleted": false
+  },
+  "update20261108": {
+    "settingsSource": "Published Vulkan defaults",
+    "hudAndQolAligned": true,
+    "differentRendererAdapters": true,
+    "offlineServerOnly": true,
+    "nativeDepthCrashTest": "See PACK-STATUS.md"
   }
 }
