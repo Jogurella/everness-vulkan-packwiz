@@ -1,6 +1,6 @@
-# Downloadliste 2026.11.08.2
+# Downloadliste 2026.11.08.3
 
-101 gepinnte Downloadarchive; Cozy Companion r3 wird aus dem offiziellen Original lokal erstellt.
+98 gepinnte Archive plus ein lokal gepatchtes Pixelated-Shaderpack.
 
 | Name | Installierte Datei | Quelle |
 |---|---|---|
@@ -23,11 +23,9 @@
 | clientcommands | `mods/clientcommands-2.16.3.jar` | [Download](https://cdn.modrinth.com/data/7Coz83fv/versions/QkoqRvm6/clientcommands-2.16.3.jar) |
 | Cloth Config API | `mods/cloth-config-fabric-26.3.159.jar` | [Download](https://cdn.modrinth.com/data/9s6osm5g/versions/fg2uyxOW/cloth-config-fabric-26.3.159.jar) |
 | Complementary Shaders - Unbound | `shaderpacks/ComplementaryUnbound_r5.9.3.zip` | [Download](https://cdn.modrinth.com/data/R6NEzAwj/versions/B1kyfoUZ/ComplementaryUnbound_r5.9.3.zip) |
-| ComplementaryReimagined_r5.9.3 | `shaderpacks/ComplementaryReimagined_r5.9.3.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/shaderpack-complementaryreimagined-r5-9-3-9da7d740df.zip) |
 | Compose Multiplatform | `mods/compose-bundle-2.1.0+compose.1.13.0-alpha02.jar` | [Download](https://cdn.modrinth.com/data/eHe8QhtD/versions/bMhjbdhu/compose-bundle-2.1.0%2Bcompose.1.13.0-alpha02.jar) |
 | Concurrent Chunk Management Engine (Fabric) | `mods/c2me-fabric-mc26.3-0.4.2-alpha.0.106.jar` | [Download](https://cdn.modrinth.com/data/VSNURh3q/versions/gKKkuSYc/c2me-fabric-mc26.3-0.4.2-alpha.0.106.jar) |
 | Continuity | `mods/continuity-3.0.1+26.3.jar` | [Download](https://cdn.modrinth.com/data/1IjD5062/versions/Jt2sCWTQ/continuity-3.0.1%2B26.3.jar) |
-| Cozy Companion Setup | `mods/everness-cozy-setup-1.0.0.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/everness-cozy-setup-1.0.0.jar) |
 | CreativeCore | `mods/CreativeCore_FABRIC_v2.14.19_mc26.3.jar` | [Download](https://cdn.modrinth.com/data/OsZiaDHq/versions/GO707F1h/CreativeCore_FABRIC_v2.14.19_mc26.3.jar) |
 | Cubes Without Borders | `mods/cwb-5.0.0+26.3.jar` | [Download](https://cdn.modrinth.com/data/ETlrkaYF/versions/26KCwNI9/cwb-5.0.0%2B26.3.jar) |
 | Darkmode - V.1.2 - jannik6879 | `resourcepacks/Darkmode - V.1.2 - jannik6879.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-darkmode-v-1-2-jannik6879-9314068718.zip) |
@@ -36,6 +34,7 @@
 | Enchantment Outlines | `resourcepacks/Enchantment Outlines.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-enchantment-outlines-6e37ff241a.zip) |
 | Entity Culling | `mods/entityculling-fabric-1.11.3-mc26.3.jar` | [Download](https://cdn.modrinth.com/data/NNAgCjsB/versions/X1g3VhTx/entityculling-fabric-1.11.3-mc26.3.jar) |
 | EvergreenHUD | `mods/evergreenhud-3.9.16+26.3.jar` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/evergreenhud-3.9.16%2B26.3.jar) |
+| Everness Shader Setup | `mods/everness-shader-setup-1.0.0.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/everness-shader-setup-1.0.0.jar) |
 | FA+Player-v1.1 | `resourcepacks/FA+Player-v1.1.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-fa-player-v1-1-55449d385f.zip) |
 | Fabric API | `mods/fabric-api-0.163.0+26.3.jar` | [Download](https://cdn.modrinth.com/data/P7dR8mSH/versions/bq3SsNGk/fabric-api-0.163.0%2B26.3.jar) |
 | Fabric Language Kotlin | `mods/fabric-language-kotlin-1.14.2+kotlin.2.4.21.jar` | [Download](https://cdn.modrinth.com/data/Ha28R6CL/versions/SKW1BTL3/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar) |
@@ -78,19 +77,17 @@
 | OptiGUI | `mods/optigui-2.3.0-beta.10+26.3.jar` | [Download](https://cdn.modrinth.com/data/JuksLGBQ/versions/wcSV1VD1/optigui-2.3.0-beta.10%2B26.3.jar) |
 | Packet Fixer | `mods/PacketFixer-fabric-3.3.6.jar` | [Download](https://cdn.modrinth.com/data/c7m1mi73/versions/dTKbGYbb/PacketFixer-fabric-3.3.6.jar) |
 | Particle Rain | `mods/particlerain-4.0.2+26.3-fabric.jar` | [Download](https://cdn.modrinth.com/data/nrikgvxm/versions/ecVAaY1R/particlerain-4.0.2%2B26.3-fabric.jar) |
-| photon_v1.4 | `shaderpacks/photon_v1.4.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/photon_v1.4.zip) |
 | Punchy | `mods/punchy-2.8g-fabric-26.3.jar` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/mod-punchy-2-8g-fabric-26-3-582ab021e1.jar) |
-| PureScale Modern | `mods/purescale-modern-fabric-quilt-1.3.0.jar` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/purescale-modern-fabric-quilt-1.3.0.jar) |
 | Puzzle | `mods/puzzle-fabric-2.3.1+26.3.jar` | [Download](https://cdn.modrinth.com/data/3IuO68q1/versions/zLgrUpvu/puzzle-fabric-2.3.1%2B26.3.jar) |
 | Puzzles Lib | `mods/puzzleslib-v26.3.15-mc26.3.x+fabric.jar` | [Download](https://cdn.modrinth.com/data/QAGBst4M/versions/68hLXNWE/puzzleslib-v26.3.15-mc26.3.x%2Bfabric.jar) |
 | Raised | `mods/raised-fabric-26.3-6.0.2.jar` | [Download](https://cdn.modrinth.com/data/nCQRBEiR/versions/XeTvS6Rx/raised-fabric-26.3-6.0.2.jar) |
 | Respackopts | `mods/respackopts-26.3.0.jar` | [Download](https://cdn.modrinth.com/data/TiF5QWZY/versions/Whg3OJJA/respackopts-26.3.0.jar) |
 | Shulker Box Tooltip | `mods/shulkerboxtooltip-fabric-5.4.2+26.3.jar` | [Download](https://cdn.modrinth.com/data/2M01OLQq/versions/Cj9VEeGt/shulkerboxtooltip-fabric-5.4.2%2B26.3.jar) |
+| SIRIS | `mods/siris-1.1.6+mc26.3.jar` | [Download](https://github.com/laurensanp/siris/releases/download/v1.1.6/siris-1.1.6%2Bmc26.3.jar) |
 | Sodium | `mods/sodium-fabric-0.9.2+mc26.3.jar` | [Download](https://cdn.modrinth.com/data/AANobbMI/versions/bAZQdGpg/sodium-fabric-0.9.2%2Bmc26.3.jar) |
 | spark | `mods/spark-1.10.187-fabric.jar` | [Download](https://cdn.modrinth.com/data/l6YH9Als/versions/e3hsPc1o/spark-1.10.187-fabric.jar) |
 | Text Placeholder API | `mods/placeholder-api-3.2.0+26.3.jar` | [Download](https://cdn.modrinth.com/data/eXts2L7r/versions/lXytLqWj/placeholder-api-3.2.0%2B26.3.jar) |
 | Texture Builder | `mods/texture-builder - 26.3 - 1.1.0.jar` | [Download](https://cdn.modrinth.com/data/eApKqn79/versions/s4y6rZYU/texture-builder%20-%2026.3%20-%201.1.0.jar) |
-| Tobias-Pixel | `shaderpacks/Tobias-Pixel.zip` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/shaderpacks/Tobias-Pixel-vitrail-profilefix-2026.11.07.zip) |
 | Tweakeroo | `mods/tweakeroo-fabric-26.3-0.30.1.jar` | [Download](https://cdn.modrinth.com/data/t5wuYk45/versions/fWxKATn6/tweakeroo-fabric-26.3-0.30.1.jar) |
 | VanillaTweaks_r144903_MC1.21.x | `resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-vanillatweaks-r144903-mc1-21-x-ea51c5b70f.zip) |
 | VIRIS | `mods/viris-0.3.6+mc26.3.jar` | [Download](https://github.com/laurensanp/viris/releases/download/v0.3.6/viris-0.3.6%2Bmc26.3.jar) |
@@ -106,6 +103,4 @@
 | §f§lActually §6§l3D §fBlocks & Items!§7 | `resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-actually-3d-blocks-items-d0103240df.zip) |
 | §lColourful Containers§8 | `resourcepacks/§lColourful Containers§8.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-colourful-containers-8ce887bdbf.zip) |
 
-## Lokal erzeugtes Shaderpack
-
-`shaderpacks/Cozy-Companion-r3.zip`: eigener Start-Helper + separat heruntergeladenes Complementary Unbound r5.9.3. Kein fremder vollständiger Shadercode in der Helper-JAR. [Details](patches/cozy-companion-setup).
+Pixelated: lokale Patchinstallation aus dem offiziellen Unbound-Original; [Details](patches/pixelated-setup).

@@ -38,5 +38,17 @@ with zipfile.ZipFile(r/'downloads/Everness-vulkan-Prism-Starter.zip') as starter
 for line in (r/'downloads/SHA256SUMS.txt').read_text().splitlines():
     expected,name=line.split('  ',1);assert hashlib.sha256((r/'downloads'/name).read_bytes()).hexdigest()==expected
 assert any('weather-glass' in p.name for p in (r/'mods').glob('*.pw.toml'))
-assert (r/'patches/cozy-companion-setup/dev/everness/cozy/CozySetup.java').is_file()
+assert (r/'patches/pixelated-setup/dev/everness/shaders/ShaderSetup.java').is_file()
+assert pack['version']=='2026.11.08.3'
+assert len(list((r/'shaderpacks').glob('*.pw.toml')))==1
+assert sorted(p.name for p in (r/'shaderpacks').glob('*.zip.txt'))==['ComplementaryUnbound_r5.9.3.zip.txt','Pixelated.zip.txt']
+all_mods=[tomllib.loads(p.read_text()) for p in (r/'mods').glob('*.pw.toml')]
+assert not any('cozy' in m['filename'].lower() for m in all_mods)
+assert any(m['filename']=='everness-shader-setup-1.0.0.jar' for m in all_mods)
+assert any('siris-' in m['filename'] for m in all_mods)==True
+assert any('purescale' in m['filename'].lower() for m in all_mods)==False
+with zipfile.ZipFile(r/'downloads/Everness-vulkan-Prism-Starter.zip') as starter:
+    assert not any(n.startswith('minecraft/mods/') for n in starter.namelist())
+    assert not any(n.startswith('minecraft/shaderpacks/') and n.endswith('.zip') for n in starter.namelist())
+    for row in manifest['files']:assert hashlib.sha256(starter.read('minecraft/'+row['path'])).hexdigest()==row['sha256']
 print(json.dumps({'pack':pack['name'],'index_files':len(index['files']),'download_metadata':count,'local_additions':len(all_paths),'result':'PASS'}))

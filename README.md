@@ -1,35 +1,29 @@
-# Everness Vulkan – 2026.11.08.2
+# Everness Vulkan – 2026.11.08.3
 
-Weather Glass für Regen und Frost am Fenster, ergänzt um Cozy Companion r3 mit zwei zusätzlichen Shaderprofilen.
+Zwei Shader mit deinen Einstellungen: **Pixelated** und **Complementary Unbound r5.9.3**.
 
-![Everness-Update 2026.11.08.2](.github/assets/update-2026.11.08.2-weather-cozy-vulkan.png)
+![Everness-Update 2026.11.08.3](.github/assets/update-2026.11.08.3-siris-shaders-vulkan.png)
 
-## Neu: Weather Glass und Cozy Companion
+**SIRIS 1.1.6** ersetzt Purescale. Vorgabe: **Custom 100 %**, DLAA-NGX-Modus, Modell M, **2× Frame Generation** auf RTX 40/50; keine reduzierte interne Auflösung angefordert. Die SIRIS-Option `disablePackTaa=true` schaltet das doppelte Shader-TAA ab.
 
-Regen und Frost auf Fenstern mit Weather Glass 0.6.0. Leichte Vanilla-Details (16x), normale Regen-/Schneemengen, Beta-Staub/Wind und zusätzlicher Glas-Weichzeichner aus. Konfiguration: **Mods → Weather Glass**.
+[Änderungsnotizen](CHANGELOG.md) · [Prüfbericht](docs/SIRIS-SHADER-ABNAHME.md) · [Einstellungen](SETTINGS.md) · [Downloadliste](MODLIST.md)
 
-**Cozy Companion r3** bietet **Cozy - Normal** und **Cozy - Pixelated**. Grundlage ist [Complementary Unbound r5.9.3 von EminGT / Complementary Development](https://www.complementary.dev/). Der separat über Modrinth geladene Originalshader bleibt erhalten. Die MIT-Start-Hilfe erstellt nur auf deinem Rechner die lokale Cozy-Variante und erhält vorhandene eigene Dateien. Keine vollständige geänderte Complementary-Kopie wird hier hochgeladen; [Quellen und Funktionsweise](patches/cozy-companion-setup). Für die Pack-Zusammenstellung und die lokalen Anpassungen ist Everness verantwortlich.
+## Aktualisieren
 
-**Prüfstand:** Regen unter Vulkan, Schneefall unter beiden Backends und Frost/Beschlag unter OpenGL am Bildschirm geprüft; beide korrigierten Schneeläufe regulär beendet. Beide Launcher-Artikel samt Updatebildern sind sichtbar. Ein zusätzlicher Vulkan-Start endete jedoch unerwartet; dessen Ursache bleibt offen. [Details und bekannte Grenzen](docs/WEATHER-GLASS-ABNAHME.md).
+Im Everness Launcher das Vulkan-Pack aktualisieren und Minecraft neu starten. Alte Shader werden beim ersten Start außerhalb der aktiven Liste gesichert. Die beiden mitgelieferten Einstellungsdateien werden einmal übernommen; spätere eigene Änderungen bleiben erhalten. Wenn bisher ein entfernter Shader ausgewählt war, wird Pixelated gewählt. Ein bereits gewähltes Unbound bleibt aktiv.
 
-Der Stand enthält **68 Mods, 29 Ressourcenpacks, 4 direkt heruntergeladene Shaderarchive und die lokal erzeugte Cozy-Variante**. Shaderwahl, Hotkeys, HUD und andere bestehende Mod-Optionen bleiben erhalten. Eine Neuinstallation benötigt ein eigenes Minecraft-Konto und Java 25.
+**Minecraft 26.3 · Fabric Loader 0.20.1 · Java 25.** Das Pack enthält **68 Mods und 29 Ressourcenpacks**. Ein offizielles Shaderarchiv wird heruntergeladen und ein zweites lokal gepatcht; danach sind genau zwei Shader verfügbar. Keine Welten, Konten oder privaten Karten-/Voxy-Daten enthalten.
 
-[Änderungsnotizen](CHANGELOG.md) · [Tatsächlicher Prüfstand und Grenzen](PACK-STATUS.md) · [Einstellungen übernehmen](SETTINGS.md)
+## Neuinstallation mit Prism / packwiz
 
-## Installieren
+Die Instanz [Everness-vulkan-Prism-Starter.zip](downloads/Everness-vulkan-Prism-Starter.zip) in Prism importieren, Java 25 und dein eigenes Minecraft-Konto auswählen. Der vorkonfigurierte packwiz-Start lädt die gepinnten Dateien. Alternativ pack.toml über packwiz verwenden. Die [Einstellungs-ZIP](downloads/Everness-vulkan-Einstellungen.zip) und `tools/restore-settings.py` sichern und übertragen die veröffentlichten Vorgaben. [Prüfsummen](downloads/SHA256SUMS.txt).
 
-- [Prism-Starter herunterladen](downloads/Everness-vulkan-Prism-Starter.zip), als Instanz in Prism importieren und Java 25 verwenden.
-- Bei bestehender Installation das Pack aktualisieren. Für den vollständigen Einstellungsabgleich zusätzlich das [Einstellungspaket](downloads/Everness-vulkan-Einstellungen.zip) einmal mit Sicherung anwenden; [Anleitung](SETTINGS.md).
-- Das aktuelle Pack enthält **68 Mods, 29 Ressourcenpacks, 4 direkte Shaderarchive plus Cozy als lokale Variante**. [Alle Downloads und Quellen](MODLIST.md).
+## Shader und Quellen
 
-## Gemeinsame Bedienung
+**Complementary Unbound r5.9.3** stammt von EminGT / [Complementary Development](https://www.complementary.dev/) und wird unverändert über den offiziellen Modrinth-Download bezogen. **Pixelated** basiert darauf sowie auf [Euphoria Patches von SpacEagle17 und Mitwirkenden](https://www.euphoriapatches.com/). Für diese Modpack-Zusammenstellung und lokale Anpassungen ist Everness verantwortlich. Die ursprünglichen Lizenzdateien bleiben im lokalen Ergebnis unverändert enthalten.
 
-HUD, Jade, Minimap, FOV, Vollbild, Ressourcenpack-Reihenfolge, Punchy-Profil und QoL-Optionen stammen aus derselben Vulkan-Vorlage. **Alt+B** schaltet AutoSwitch um; Tastenkombination und Item-Ausschlüsse sind im Modmenü einstellbar. **Ziffernblock \*** schaltet den Shader, **Ziffernblock +** lädt ihn neu, **O** öffnet die Shaderauswahl. Die Bezeichnungen der Shader-Funktionen werden jeweils an Iris bzw. Vitrail angepasst.
+Der eigene kleine [Patch-/Migrationshelfer](patches/pixelated-setup) erzeugt Pixelated nur lokal aus dem geprüften Original, sichert alte Shader und stellt die Auswahl um. Er bettet keine Voxy-Mod-JAR und keine vollständige modifizierte Shader-ZIP ein. Seine Java-Quellen stehen unter MIT; Shader-/Patchdaten unterliegen den jeweiligen Shaderlizenzen.
 
-## Grafikkomponenten
+## Prüfstand
 
-Minecrafts eingebauter Vulkan-Renderer, Vitrail 0.13.0-beta mit Everness-Tiefenpufferkorrektur, VIRIS 0.3.6 und Voxy 0.2.20-beta. Voxy bleibt eine separat heruntergeladene offizielle Abhängigkeit. Die Vitrail-Änderung und vollständige Quellen stehen unter [patches/vitrail-depthfix](patches/vitrail-depthfix).
-
-100 % Render-Skalierung ist der veröffentlichte Standard. Ein erfolgreicher Offline-Lauf belegt keine allgemeine Absturzfreiheit. **Zusätzliche native Startabbrüche wurden beobachtet und bleiben offen**; Details und einzelne Ergebnisse stehen im [Prüfbericht](PACK-STATUS.md). Es wurde kein Multiplayer-Server betreten.
-
-Persönliche Konten, Welten, Karten-/LOD-Caches und Logdateien sind nicht enthalten. Lizenzen und Quellen: [THIRD-PARTY.md](THIRD-PARTY.md).
+Offline-Ablauf mit beiden Shadern, Neuladen und erneutem Weltbeitritt regulär abgeschlossen. Detailprüfungen und offene Punkte stehen im [Prüfbericht](docs/SIRIS-SHADER-ABNAHME.md). Kein universelles Kompatibilitäts- oder Leistungsversprechen.

@@ -1,9 +1,0 @@
-name = "Tobias-Pixel"
-filename = "Tobias-Pixel.zip"
-side = "client"
-pin = true
-
-[download]
-url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/shaderpacks/Tobias-Pixel-vitrail-profilefix-2026.11.07.zip"
-hash-format = "sha512"
-hash = "a74e22561bda99018a814a54402bfbe130d071554212d5913515c0ab75f2a052e5533f22c21b4c6a7d10c01f6c09653b9410c14ed3aeecbfa7da3e2550accb73"

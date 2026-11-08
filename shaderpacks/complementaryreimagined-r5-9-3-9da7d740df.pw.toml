@@ -1,9 +1,0 @@
-name = "ComplementaryReimagined_r5.9.3"
-filename = "ComplementaryReimagined_r5.9.3.zip"
-side = "client"
-pin = true
-
-[download]
-url = "https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/shaderpack-complementaryreimagined-r5-9-3-9da7d740df.zip"
-hash-format = "sha512"
-hash = "9da7d740df00e2e0b51e68658ca762269821c588eae5b528bae2209b85546e4da0ddaa313316eb15c84f6b5afebb097f0e6ca4f521b28585bb7d7c48e3600fc9"

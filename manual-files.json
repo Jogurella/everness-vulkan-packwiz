@@ -1,6 +1,6 @@
 {
   "profile": "Everness-Vulkan",
-  "snapshotVersion": "2026.11.08.1",
-  "note": "All selected mod/resource/shader archives are now installed by packwiz. No separate local additions are required. Existing original archive license files and credits are retained.",
+  "snapshotVersion": "2026.11.08.3",
+  "note": "Official Complementary downloads separately; Pixelated is generated locally by the bundled patch helper. No separate local imports required.",
   "files": []
 }

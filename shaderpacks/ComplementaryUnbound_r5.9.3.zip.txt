@@ -1,3 +1,14 @@
 # Written by Vitrail's settings screen and by Iris, one NAME=value per line.
 # Only what differs from the pack's own defaults.
 # vitrail/options.txt is a different file, it is never written here, and it wins.
+SELECT_OUTLINE=2
+MOON_PHASE_INF_LIGHT=true
+MOON_PHASE_INF_ATMOSPHERE=true
+LIGHT_COLOR_MULTS=true
+COATED_TEXTURES=true
+COATED_TEXTURE_MULT=130
+GLOWING_ORE_MULT=1.10
+EMISSIVE_REDSTONE_BLOCK=true
+GLOWING_ARMOR_TRIM=true
+EMISSIVE_LAPIS_BLOCK=true
+NETHER_VIEW_LIMIT=320.0

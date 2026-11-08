@@ -1,0 +1,9 @@
+name = "Everness Shader Setup"
+filename = "everness-shader-setup-1.0.0.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/everness-shader-setup-1.0.0.jar"
+hash-format = "sha512"
+hash = "e6fe34f3423a1bca941718654dfbb176cb24516de0ca79832d3d5588590d498f7b205e395f6e558cc4e1468f15ab53e570266f13c435d57243177706f343dc45"

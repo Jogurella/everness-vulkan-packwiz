@@ -1,0 +1,9 @@
+name = "SIRIS"
+filename = "siris-1.1.6+mc26.3.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://github.com/laurensanp/siris/releases/download/v1.1.6/siris-1.1.6%2Bmc26.3.jar"
+hash-format = "sha512"
+hash = "bbff3890c5ecdbef31ce2ab040fbf99b9a427e9732d29779b227da9cf037a711bcebff8086a156736368145a62b091a7c9926d6d9d73817b6ecb23a9b9037574"

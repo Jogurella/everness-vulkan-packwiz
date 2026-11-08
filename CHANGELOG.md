@@ -1,3 +1,18 @@
+## [2026.11.08.3] - 2026-11-08
+### Neu
+- **SIRIS 1.1.6** ersetzt Purescale. Vorgabe: **Custom 100 %**, DLAA-NGX-Modus, Modell M, **2× Frame Generation** auf RTX 40/50; keine reduzierte interne Auflösung angefordert. Die SIRIS-Option `disablePackTaa=true` schaltet das doppelte Shader-TAA ab.
+- **Pixelated** exakt aus der bereitgestellten Nutzerdatei: alle 635 Archiv-Einträge werden lokal inhaltsgleich rekonstruiert. Grundlage ist das separat installierte offizielle Complementary Unbound r5.9.3; keine vollständige modifizierte Shader-ZIP wird neu hochgeladen.
+- Eigenes Updatebild und passender Everness-Newsartikel.
+### Geändert
+- Shaderauswahl auf **Pixelated** und **Complementary Unbound r5.9.3** beschränkt. Beide erhalten die vom Nutzer mitgelieferten `.zip.txt`-Einstellungen.
+- Andere Shader und ihre alten Vorgaben entfernt, einschließlich Photon, Reimagined, Tobias-Pixel und Cozy Companion. Der Cozy-Generator ist entfernt und legt kein zusätzliches Pack mehr an.
+- Der kleine lokale Patch-/Migrationshelfer ersetzt den bisherigen Cozy-Helfer. Beim ersten Start werden alte Shader außerhalb der aktiven Liste gesichert und alte Shaderverweise auf Pixelated umgestellt; bereits gültige Unbound-Auswahl bleibt erhalten. Keine Render-Hooks oder Hintergrundarbeit.
+- **127 bestehende Einstellungsdateien bytegleich erhalten**, einschließlich Hotkeys, HUD, FOV, Ressourcenpack-Reihenfolge und übrigen QoL-Optionen. Nur Shaderauswahl/-vorgaben und die ausdrücklich ersetzte Vulkan-FG-Anbindung werden angepasst.
+### Hinweise für Spieler
+- Im Everness Launcher aktualisieren und Minecraft neu starten. Die erste lokale Shader-Einrichtung erfolgt automatisch. Sicherungen liegen unter `.everness-shader-setup/backups/` im Spielordner.
+- Offline-Ablauf mit beiden Shadern, Neuladen und erneutem Weltbeitritt regulär abgeschlossen. [Prüfbericht und Grenzen](docs/SIRIS-SHADER-ABNAHME.md).
+- Es wird kein FPS-Ziel oder allgemeine Fehlerfreiheit zugesichert. Bekannte frühere native Vulkan-Abbrüche und die vollständige Shader-/Dimensionsmatrix sind damit nicht pauschal als gelöst ausgewiesen.
+
 ## [2026.11.08.2] - 2026-11-08
 ### Neu
 - **Weather Glass 0.6.0 für Fabric 26.3:** Regen auf Glas sowie Schnee und Frost. Einstellbar über Mods → Weather Glass → Konfigurieren; rein clientseitig.

@@ -1,40 +1,7 @@
-# Prüfstand 2026.11.08.2: Weather Glass + Cozy Companion
+# Prüfstand 2026.11.08.3
 
-Die sichtbare Nachkontrolle wurde nach dem Entsperren des PCs durchgeführt. **Regen unter Vulkan, Schneefall unter beiden Backends und Frost/Beschlag unter OpenGL sichtbar; beide Launcher-Updateartikel samt Bildern geprüft.** Die vollständig entwickelte Vulkan-Frostschicht ist noch nicht abschließend sichtbar abgenommen. Die zwei korrigierten 180-Sekunden-Schneeläufe endeten regulär. Ein weiterer Vulkan-Start wurde unerwartet beendet; eine Ursache ist nicht nachgewiesen. Der Bestand ist damit nicht allgemein als absturzfrei freigegeben.
+Offline-Ablauf mit beiden Shadern, Neuladen und erneutem Weltbeitritt regulär abgeschlossen.
 
-[Vollständige Sichtprüfung, Testkorrektur, Einzelresultate und Grenzen](docs/WEATHER-GLASS-ABNAHME.md).
+Aktuelle Dateien und Renderer: **68 Mods, 29 Ressourcenpacks, genau zwei Shader im Spiel** (Unbound direkt + Pixelated als lokaler Patch). **SIRIS 1.1.6** ersetzt Purescale. Vorgabe: **Custom 100 %**, DLAA-NGX-Modus, Modell M, **2× Frame Generation** auf RTX 40/50; keine reduzierte interne Auflösung angefordert. Die SIRIS-Option `disablePackTaa=true` schaltet das doppelte Shader-TAA ab.
 
-Die ursprünglichen 165-Sekunden-Läufe belegten noch keinen Schnee, weil der damalige Test-Biombereich vom Spiel abgelehnt worden war. Die neue Bewertung verwendet ausschließlich die korrigierten Läufe und die dazugehörigen Beobachtungen.
-
-Datei-, Abhängigkeits-, Index-, Export-, Wiederherstellungs- und öffentliche Downloadprüfungen des Updates bleiben bestanden. Das lokale Cozy-Rezept stimmt in allen 468 Archiv-Einträgen mit der Nutzerdatei überein; bestehende eigene Shaderkopien und sonstige Mod-Einstellungen werden erhalten.
-
-## Bisheriger Prüfstand
-
-# Prüfstand 2026.11.08.1
-
-66 Mods, 29 Ressourcenpacks und 4 Shaderarchive. Minecraft 26.3, Fabric 0.20.1, Java 25. Tests ausschließlich in einer separaten Singleplayer-Welt; keine produktiven Welten oder Server verändert.
-
-## Vulkan-Korrektur
-
-- Ursprünglichen Java-Absturz mit 80 % Vitrail-Render-Skalierung in der separaten Offline-Welt reproduziert: 3842 × 2160 Tiefenpuffer trifft auf 3073 × 1728 Farbpuffer.
-- Geänderte Vitrail-Klasse passt den zusätzlichen Hand-/HUD-Tiefenpuffer an das aktive Weltziel an; alle übrigen Klassen des bisherigen Builds bleiben gleich.
-- Erfolgreiche 60-Sekunden-Läufe mit sichtbarer Hand, Schwert und Totem sowie Shader und Voxy bei 80 % und 100 % dokumentiert. Die Prüftabelle nennt jeden einzelnen Lauf.
-- Beim Sichttest waren Hände, die Farmplattform und die Landschaft sichtbar. Kein vollständiger Test aller Texturen, Dimensionen, Wetterzustände oder Shaderwechsel.
-
-## Offene Grenzen
-
-In zwei weiteren Startversuchen brach der Java-Prozess nativ mit `0xC0000005` ab, ohne den ursprünglichen Java-Größenfehler. Windows nannte einmal `ntdll.dll`, einmal `jvm.dll`. Die Ursache dieser zusätzlichen, unregelmäßigen Abbrüche ist nicht nachgewiesen; sie werden durch die erfolgreiche Größenkorrektur nicht als behoben ausgegeben. Shader-Neuladen und eine vollständige Shaderwechsel-Matrix sind nicht freigeprüft. Es wurde kein Multiplayer-Server betreten und keine allgemeine Absturzfreiheit zugesichert.
-
-## Protokollierte Teilprüfungen
-
-| Lauf | 60 Sekunden mit Hand | Größenfehler | Ergebniscode |
-| --- | --- | --- | --- |
-| unpatched80 | Nein | Ja | 15 |
-| patched80 | Nein | Nein | 3221225477 |
-| patched80-repeat | Ja | Nein | 0 |
-| patched100 | Nein | Nein | 3221225477 |
-| patched100-repeat | Ja | Nein | 0 |
-| patched-photon80 | Ja | Nein | 0 |
-| opengl-parity | Ja | Nein | 0 |
-
-Eine Messung der FPS-Steigerung war nicht Gegenstand dieses Fehlers; es wird kein FPS-Gewinn behauptet.
+[Aktuelle Abnahme und bekannte Grenzen](docs/SIRIS-SHADER-ABNAHME.md). Die bisherigen Berichte im Verlauf der Dateien beziehen sich auf frühere Versionen; insbesondere Cozy Companion ist ab diesem Update nicht mehr im aktiven Angebot.

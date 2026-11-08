@@ -1,0 +1,5 @@
+Everness Shader Setup: own Java setup code, MIT. No rendering changes, no network requests.
+Pixelated is the user's local variation of Complementary Unbound r5.9.3 with Euphoria Patches and previous local changes. This helper contains a patch, not a full modified shader archive; the separately downloaded official Complementary original with pinned checksum is required. The local result retains the unmodified Complementary and Euphoria license files. Patch data and shader material are governed by those licenses, not by the MIT license on our setup code.
+Original Complementary by EminGT / Complementary Development: https://www.complementary.dev/
+Euphoria Patches by SpacEagle17 / contributors: https://www.euphoriapatches.com/
+Everness is responsible for this modpack's local configuration and modifications. No endorsement by the upstream authors is implied.

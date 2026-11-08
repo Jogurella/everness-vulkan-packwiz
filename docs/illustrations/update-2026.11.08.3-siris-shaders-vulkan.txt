@@ -1,0 +1,8 @@
+Use case: ads-marketing. Create a polished 16:9 update cover for Everness Minecraft modpack Vulkan version 2026.11.08.3, matching the established Everness style: beautiful detailed Minecraft voxel landscape, dark translucent information panel, very legible white block lettering with teal/green accents, restrained colors. Background: a clear Minecraft valley with a wooden overlook, water, mountains in the distance, pixelated block shadows, a softly lit lantern in the foreground. This is a conceptual update illustration, not a screenshot or measured benchmark. Focus on the update: replacing Purescale with SIRIS, and narrowing shader selection to exactly Pixelated and Complementary Unbound. On a large clean dark panel render ONLY the following German text, with ample space and no clipping:
+"EVERNESS VULKAN"
+"UPDATE 2026.11.08.3"
+"SIRIS statt Purescale"
+"Pixelated + Unbound"
+"Deine Shader-Einstellungen"
+Small but readable footer: "Beispielbild"
+No FPS numbers, performance promises, NVIDIA logos, comparison graph, unrelated packs, HUD, or extra text. Attractive high-quality voxel lighting, crisp pixels, clean editorial composition. Make all named text exact.

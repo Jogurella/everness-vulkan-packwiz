@@ -217,7 +217,7 @@ preserve = true
 
 [[files]]
 file = "config/iris.properties"
-hash = "3e4149bc047e02875ab9363f0f22ddb8815c6ccc29c399cd18221a37ccec9a8f"
+hash = "2e51069115c42e1f482a3c0324eec41f986144085deeb7332b05ad256aa335d8"
 preserve = true
 
 [[files]]
@@ -421,21 +421,6 @@ hash = "685218e2ee0a3a3c40f02a42b2c6208b55fb1b94c855b9f0eebb0093b1e6f1ed"
 preserve = true
 
 [[files]]
-file = "config/purescale-modern.json"
-hash = "2de5a3b3b6121e00f9e66d36a73d4325d2cbe664078de077be976d68355325a9"
-preserve = true
-
-[[files]]
-file = "config/purescale-profiles/profile 1.json"
-hash = "65a17c490a9afa96fc017387348d5fd9d52066427ba925bd8f6d682db1267169"
-preserve = true
-
-[[files]]
-file = "config/purescale.json"
-hash = "0dc39abf12220d7750d14e823fff5822904dc9532028d072519ba722c964749a"
-preserve = true
-
-[[files]]
 file = "config/puzzle.json"
 hash = "27e001f09b0f5b7916a8b984b97c1bc1ba023ecb5b2a5f7a272e8ee7bab3b079"
 preserve = true
@@ -463,6 +448,11 @@ preserve = true
 [[files]]
 file = "config/simplewaypoints/config.json"
 hash = "2a854627ed0fe2f11660616425b072da440fa93f1e2d0ae80d0e49e648f27d10"
+preserve = true
+
+[[files]]
+file = "config/siris.properties"
+hash = "b2367ef1637ab7aaa3a26bb085b712bd4887951e2bc78149ef97e3c0a4669546"
 preserve = true
 
 [[files]]
@@ -701,11 +691,6 @@ hash = "9cfdf1f64d904b548a80321714897a87f019d858cde89332ad4a7dc026930c77"
 metafile = true
 
 [[files]]
-file = "mods/cozy-companion-setup.pw.toml"
-hash = "19fae04f5e2c3d8a9b9d28ddb29aef86226f7a32dd7933a5e1277bc73191f4dd"
-metafile = true
-
-[[files]]
 file = "mods/creativecore-bcf7b1dae1-edc855.pw.toml"
 hash = "3d83a7f7ab80aa696d8b87dea5511006aa129b0a42c3db4bde8c1bbaf98ea06f"
 metafile = true
@@ -733,6 +718,11 @@ metafile = true
 [[files]]
 file = "mods/evergreenhud-da756e.pw.toml"
 hash = "02c2090dd63942480951927604891a9793f33780d47390788deb9411b070f781"
+metafile = true
+
+[[files]]
+file = "mods/everness-shader-setup.pw.toml"
+hash = "814589cd0526f361d9dddc0cbf69eaa58ca924b2760e45002d1d50921ee31726"
 metafile = true
 
 [[files]]
@@ -871,11 +861,6 @@ hash = "7bfc9ae3ce094fe2c312dcd223da26b52f67a91e68aac197a45b3c2a7c9f1b1c"
 metafile = true
 
 [[files]]
-file = "mods/purescale_bundle-e4596f.pw.toml"
-hash = "bc78ec9478495a054f5cd1926c5d06ce7a0fd69f07591d11aa9ee3104dff550b"
-metafile = true
-
-[[files]]
 file = "mods/puzzle-677ee8736e-52fcbb.pw.toml"
 hash = "e4d4237fb073823f278dc4def64b8da6d7db4cafdb73e7660b84c053656af73a"
 metafile = true
@@ -898,6 +883,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip-737218bda3-6c4743.pw.toml"
 hash = "e7b27948b768f594430b72031dfb906f9b5f844818a46bc6fb985f4dc31a8b57"
+metafile = true
+
+[[files]]
+file = "mods/siris.pw.toml"
+hash = "7eb7380f23d184f440339b5b72969ed8b09c0a1772f8a6a5ab25752d6cc6af2d"
 metafile = true
 
 [[files]]
@@ -1126,48 +1116,18 @@ hash = "eb86033e352d11931a9653cb27d4c2a5a26c84519774ea800e1350697b210904"
 preserve = true
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt"
-hash = "597bc6b19da9463b3be143bf0a32173a34bdb7a1bdb37e2b398f336a070af6fa"
-preserve = true
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"
-hash = "1050de6d38d481c9ae3ce2527dce2ea0825935602688785689d4d255eb4f624c"
+hash = "e341f3eb4f4f72582c07ace1739f605a133a70e09ba79630b3dbd41bc69a899f"
 preserve = true
 
 [[files]]
-file = "shaderpacks/Cozy-Companion-r3.zip.txt"
-hash = "6cfaf736f3520c717038308994217f81865e66b581ba4951361d5c2b3a410396"
-preserve = true
-
-[[files]]
-file = "shaderpacks/Tobias-Pixel.zip.txt"
-hash = "cefef975d4836da5e7ef8599277224b5bee94fa1f17e68ed5ec05d094b6d07e0"
+file = "shaderpacks/Pixelated.zip.txt"
+hash = "e0fbd88f0cb2dad8a7951c9e7a05f5ac1b31f5f4eec44951c9e34f680809b622"
 preserve = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound-a085d1d8cd-69cd93.pw.toml"
 hash = "ba55306e34f5395e126d3fd78b730d79c95d64ef79b3aa68f0956ad6f3c16ca2"
-metafile = true
-
-[[files]]
-file = "shaderpacks/complementaryreimagined-r5-9-3-9da7d740df.pw.toml"
-hash = "ce6a1acca8af1510690e152d29cc48add05996dbf9e0402655ff0186d2169c75"
-metafile = true
-
-[[files]]
-file = "shaderpacks/photon-v1-4-4b8dde.pw.toml"
-hash = "e014b81aca4b7f264f9c2279b08fb014e56cd833e04a2fc383a3b9c81039fc09"
-metafile = true
-
-[[files]]
-file = "shaderpacks/photon_v1.4.zip.txt"
-hash = "8b9e37017be5901e6594f401018fabe4c0df44c7f7a5b84896fcb89da090fcb1"
-preserve = true
-
-[[files]]
-file = "shaderpacks/tobias-pixel-2f71832bfc.pw.toml"
-hash = "b8ef6711b77f03165367b2a42758bde7d5927c7ff16499d0576834fa8cd638a8"
 metafile = true
 
 [[files]]

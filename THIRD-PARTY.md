@@ -33,3 +33,9 @@ Vitrail bleibt LGPL-3.0-only, Originalprojekt avpbynf/Vitrail-Shaders. Die eigen
 Weather Glass 0.6.0 ist von DuffoPuffo, PolyForm Shield License 1.0.0. Die unveränderte JAR wird direkt vom offiziellen CurseForge-CDN geladen; [Projekt und Autor](https://www.curseforge.com/minecraft/mc-mods/weather-glass), [Lizenzkopie](licenses/Weather-Glass-PolyForm-Shield-1.0.0.txt).
 
 Cozy Companion r3 basiert auf [Complementary Unbound r5.9.3 von Complementary Development](https://www.complementary.dev/), Complementary License Agreement 1.7. Es wird keine vollständige geänderte Shader-ZIP öffentlich rehostet. Das offizielle Original wird unverändert über Modrinth geladen. Die eigene MIT-Start-Hilfe und die beiden Settings-Rezepte liegen unter [patches/cozy-companion-setup](patches/cozy-companion-setup); sie rekonstruieren die lokale Nutzerfassung und erhalten alle Original-Lizenztexte. Die Helper-MIT-Lizenz erteilt keine zusätzlichen Rechte an Complementary.
+
+## 2026.11.08.3: SIRIS / Pixelated-Migration
+
+Pixelated wird ausschließlich lokal über den eigenen Patch-Helfer aus dem offiziellen Complementary Unbound r5.9.3 rekonstruiert, nicht als vollständige veränderte ZIP neu rehostet. Original und Patchmaterial stammen von [Complementary Development](https://www.complementary.dev/) und [Euphoria Patches](https://www.euphoriapatches.com/). Für diese Zusammenstellung ist Everness verantwortlich. Die unveränderten Lizenzdateien liegen unter `licenses/` und bleiben im lokalen Shader enthalten. [Quellen/Notice](patches/pixelated-setup).
+
+SIRIS 1.1.6 von laurensanp wird unverändert von der offiziellen GitHub-Veröffentlichung geladen. Eigener Java-/Bridge-Code: MIT, NVIDIA-DLSS-Runtimes: gesonderte NVIDIA-SDK-Lizenz. Beide Lizenztexte liegen unter `licenses/`. Vitrail, VIRIS und Voxy bleiben separate Abhängigkeiten; Voxy wird nicht in andere JARs eingebettet.

@@ -1,12 +1,12 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.08.2"
+version = "2026.11.08.3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "b387ff2fd7a48d247299047601e321f7ff7dd2e7a13b32b68f213889aadcdfbe"
+hash = "7270cd3e41bc0da5fffaa5a9052f05a70990539359025c186c70130fd4cfe09e"
 
 [versions]
 fabric = "0.20.1"
@@ -14,6 +14,6 @@ minecraft = "26.3"
 
 [options]
 [options.everness]
-news-image = ".github/assets/update-2026.11.08.2-weather-cozy-vulkan.png"
-settings-sha256 = "ae9ae48214f78479193f2de534a43207cb70407c7ad1348796476345ce3a5e13"
+news-image = ".github/assets/update-2026.11.08.3-siris-shaders-vulkan.png"
+settings-sha256 = "6db389cebb24c772d386df29df52e811ef137e71c566db1b61c9b9465eceb212"
 settings-template = "settings-manifest.json"

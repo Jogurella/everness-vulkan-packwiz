@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2026.11.08.2",
+  "version": "2026.11.08.3",
   "profile": "Everness-Vulkan",
   "files": [
     {
@@ -177,7 +177,7 @@
     },
     {
       "path": "config/iris.properties",
-      "sha256": "3e4149bc047e02875ab9363f0f22ddb8815c6ccc29c399cd18221a37ccec9a8f"
+      "sha256": "2e51069115c42e1f482a3c0324eec41f986144085deeb7332b05ad256aa335d8"
     },
     {
       "path": "config/itemphysiclite-client.json",
@@ -340,18 +340,6 @@
       "sha256": "685218e2ee0a3a3c40f02a42b2c6208b55fb1b94c855b9f0eebb0093b1e6f1ed"
     },
     {
-      "path": "config/purescale-modern.json",
-      "sha256": "2de5a3b3b6121e00f9e66d36a73d4325d2cbe664078de077be976d68355325a9"
-    },
-    {
-      "path": "config/purescale-profiles/profile 1.json",
-      "sha256": "65a17c490a9afa96fc017387348d5fd9d52066427ba925bd8f6d682db1267169"
-    },
-    {
-      "path": "config/purescale.json",
-      "sha256": "0dc39abf12220d7750d14e823fff5822904dc9532028d072519ba722c964749a"
-    },
-    {
       "path": "config/puzzle.json",
       "sha256": "27e001f09b0f5b7916a8b984b97c1bc1ba023ecb5b2a5f7a272e8ee7bab3b079"
     },
@@ -374,6 +362,10 @@
     {
       "path": "config/simplewaypoints/config.json",
       "sha256": "2a854627ed0fe2f11660616425b072da440fa93f1e2d0ae80d0e49e648f27d10"
+    },
+    {
+      "path": "config/siris.properties",
+      "sha256": "b2367ef1637ab7aaa3a26bb085b712bd4887951e2bc78149ef97e3c0a4669546"
     },
     {
       "path": "config/skinlayers.json",
@@ -516,24 +508,12 @@
       "sha256": "eb86033e352d11931a9653cb27d4c2a5a26c84519774ea800e1350697b210904"
     },
     {
-      "path": "shaderpacks/ComplementaryReimagined_r5.9.3.zip.txt",
-      "sha256": "597bc6b19da9463b3be143bf0a32173a34bdb7a1bdb37e2b398f336a070af6fa"
-    },
-    {
       "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt",
-      "sha256": "1050de6d38d481c9ae3ce2527dce2ea0825935602688785689d4d255eb4f624c"
+      "sha256": "e341f3eb4f4f72582c07ace1739f605a133a70e09ba79630b3dbd41bc69a899f"
     },
     {
-      "path": "shaderpacks/Cozy-Companion-r3.zip.txt",
-      "sha256": "6cfaf736f3520c717038308994217f81865e66b581ba4951361d5c2b3a410396"
-    },
-    {
-      "path": "shaderpacks/Tobias-Pixel.zip.txt",
-      "sha256": "cefef975d4836da5e7ef8599277224b5bee94fa1f17e68ed5ec05d094b6d07e0"
-    },
-    {
-      "path": "shaderpacks/photon_v1.4.zip.txt",
-      "sha256": "8b9e37017be5901e6594f401018fabe4c0df44c7f7a5b84896fcb89da090fcb1"
+      "path": "shaderpacks/Pixelated.zip.txt",
+      "sha256": "e0fbd88f0cb2dad8a7951c9e7a05f5ac1b31f5f4eec44951c9e34f680809b622"
     },
     {
       "path": "upscalepacks/SharpBilinearExample/shader.fsh",

@@ -1,5 +1,3 @@
-# Auftragsstand 2026.11.08.2
+# Auftragsstand 2026.11.08.3
 
-Weather Glass 0.6.0 und Cozy Companion r3 sind in beiden Pack-Repositories aufgenommen, einschließlich eigener Updatebilder, Changelogs und News-Verknüpfung. Die zunächst offene Sichtprüfung wurde nachgeholt: [Prüfbericht](WEATHER-GLASS-ABNAHME.md).
-
-Regen unter Vulkan, Schneefall unter beiden Backends, Frost/Beschlag unter OpenGL und beide Launcher-Artikel mit Bildern wurden gesehen. Die volle Vulkan-Frostschicht ist noch nicht abschließend sichtbar abgenommen. Ein zusätzlicher Vulkan-Prozessabbruch ist weiter ungeklärt; keine vollständige Stabilitätsfreigabe. Weitere Grenzen und Einzeltests im Prüfbericht beachten. Keine neuen Moddateien oder Spieleinstellungen wurden durch diese reine Berichtsaktualisierung verändert.
+SIRIS im Vulkan-Pack und die Beschränkung auf Pixelated + Unbound in beiden Packs sind umgesetzt. Cozy-Generator und weitere Shaderangebote sind entfernt; alte installierte Shader werden beim ersten Start gesichert. Aktueller Prüfstand: [Abnahme](SIRIS-SHADER-ABNAHME.md). Die vollständige Veröffentlichung inklusive News und Bildern folgt nach den Abschlussprüfungen.
