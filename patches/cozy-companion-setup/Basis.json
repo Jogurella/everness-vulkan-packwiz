@@ -1,0 +1,9 @@
+{
+  "pack": "ComplementaryUnbound_r5.9.3.zip",
+  "sha256": "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a",
+  "renderer": "Complementary Development",
+  "website": "https://www.complementary.dev/",
+  "contains_shader_code": false,
+  "localPack": "Cozy-Companion-r3.zip",
+  "compatibility_fix": "Use fragment screen coordinates for entity-depth lookup; fixes End Voxy compilation."
+}

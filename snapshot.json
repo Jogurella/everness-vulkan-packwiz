@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.08.1",
+  "version": "2026.11.08.2",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
   "sourceProfile": "VIRIS Vulkan 26.3 - Kompletttest",
-  "archiveCount": 99,
-  "managedArchiveCount": 99,
+  "archiveCount": 101,
+  "managedArchiveCount": 101,
   "manualArchiveCount": 0,
-  "settingsFileCount": 134,
+  "settingsFileCount": 136,
   "accountSanitization": [
     "config/litematica.json: absolute machine path cleared",
     "config/my_totem_doll.json5: personal default skin removed"
@@ -65,5 +65,34 @@
     "differentRendererAdapters": true,
     "offlineServerOnly": true,
     "nativeDepthCrashTest": "See PACK-STATUS.md"
+  },
+  "weatherGlass": {
+    "version": "0.6.0+26.3-fabric",
+    "officialFileId": 9508351,
+    "detail": 16,
+    "dustBetaEnabled": false,
+    "windBetaEnabled": false,
+    "fogBlur": 0,
+    "runtimeTest": {
+      "label": "vulkan",
+      "renderer": "vulkan",
+      "exitCode": 0,
+      "pass165Seconds": true,
+      "rainFixture": true,
+      "snowFixture": true,
+      "cozyCreated": true,
+      "weatherLoaded": true,
+      "backendVulkan": true,
+      "backendOpenGL": false
+    },
+    "visualTest": "open-windows-control-denied"
+  },
+  "cozyCompanion": {
+    "version": "r3",
+    "installation": "Locally reconstructed by own preLaunch helper from pinned official Complementary Unbound r5.9.3",
+    "generatedArchiveCount": 1,
+    "upstreamCodeRehosted": false,
+    "existingFilesPreserved": true,
+    "defaultShaderChanged": false
   }
 }

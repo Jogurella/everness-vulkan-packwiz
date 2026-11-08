@@ -27,3 +27,9 @@ Voxy 0.2.20-beta ist von MCRcortex und All Rights Reserved. Es wird separat übe
 ## 2026.11.08.1: Vitrail-Tiefenpuffer
 
 Vitrail bleibt LGPL-3.0-only, Originalprojekt avpbynf/Vitrail-Shaders. Die eigene Änderung und die vollständigen gepinnten Quellen liegen unter [patches/vitrail-depthfix](patches/vitrail-depthfix). Voxy bleibt separat über die offizielle Quelle eingebunden.
+
+## 2026.11.08.2: Weather Glass und Cozy Companion
+
+Weather Glass 0.6.0 ist von DuffoPuffo, PolyForm Shield License 1.0.0. Die unveränderte JAR wird direkt vom offiziellen CurseForge-CDN geladen; [Projekt und Autor](https://www.curseforge.com/minecraft/mc-mods/weather-glass), [Lizenzkopie](licenses/Weather-Glass-PolyForm-Shield-1.0.0.txt).
+
+Cozy Companion r3 basiert auf [Complementary Unbound r5.9.3 von Complementary Development](https://www.complementary.dev/), Complementary License Agreement 1.7. Es wird keine vollständige geänderte Shader-ZIP öffentlich rehostet. Das offizielle Original wird unverändert über Modrinth geladen. Die eigene MIT-Start-Hilfe und die beiden Settings-Rezepte liegen unter [patches/cozy-companion-setup](patches/cozy-companion-setup); sie rekonstruieren die lokale Nutzerfassung und erhalten alle Original-Lizenztexte. Die Helper-MIT-Lizenz erteilt keine zusätzlichen Rechte an Complementary.

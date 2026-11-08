@@ -531,6 +531,11 @@ hash = "1da99d26f48e54631db80aecf731bd0e107a4e6e92db46964491bf0bb104f13e"
 preserve = true
 
 [[files]]
+file = "config/weatherglass.properties"
+hash = "33b1e55ce18d24aff5e8c3ffcf040c7cdeb27116cfc69c930bb8fde3ce178e72"
+preserve = true
+
+[[files]]
 file = "config/xaero/lib/client.cfg"
 hash = "43ed9dbfa5b4d6f0f3d2e8c2ced17ad298164b22c68ff11d415257a39b074336"
 preserve = true
@@ -693,6 +698,11 @@ metafile = true
 [[files]]
 file = "mods/continuity-1ec1e3b2f7-b8f0e9.pw.toml"
 hash = "9cfdf1f64d904b548a80321714897a87f019d858cde89332ad4a7dc026930c77"
+metafile = true
+
+[[files]]
+file = "mods/cozy-companion-setup.pw.toml"
+hash = "19fae04f5e2c3d8a9b9d28ddb29aef86226f7a32dd7933a5e1277bc73191f4dd"
 metafile = true
 
 [[files]]
@@ -936,6 +946,11 @@ hash = "ea3edeca24440021daf493446e6178812cf507681823e9a489f625d554968267"
 metafile = true
 
 [[files]]
+file = "mods/weather-glass.pw.toml"
+hash = "b79ce58eda65e6812bf934d3062058c5cb0c225f15edc566e8c732735ab7b726"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap-edf57b80cf-7bfcc7.pw.toml"
 hash = "998681352b35c8866a8e77d8d28c1f453a59f3b904d288d44c408a153ce3856b"
 metafile = true
@@ -1118,6 +1133,11 @@ preserve = true
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.9.3.zip.txt"
 hash = "1050de6d38d481c9ae3ce2527dce2ea0825935602688785689d4d255eb4f624c"
+preserve = true
+
+[[files]]
+file = "shaderpacks/Cozy-Companion-r3.zip.txt"
+hash = "6cfaf736f3520c717038308994217f81865e66b581ba4951361d5c2b3a410396"
 preserve = true
 
 [[files]]

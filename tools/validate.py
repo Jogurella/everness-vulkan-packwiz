@@ -24,7 +24,7 @@ assert 'config/punchy/profiles/.active_profile' in entries
 assert pack['versions']=={'fabric':'0.20.1','minecraft':'26.3'}
 assert pack['options']['everness']['settings-sha256']==hashlib.sha256((r/'settings-manifest.json').read_bytes()).hexdigest()
 mods=[tomllib.loads(f.read_text()) for f in (r/'mods').glob('*.pw.toml')]
-assert len(mods)==66
+assert len(mods)==68
 assert not any('distanthorizons' in m['filename'].lower() or 'vulkanmod' in m['filename'].lower() for m in mods)
 assert {'viris-0.3.6+mc26.3.jar','voxy-0.2.20-beta.jar','sodium-fabric-0.9.2+mc26.3.jar','vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar'}.issubset({m['filename'] for m in mods})
 assert 'config/voxy-config.json' in entries
@@ -37,4 +37,6 @@ with zipfile.ZipFile(r/'downloads/Everness-vulkan-Prism-Starter.zip') as starter
     for item in manifest['files']:assert hashlib.sha256(starter.read('minecraft/'+item['path'])).hexdigest()==item['sha256']
 for line in (r/'downloads/SHA256SUMS.txt').read_text().splitlines():
     expected,name=line.split('  ',1);assert hashlib.sha256((r/'downloads'/name).read_bytes()).hexdigest()==expected
+assert any('weather-glass' in p.name for p in (r/'mods').glob('*.pw.toml'))
+assert (r/'patches/cozy-companion-setup/dev/everness/cozy/CozySetup.java').is_file()
 print(json.dumps({'pack':pack['name'],'index_files':len(index['files']),'download_metadata':count,'local_additions':len(all_paths),'result':'PASS'}))

@@ -1,8 +1,8 @@
 # Verbindlicher Ablauf für künftige Everness-Modpack-Updates
 
-## Auftrag für das nächste Pack-Update
+## Bisherige Zusatzaufträge
 
-Vor dem nächsten Inhaltsupdate [docs/NEXT-PACK-UPDATE.md](docs/NEXT-PACK-UPDATE.md) lesen und abarbeiten: Weather Glass für Minecraft 26.3/Fabric ist für **beide** Renderer-Packs vorgemerkt. Diese Vormerkung allein ist keine Mod-Installation und keine neue Pack-Version.
+Weather Glass und Cozy Companion wurden mit 2026.11.08.2 aufgenommen. Den aktuellen Prüfstand und noch offene Sichtprüfungen in [docs/NEXT-PACK-UPDATE.md](docs/NEXT-PACK-UPDATE.md) und PACK-STATUS.md beachten. Neue Aufgaben nur nach konkretem Nutzerauftrag ergänzen.
 
 Der Nutzer hat die vollständige Vorlage in `docs/EVERNESS-MODPACK-UPDATE.txt` als Standard freigegeben. Sie gilt ab dem nächsten Modpack-Update. Reine Änderungen an diesem Arbeitsablauf verändern die derzeitige Pack-Veröffentlichung nicht.
 

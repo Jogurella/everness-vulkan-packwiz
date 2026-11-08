@@ -1,0 +1,8 @@
+Tool: built-in image_gen
+Prompt:
+Use case: ads-marketing.
+Asset type: 16:9 Minecraft modpack update news cover, 2048x1152 landscape. High-quality warm cozy Minecraft voxel illustration, never a real gameplay screenshot.
+Scene: inside a small oak-and-stone Minecraft cabin, looking closely at a large square glass window; distinct sparse pixel-art rain beads and short downward streaks on its exterior surface, outside a rainy green Minecraft village and mountains. Warm lantern glows in the interior, cool blue rain outside. Window remains see-through. One small frosted edge detail suggests winter. Maintain original Minecraft block proportions and textures. Do not make the world photorealistic or use non-Minecraft characters.
+Composition: illustrated cabin/window scene across right two thirds. Left third contains a polished dark charcoal information panel with generous margins, bold very legible white block lettering, subtle teal and leaf-green accents. Calm premium gaming editorial design, no excessive neon.
+Text exactly as specified below, with correct German spelling. Large main label WEATHER GLASS. Two readable feature lines: "Regen & Frost am Glas" and "Cozy Companion r3". Small version line "Update 2026.11.08.2". Subtle footer "Beispielbild". No extra text or logos. No FPS numbers, performance claims or before/after claims. Do not claim Vulkan compatibility verified.
+Pack title at top of dark panel, exact text: "EVERNESS VULKAN". Center-right scene uses a warm wooden windowsill and one lantern near the lower right.

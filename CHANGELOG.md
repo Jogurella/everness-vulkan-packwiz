@@ -1,3 +1,16 @@
+## [2026.11.08.2] - 2026-11-08
+### Neu
+- **Weather Glass 0.6.0 für Fabric 26.3:** Regen auf Glas sowie Schnee und Frost. Einstellbar über Mods → Weather Glass → Konfigurieren; rein clientseitig.
+- **Cozy Companion r3** mit den Profilen **Cozy - Normal** und **Cozy - Pixelated**. Die kleine Start-Hilfe erzeugt die lokale Variante automatisch aus dem bereits enthaltenen offiziellen Complementary Unbound r5.9.3; das Original bleibt erhalten. Die vom Nutzer gelieferte r3-ZIP und die erzeugte Fassung stimmen in allen 468 Einträgen überein.
+- Eigenes Updatebild für Everness Vulkan und zugehöriger Newsartikel.
+### Geändert
+- Weather Glass startet mit normalen Regen-/Schneemengen und **16x**-Details. Der zusätzliche Glas-Weichzeichner und die Beta-Staub-/Windfunktionen sind zunächst aus.
+- Einstellungs-Vorlage, Prism-Starter, Downloadliste und Prüfsummen auf den neuen Stand gebracht. Vorhandene Hotkeys, HUD-Positionen, FOV, Vollbild, Sichtweite und aktive Shaderauswahl wurden in der Vorlage nicht verändert.
+### Hinweise für Spieler
+- Pack im Everness Launcher aktualisieren und Minecraft neu starten. **Cozy-Companion-r3** steht anschließend in der Shaderauswahl; das gewünschte Cozy-Profil wird in dessen Shader-Einstellungen gewählt. Vorhandene eigene Cozy-Dateien werden erhalten, niemals still ersetzt.
+- Laufzeitprüfung: vollständiges Vulkan-Pack mit geladenem Cozy-Shader und Weather Glass, normale/gefärbte/getönte Glasblöcke und Scheiben in einer separaten Regen-/Schnee-Testwelt; 165 Sekunden und reguläres Beenden. Kein Multiplayer-Server wurde betreten und kein FPS-Gewinn gemessen.
+- **Sichtprüfung noch offen:** Windows verweigerte die Fenstersteuerung. Der Laufzeitnachweis ist keine Freigabe gegen alle Glas-, Textur- oder Shaderfehler. Die Autorenseite nennt weiterhin mögliche Fehler bei Scheiben in Vierergruppen sowie noch ungetestetes Nvidium. Die vollständige Shader-/Dimensionswechsel-Matrix ist nicht geprüft; frühere unregelmäßige native Abbrüche bleiben als bekannte Grenze dokumentiert.
+
 ## [2026.11.08.1] - 2026-11-08
 ### Behoben
 - Absturz beim ersten Zeichnen der Hand mit reduzierter Vitrail-Render-Skalierung: Der separate Hand-/HUD-Tiefenpuffer folgt jetzt der aktiven Weltauflösung.
