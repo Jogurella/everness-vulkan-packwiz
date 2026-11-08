@@ -1,0 +1,58 @@
+{
+  "version": "2026.11.08.4",
+  "userProfilesModified": false,
+  "serverJoined": false,
+  "runtime": {
+    "baseline": {
+      "complete": true,
+      "exitCode": 0,
+      "backendVulkan": true,
+      "pixelatedSelected": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "fpsComparisonValid": false,
+      "reason": "Single short run, warm-up drift and existing stretched animal geometry; no controlled performance claim."
+    },
+    "ebe": {
+      "complete": true,
+      "exitCode": 0,
+      "backendVulkan": true,
+      "pixelatedSelected": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "fpsComparisonValid": false,
+      "reason": "Single short run, warm-up drift and existing stretched animal geometry; no controlled performance claim."
+    },
+    "ebe-chests": {
+      "complete": true,
+      "exitCode": 0,
+      "backendVulkan": true,
+      "pixelatedSelected": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "fpsComparisonValid": false,
+      "reason": "Manual player/camera and scene edits during the extra run; samples excluded."
+    }
+  },
+  "existingSettingsPreserved": 131,
+  "vulkbatch": {
+    "included": false,
+    "reviewedVersion": "1.1.0",
+    "officialJarSha256": "287c3ca80128b4eb2052e9ebcb00d3ce2fba22ce02532ea0b48ee6cdb1fb83cc",
+    "sourceCommit": "ea6f881eead37ea0a61b707b65b6b0b3a1f77770"
+  },
+  "limitations": [
+    "No controlled FPS uplift established",
+    "Existing animal geometry artifact in both baseline and candidate fixture",
+    "Custom object animations may differ with EBE",
+    "Long-term multiplayer and full shader matrix not tested"
+  ],
+  "image": {
+    "path": ".github/assets/update-2026.11.08.4-farm-vulkan.png",
+    "bytes": 2196783,
+    "dimensions": [
+      1672,
+      941
+    ]
+  }
+}

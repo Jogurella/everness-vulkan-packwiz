@@ -1,4 +1,16 @@
-# Everness Vulkan – 2026.11.08.3
+# Everness Vulkan – 2026.11.08.4
+
+## Aktuelles Update: gezielte Kistenoptimierung
+
+**EBE Reloaded 0.13.3 + MatLib 1.0.0** ergänzen den bestehenden nativen Vulkan-/Vitrail-/VIRIS-/Voxy-Aufbau. Kisten und Schilder werden gezielt optimiert. Deine bisherigen Shader-, Sichtweiten-, SIRIS-, HUD- und Hotkey-Einstellungen bleiben erhalten. **70 Mods, 29 Ressourcenpacks, Pixelated und Unbound.**
+
+![Everness-Update 2026.11.08.4](.github/assets/update-2026.11.08.4-farm-vulkan.png)
+
+[Aktuelle Änderungen](CHANGELOG.md) · [Tests und Einschränkungen](docs/FARM-PERFORMANCE-ABNAHME.md)
+
+EBE lässt sich in Mod Menu pro Blocktyp abschalten. Kisten behalten das Öffnen/Schließen, benutzen aber EBE-Modelle; zusätzliche Objektanimationen sind nicht garantiert identisch. Keine garantierten FPS-Zahlen. VulkBatch ist nach der Quellprüfung nicht enthalten.
+
+## Bisherige Shader-Einrichtung
 
 Zwei Shader mit deinen Einstellungen: **Pixelated** und **Complementary Unbound r5.9.3**.
 
@@ -12,7 +24,7 @@ Zwei Shader mit deinen Einstellungen: **Pixelated** und **Complementary Unbound 
 
 Im Everness Launcher das Vulkan-Pack aktualisieren und Minecraft neu starten. Alte Shader werden beim ersten Start außerhalb der aktiven Liste gesichert. Die beiden mitgelieferten Einstellungsdateien werden einmal übernommen; spätere eigene Änderungen bleiben erhalten. Wenn bisher ein entfernter Shader ausgewählt war, wird Pixelated gewählt. Ein bereits gewähltes Unbound bleibt aktiv.
 
-**Minecraft 26.3 · Fabric Loader 0.20.1 · Java 25.** Das Pack enthält **68 Mods und 29 Ressourcenpacks**. Ein offizielles Shaderarchiv wird heruntergeladen und ein zweites lokal gepatcht; danach sind genau zwei Shader verfügbar. Keine Welten, Konten oder privaten Karten-/Voxy-Daten enthalten.
+**Minecraft 26.3 · Fabric Loader 0.20.1 · Java 25.** Das Pack enthält **70 Mods und 29 Ressourcenpacks**. Ein offizielles Shaderarchiv wird heruntergeladen und ein zweites lokal gepatcht; danach sind genau zwei Shader verfügbar. Keine Welten, Konten oder privaten Karten-/Voxy-Daten enthalten.
 
 ## Neuinstallation mit Prism / packwiz
 
@@ -26,4 +38,4 @@ Der eigene kleine [Patch-/Migrationshelfer](patches/pixelated-setup) erzeugt Pix
 
 ## Prüfstand
 
-Offline-Ablauf mit beiden Shadern, Neuladen und erneutem Weltbeitritt regulär abgeschlossen. Detailprüfungen und offene Punkte stehen im [Prüfbericht](docs/SIRIS-SHADER-ABNAHME.md). Kein universelles Kompatibilitäts- oder Leistungsversprechen.
+EBE-Kandidat und Vergleichskopie haben die kurzen Offline-Abläufe mit beiden Shadern und erneutem Weltbeitritt regulär abgeschlossen; Kisten öffnen und schließen sichtbar. Ein belastbarer FPS-Zuwachs ist nicht nachgewiesen. Der vorhandene Mob-Geometriefehler der künstlichen Tiergruppe und die übrigen Grenzen stehen im [aktuellen Prüfbericht](docs/FARM-PERFORMANCE-ABNAHME.md). Der [frühere SIRIS-Bericht](docs/SIRIS-SHADER-ABNAHME.md) dokumentiert die FG-Einrichtung.

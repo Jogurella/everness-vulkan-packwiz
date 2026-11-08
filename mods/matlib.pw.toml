@@ -1,0 +1,13 @@
+name = "MatLib"
+filename = "matlib-1.0.0+26.3-fabric.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/gnefBeV1/versions/VIhnl3tD/matlib-1.0.0%2B26.3-fabric.jar"
+hash-format = "sha512"
+hash = "ef26e2f022902d2c4e1379fc2346278fc28fca35b2a6b1dee04d328303728c3f3cf35a2d5ace15aaf66595d55bf617d4b50d8decd93c0e2d69044989c560fcbf"
+
+[update.modrinth]
+mod-id = "gnefBeV1"
+version = "VIhnl3tD"

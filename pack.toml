@@ -1,12 +1,12 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.08.3"
+version = "2026.11.08.4"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7270cd3e41bc0da5fffaa5a9052f05a70990539359025c186c70130fd4cfe09e"
+hash = "48619414699c2e6f7f9cde19ed9533e447a3f96f94eb25e324f7eae77ddb7357"
 
 [versions]
 fabric = "0.20.1"
@@ -14,6 +14,6 @@ minecraft = "26.3"
 
 [options]
 [options.everness]
-news-image = ".github/assets/update-2026.11.08.3-siris-shaders-vulkan.png"
-settings-sha256 = "6db389cebb24c772d386df29df52e811ef137e71c566db1b61c9b9465eceb212"
+news-image = ".github/assets/update-2026.11.08.4-farm-vulkan.png"
+settings-sha256 = "62a490595c83a52e4a9accd25bf2c834a9e4e6b5a6827b4b0e32714d1b6d3409"
 settings-template = "settings-manifest.json"

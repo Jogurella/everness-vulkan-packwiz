@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.08.3",
+  "version": "2026.11.08.4",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
   "sourceProfile": "VIRIS Vulkan 26.3 - Kompletttest",
-  "archiveCount": 98,
-  "managedArchiveCount": 98,
+  "archiveCount": 100,
+  "managedArchiveCount": 100,
   "manualArchiveCount": 0,
-  "settingsFileCount": 131,
+  "settingsFileCount": 132,
   "accountSanitization": [
     "config/litematica.json: absolute machine path cleared",
     "config/my_totem_doll.json5: personal default skin removed"
@@ -201,5 +201,49 @@
         "qa-unbound-fg-reenabled.png"
       ]
     }
+  },
+  "farmPerformance": {
+    "enhancedBlockEntities": "fabric-0.13.3+26.3",
+    "matlib": "fabric-1.0.0+26.3",
+    "targets": [
+      "chests",
+      "signs"
+    ],
+    "vulkbatchIncluded": false,
+    "existingSettingsPreserved": 131,
+    "report": "docs/FARM-PERFORMANCE-ABNAHME.md",
+    "runtimeTest": {
+      "baseline": {
+        "complete": true,
+        "exitCode": 0,
+        "backendVulkan": true,
+        "pixelatedSelected": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "fpsComparisonValid": false,
+        "reason": "Single short run, warm-up drift and existing stretched animal geometry; no controlled performance claim."
+      },
+      "ebe": {
+        "complete": true,
+        "exitCode": 0,
+        "backendVulkan": true,
+        "pixelatedSelected": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "fpsComparisonValid": false,
+        "reason": "Single short run, warm-up drift and existing stretched animal geometry; no controlled performance claim."
+      },
+      "ebe-chests": {
+        "complete": true,
+        "exitCode": 0,
+        "backendVulkan": true,
+        "pixelatedSelected": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "fpsComparisonValid": false,
+        "reason": "Manual player/camera and scene edits during the extra run; samples excluded."
+      }
+    },
+    "fpsUpliftEstablished": false
   }
 }

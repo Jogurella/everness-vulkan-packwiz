@@ -39,3 +39,9 @@ Cozy Companion r3 basiert auf [Complementary Unbound r5.9.3 von Complementary De
 Pixelated wird ausschließlich lokal über den eigenen Patch-Helfer aus dem offiziellen Complementary Unbound r5.9.3 rekonstruiert, nicht als vollständige veränderte ZIP neu rehostet. Original und Patchmaterial stammen von [Complementary Development](https://www.complementary.dev/) und [Euphoria Patches](https://www.euphoriapatches.com/). Für diese Zusammenstellung ist Everness verantwortlich. Die unveränderten Lizenzdateien liegen unter `licenses/` und bleiben im lokalen Shader enthalten. [Quellen/Notice](patches/pixelated-setup).
 
 SIRIS 1.1.6 von laurensanp wird unverändert von der offiziellen GitHub-Veröffentlichung geladen. Eigener Java-/Bridge-Code: MIT, NVIDIA-DLSS-Runtimes: gesonderte NVIDIA-SDK-Lizenz. Beide Lizenztexte liegen unter `licenses/`. Vitrail, VIRIS und Voxy bleiben separate Abhängigkeiten; Voxy wird nicht in andere JARs eingebettet.
+
+## 2026.11.08.4: Enhanced Block Entities Reloaded und MatLib
+
+- [Enhanced Block Entities Reloaded](https://github.com/Mat0u5/EnhancedBlockEntitiesReloaded), Mat0u5 / FoundationGames: LGPL-3.0, unveränderte offizielle Modrinth-Datei `fabric-0.13.3+26.3`. Lizenzkopie unter `licenses/EBE-Reloaded-LGPL-3.0.txt`; Quellen beim ursprünglichen Projekt. Keine Einbettung in eigene JARs.
+- [MatLib](https://modrinth.com/mod/matlib), Mat0u5: MIT, unveränderte offizielle Datei `fabric-1.0.0+26.3`. Download und Prüfsumme sind in der Packwiz-Metadatei gepinnt.
+- Eigene Arbeit: Auswahl, kompatibilitätsorientierte Konfiguration, isolierter Test und Veröffentlichung. Kein eigener EBE-/MatLib-Code und keine eigene VulkBatch-Fassung.

@@ -96,6 +96,11 @@ hash = "78b3d8ac54fde383618dbbbea95e4ac344f2d55a966b8cb8aa72f0b960927aa9"
 preserve = true
 
 [[files]]
+file = "config/enhanced_bes.properties"
+hash = "75080dc3ed545fc12495f07a9e226e6b00b226bd9055d838ca6f0b270b2edc92"
+preserve = true
+
+[[files]]
 file = "config/entity_model_features.json"
 hash = "50fc062d37fa13609430b06a9260bc1622ad2fbd2c238900df4c8866655a5372"
 preserve = true
@@ -701,6 +706,11 @@ hash = "0c3f3dd37d0540bb18f1b5b38f9d37a6561e740d0c654b39ceb82ae164b36d8d"
 metafile = true
 
 [[files]]
+file = "mods/ebe-reloaded.pw.toml"
+hash = "67c943cd6b17cb099fb912f9dacf555e289bffe11aabab010e05349b1c69247c"
+metafile = true
+
+[[files]]
 file = "mods/entity-model-features-4572fc065e-5c5227.pw.toml"
 hash = "28c7f8019915f28a31860d96c3d80a241ac0e54a9497454be93f0a91938a90f0"
 metafile = true
@@ -808,6 +818,11 @@ metafile = true
 [[files]]
 file = "mods/malilib-8f17a5d70c-c4f9bf.pw.toml"
 hash = "010d06adc91d67961c1a8b56c5c840d49bd05f3a72f04cd17bc3210416e02627"
+metafile = true
+
+[[files]]
+file = "mods/matlib.pw.toml"
+hash = "e2e7efbaa166af8870785e4acdd208c67cd5aa5c2204f0262310549f209203b4"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Enhanced Block Entities Reloaded"
+filename = "enhancedblockentities-0.13.3+26.3-fabric.jar"
+side = "client"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/vpenrdOI/versions/tj4Apu60/enhancedblockentities-0.13.3%2B26.3-fabric.jar"
+hash-format = "sha512"
+hash = "56d606c1a67576e5add69b6fb404333e06340b4a071f336866c835be277278cba73a3f56d53c3d3325971051cb8e3a41627f54fcb22425dfb967c1698c733cc8"
+
+[update.modrinth]
+mod-id = "vpenrdOI"
+version = "tj4Apu60"

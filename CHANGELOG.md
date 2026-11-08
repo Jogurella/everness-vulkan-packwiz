@@ -1,3 +1,15 @@
+## [2026.11.08.4] - 2026-11-08
+### Neu
+- **Enhanced Block Entities Reloaded 0.13.3 für 26.3** und die erforderliche **MatLib 1.0.0 für 26.3**. Geschlossene Kisten können als Blockmodelle statt ständig als einzelne Block-Entities gezeichnet werden. Das zielt auf Lager- und Farmbereiche mit vielen Kisten.
+- Angepasste EBE-Vorgaben: Kisten und Schilder an, alle Schildtexte sichtbar; EBE für Betten, Glocken, Shulkerboxen und verzierte Töpfe aus. Ressourcenpack-Kompatibilitätsmodus an.
+- Eigenes Farm-Updatebild, aktualisierter Einstellungs-Export und [Prüfbericht](docs/FARM-PERFORMANCE-ABNAHME.md).
+### Hinweise für Spieler
+- Im Everness Launcher das **Vulkan-Pack aktualisieren und Minecraft neu starten**. EBE ist rein clientseitig; der Server braucht diese beiden Mods nicht.
+- Über **Mod Menu → Enhanced Block Entities Reloaded → Einstellungen** lässt sich die Kisten-/Schilderoptimierung wieder abschalten. EBE verwendet bei Kisten seinen eigenen animierten Deckelrenderer; zusätzliche Modellbewegungen aus Fresh Animations Objects können dadurch abweichen. Die Mob-Animationspacks werden nicht entfernt oder vereinfacht.
+- Alle **131 bisherigen Einstellungsdateien bytegleich erhalten**, einschließlich Shaderdetails, Sichtweite, SIRIS/FG, FOV, Hotkeys, HUD und Ressourcenpack-Reihenfolge. OpenGL bleibt unverändert.
+- **VulkBatch 1.1.0 wird nicht aufgenommen:** Die Quellprüfung fand abgebrochene Chunk-Neubauten ohne spätere Wiederholung und Zähler statt tatsächlicher Pufferwiederverwendung. Das ist für aktive Redstonefarmen keine geeignete Vorgabe.
+- Die Offline-Prüfung ist kein Nachweis für einen bestimmten FPS-Zuwachs auf deinem Server. Ein bereits im bisherigen Pack sichtbarer gestreckter Mob-Geometriefehler trat auch ohne EBE auf und ist durch dieses Update nicht behoben; Details und Messgrenzen stehen im Prüfbericht.
+
 ## [2026.11.08.3] - 2026-11-08
 ### Neu
 - **SIRIS 1.1.6** ersetzt Purescale. Vorgabe: **Custom 100 %**, DLAA-NGX-Modus, Modell M, **2× Frame Generation** auf RTX 40/50; keine reduzierte interne Auflösung angefordert. Die SIRIS-Option `disablePackTaa=true` schaltet das doppelte Shader-TAA ab.

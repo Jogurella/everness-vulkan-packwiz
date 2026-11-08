@@ -24,7 +24,7 @@ assert 'config/punchy/profiles/.active_profile' in entries
 assert pack['versions']=={'fabric':'0.20.1','minecraft':'26.3'}
 assert pack['options']['everness']['settings-sha256']==hashlib.sha256((r/'settings-manifest.json').read_bytes()).hexdigest()
 mods=[tomllib.loads(f.read_text()) for f in (r/'mods').glob('*.pw.toml')]
-assert len(mods)==68
+assert len(mods)==70
 assert not any('distanthorizons' in m['filename'].lower() or 'vulkanmod' in m['filename'].lower() for m in mods)
 assert {'viris-0.3.6+mc26.3.jar','voxy-0.2.20-beta.jar','sodium-fabric-0.9.2+mc26.3.jar','vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar'}.issubset({m['filename'] for m in mods})
 assert 'config/voxy-config.json' in entries
@@ -39,7 +39,7 @@ for line in (r/'downloads/SHA256SUMS.txt').read_text().splitlines():
     expected,name=line.split('  ',1);assert hashlib.sha256((r/'downloads'/name).read_bytes()).hexdigest()==expected
 assert any('weather-glass' in p.name for p in (r/'mods').glob('*.pw.toml'))
 assert (r/'patches/pixelated-setup/dev/everness/shaders/ShaderSetup.java').is_file()
-assert pack['version']=='2026.11.08.3'
+assert pack['version']=='2026.11.08.4'
 assert len(list((r/'shaderpacks').glob('*.pw.toml')))==1
 assert sorted(p.name for p in (r/'shaderpacks').glob('*.zip.txt'))==['ComplementaryUnbound_r5.9.3.zip.txt','Pixelated.zip.txt']
 all_mods=[tomllib.loads(p.read_text()) for p in (r/'mods').glob('*.pw.toml')]
@@ -51,4 +51,9 @@ with zipfile.ZipFile(r/'downloads/Everness-vulkan-Prism-Starter.zip') as starter
     assert not any(n.startswith('minecraft/mods/') for n in starter.namelist())
     assert not any(n.startswith('minecraft/shaderpacks/') and n.endswith('.zip') for n in starter.namelist())
     for row in manifest['files']:assert hashlib.sha256(starter.read('minecraft/'+row['path'])).hexdigest()==row['sha256']
+assert {'enhancedblockentities-0.13.3+26.3-fabric.jar','matlib-1.0.0+26.3-fabric.jar'}.issubset({m['filename']for m in mods})
+assert not any('vulkbatch' in m['filename'].lower() for m in mods)
+assert entries['config/enhanced_bes.properties'].get('preserve') is True
+assert pack['options']['everness']['news-image']=='.github/assets/update-2026.11.08.4-farm-vulkan.png'
+assert (r/pack['options']['everness']['news-image']).is_file()
 print(json.dumps({'pack':pack['name'],'index_files':len(index['files']),'download_metadata':count,'local_additions':len(all_paths),'result':'PASS'}))

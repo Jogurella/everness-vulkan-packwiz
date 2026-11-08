@@ -1,6 +1,6 @@
-# Downloadliste 2026.11.08.3
+# Downloadliste 2026.11.08.4
 
-98 gepinnte Archive plus ein lokal gepatchtes Pixelated-Shaderpack.
+100 gepinnte Archive plus lokal gepatchtes Pixelated-Shaderpack.
 
 | Name | Installierte Datei | Quelle |
 |---|---|---|
@@ -32,6 +32,7 @@
 | Deepslate-Tuff-Hellrot-26.3 | `resourcepacks/Deepslate-Tuff-Hellrot-26.3.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-deepslate-tuff-hellrot-26-3-bcb7a9472d.zip) |
 | Enchant Icons | `resourcepacks/enchant-icons-1.21.11-v1.3.zip` | [Download](https://cdn.modrinth.com/data/6vhHOIKw/versions/vInzMXvx/enchant-icons-1.21.11-v1.3.zip) |
 | Enchantment Outlines | `resourcepacks/Enchantment Outlines.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-enchantment-outlines-6e37ff241a.zip) |
+| Enhanced Block Entities Reloaded | `mods/enhancedblockentities-0.13.3+26.3-fabric.jar` | [Download](https://cdn.modrinth.com/data/vpenrdOI/versions/tj4Apu60/enhancedblockentities-0.13.3%2B26.3-fabric.jar) |
 | Entity Culling | `mods/entityculling-fabric-1.11.3-mc26.3.jar` | [Download](https://cdn.modrinth.com/data/NNAgCjsB/versions/X1g3VhTx/entityculling-fabric-1.11.3-mc26.3.jar) |
 | EvergreenHUD | `mods/evergreenhud-3.9.16+26.3.jar` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06/evergreenhud-3.9.16%2B26.3.jar) |
 | Everness Shader Setup | `mods/everness-shader-setup-1.0.0.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/everness-shader-setup-1.0.0.jar) |
@@ -68,6 +69,7 @@
 | Lithium | `mods/lithium-fabric-0.26.3+mc26.3.jar` | [Download](https://cdn.modrinth.com/data/gvQqBUqZ/versions/fWv5bnZk/lithium-fabric-0.26.3%2Bmc26.3.jar) |
 | Mace but 3D | `resourcepacks/macebut3d-1.0.1.zip` | [Download](https://cdn.modrinth.com/data/r9aFsDLk/versions/awf1UkmW/macebut3d-1.0.1.zip) |
 | MaLiLib | `mods/malilib-fabric-26.3-0.30.2.jar` | [Download](https://cdn.modrinth.com/data/GcWjdA9I/versions/JX9bESec/malilib-fabric-26.3-0.30.2.jar) |
+| MatLib | `mods/matlib-1.0.0+26.3-fabric.jar` | [Download](https://cdn.modrinth.com/data/gnefBeV1/versions/VIhnl3tD/matlib-1.0.0%2B26.3-fabric.jar) |
 | Mod Menu | `mods/modmenu-21.0.0.jar` | [Download](https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.jar) |
 | More Culling | `mods/moreculling-fabric-26.3-1.9.0.jar` | [Download](https://cdn.modrinth.com/data/51shyZVL/versions/t7vAlfgO/moreculling-fabric-26.3-1.9.0.jar) |
 | Motschen's Better Leaves | `resourcepacks/Better-Leaves-9.6.zip` | [Download](https://cdn.modrinth.com/data/uvpymuxq/versions/w4ReEpuG/Better-Leaves-9.6.zip) |
@@ -103,4 +105,4 @@
 | §f§lActually §6§l3D §fBlocks & Items!§7 | `resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-actually-3d-blocks-items-d0103240df.zip) |
 | §lColourful Containers§8 | `resourcepacks/§lColourful Containers§8.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-colourful-containers-8ce887bdbf.zip) |
 
-Pixelated: lokale Patchinstallation aus dem offiziellen Unbound-Original; [Details](patches/pixelated-setup).
+Pixelated: [lokale Patchinstallation](patches/pixelated-setup).
