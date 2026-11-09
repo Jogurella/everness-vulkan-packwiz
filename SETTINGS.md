@@ -1,4 +1,4 @@
-# Einstellungsstand 2026.11.09.1
+# Einstellungsstand 2026.11.09.2
 
 Die gemeinsame Vorlage stammt aus dem veröffentlichten Vulkan-Pack. OpenGL setzt den OpenGL-Backendwert und die entsprechenden Iris-Shader-Tasten. HUD-Felder, Jade-Skalierung, Minimap, FOV, Vollbild, Ressourcenpack-Reihenfolge, Punchy und QoL-Mod-Einstellungen entsprechen der Vorlage. Zusätzliche OpenGL-Shader bleiben zur Auswahl erhalten.
 
@@ -25,3 +25,9 @@ Neu ist ausschließlich `config/enhanced_bes.properties`: Kisten/Schilder an, an
 Einzige Änderung an der bisherigen Vorlage: `config/enhanced_bes.properties`, `render_enhanced_chests=false`. EBE-Schilder bleiben an; Fresh Animations Objects, Skins, Animationen, Reihenfolge der 29 Packs, beide Shader-Sidecars, SIRIS, Sichtweite und sämtliche QoL-/HUD-/Hotkey-Dateien bleiben bytegleich. 131 von 132 bisherigen Einstellungsdateien sind unverändert.
 
 Packwiz markiert Einstellungsdateien weiter als `preserve`. Der Everness Launcher übernimmt neue Vorlagen mit seiner normalen Vorlagenfunktion; ist „Eigene Einstellungen behalten“ aktiviert, respektiert er die vorhandenen Werte. Deshalb gegebenenfalls den EBE-Kistenschalter in Mod Menu manuell ausschalten. Es gibt keine versteckte erzwungene Config-Migration. Die neue VIRIS-JAR wird unabhängig von persönlichen Einstellungen aktualisiert.
+
+## 2026.11.09.2: Vorlage unverändert, gezielte Kistenmigration beim Spielstart
+
+Alle 132 Dateien der Vorlage sind SHA-256-identisch mit 2026.11.09.1. Darunter weiterhin `render_enhanced_chests=false`; keine Änderung an Grafik, Shadern, Auflösung, Sichtweite, SIRIS, FOV, Hotkeys, HUD oder QoL. Packwiz behält `preserve=true` bei.
+
+Neu gegenüber dem historischen Hinweis oben: Die angepasste VIRIS-JAR korrigiert eine noch vorhandene persönliche Alt-Einstellung `render_enhanced_chests=true` einmalig, **vor** EBE seine Ressourcen baut, wenn `FA+Objects` in der aktiven Packliste steht. Sie sichert die unveränderte alte Datei unter `.everness/compat-backups/`, ändert nur diesen einen Wert und legt danach `.everness/compat-migrations/ebe-original-chests-v1.done` an. Bereits ausgeschaltete Kisten bleiben aus. Spätere eigene Änderungen werden nach erfolgreicher Migration respektiert. Mehrdeutige/unbekannte oder fehlende Dateien werden nicht überschrieben. Fehler blockieren den Spielstart nicht.

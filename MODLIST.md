@@ -1,6 +1,6 @@
-# Downloadliste 2026.11.09.1
+# Downloadliste 2026.11.09.2
 
-100 gepinnte Archive plus lokal erzeugtes Pixelated. VIRIS enthält den offen dokumentierten Everness-Lifecycle-Patch.
+100 gepinnte Archive plus lokal erzeugtes Pixelated. Angepasste VIRIS mit offen dokumentierten Everness-Zusätzen.
 
 | Name | Installierte Datei | Quelle |
 |---|---|---|
@@ -92,7 +92,7 @@
 | Texture Builder | `mods/texture-builder - 26.3 - 1.1.0.jar` | [Download](https://cdn.modrinth.com/data/eApKqn79/versions/s4y6rZYU/texture-builder%20-%2026.3%20-%201.1.0.jar) |
 | Tweakeroo | `mods/tweakeroo-fabric-26.3-0.30.1.jar` | [Download](https://cdn.modrinth.com/data/t5wuYk45/versions/fWxKATn6/tweakeroo-fabric-26.3-0.30.1.jar) |
 | VanillaTweaks_r144903_MC1.21.x | `resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-vanillatweaks-r144903-mc1-21-x-ea51c5b70f.zip) |
-| VIRIS – Everness Lichtkorrektur | `mods/viris-0.3.6+mc26.3-everness-lifecycle.1.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/viris-0.3.6%2Bmc26.3-everness-lifecycle.1.jar) |
+| VIRIS – Everness Licht-, Kisten- und Ausrüstungskorrektur | `mods/viris-0.3.6+mc26.3-everness-lifecycle.2.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/viris-0.3.6%2Bmc26.3-everness-lifecycle.2.jar) |
 | Visuality | `mods/visuality-0.7.15+26.3.jar` | [Download](https://cdn.modrinth.com/data/rI0hvYcd/versions/BNe9kpJ7/visuality-0.7.15%2B26.3.jar) |
 | Vitrail | `mods/vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/vitrail-0.13.0-beta%2Bmc26.3-everness-depthfix.1.jar) |
 | Voxy | `mods/voxy-0.2.20-beta.jar` | [Download](https://cdn.modrinth.com/data/fxxUqruK/versions/iIrM8ZKQ/voxy-0.2.20-beta.jar) |

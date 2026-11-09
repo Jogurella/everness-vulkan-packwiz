@@ -1,3 +1,14 @@
+## [2026.11.09.2] - 2026-11-09
+### Behoben
+- **Kistendeckel doppelt nach Updates mit erhaltenen Einstellungen:** Bei aktivem Fresh-Animations-Objects-Pack wird die alte EBE-Kistenoption vor der Ressourcenerzeugung einmalig auf `false` korrigiert. Die bisherige persönliche Datei wird gesichert. Original-Kistenmodelle und Animationen bleiben zuständig; Schilderoptimierung bleibt an.
+- **Fehlender Schatten verzauberter Elytra:** Der gezielte VIRIS-Zusatz lässt verzauberte Ausrüstung im Vitrail-Schattenpass mit ihrer echten Grundtextur zeichnen. Der normale sichtbare Verzauberungseffekt und die Gegenstände bleiben unverändert. Der Unterschied ist offline mit unverzauberten/verzauberten Flügeln reproduziert und verglichen.
+### Geändert
+- **VIRIS 0.3.6 mit Everness-Lifecycle-Fix 2**, offen dokumentiert samt Quellcode, MIT-Lizenz und Bauanleitung. Der vorhandene Voxy-Lichtfix aus 2026.11.09.1 bleibt bytegleich erhalten; Voxy bleibt separat.
+- Passendes neues Updatebild sowie erneuerte Starter-/Einstellungs-ZIPs. Alle **132 Einstellungsvorlagen**, die **29 Original-Ressourcenpacks**, beide Shaderarchive, Hotkeys und HUD bleiben gegenüber 2026.11.09.1 unverändert. Nur Vulkan wird aktualisiert.
+### Hinweise für Spieler
+- Im Everness Launcher **Vulkan aktualisieren und Minecraft vollständig neu starten**. Das gilt auch bei „Eigene Einstellungen behalten“: Nur der alte EBE-Kistenschalter wird einmalig mit Sicherung korrigiert. Spätere ausdrücklich selbst vorgenommene Änderungen werden nicht bei jedem Start zurückgesetzt.
+- [Offline-Spieltests, genaue Abgrenzung und offene Punkte](docs/CHEST-ELYTRA-ABNAHME.md). Ein synthetischer Cape-Texturpfad wurde mitgeprüft; echte Server-/Launcher-Capes sind damit nicht vollständig abgenommen. Rüstungsflackern, komplette LOD-Bergschatten und der RTX-5070-Laptopabsturz werden mit diesem Update nicht als behoben ausgegeben.
+
 ## [2026.11.09.1] - 2026-11-09
 ### Behoben
 - **Veraltete Voxy-Lichtwerte nach Shader-Neuladen oder erneutem Weltbeitritt:** Die angepasste VIRIS-Fassung erkennt jetzt auch einen ausgetauschten Vitrail-Lichtzustand bei unverändertem Shadernamen und baut die LOD-Pipeline neu auf. Der alte Stand ließ sich offline mit Tageslicht in der Ferne trotz Nacht reproduzieren.

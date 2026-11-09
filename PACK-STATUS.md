@@ -1,7 +1,7 @@
-# Prüfstand 2026.11.09.1
+# Prüfstand 2026.11.09.2
 
-Gezielter VIRIS-Lifecycle-Fix gegen veraltete Vitrail-Lichtzustände nach Shader-Neuladen/Weltwechsel, zusätzlich EBE-Kisten in der Vorlage aus; Schilder weiter an. **70 Mods, 29 unveränderte Original-Ressourcenpacks, Pixelated und Unbound.** 131 übrige Einstellungsdateien unverändert, kein OpenGL-Update.
+Kisten-Doppelmodell und fehlender Schatten verzauberter Elytra im alten Offline-Stand reproduziert. Korrektur: gesicherte einmalige EBE-Altconfig-Migration vor dem Ressourcenbau plus echter Grundtexturpfad verzauberter Ausrüstung in der Vitrail-Schatten-Submission. Lifecycle-Lichtfix 1 bleibt enthalten. **70 Mods, 29 Original-Packs, Pixelated und Unbound; alle 132 Vorlagendateien unverändert.**
 
-Getrennte Offline-Abläufe auf RTX 4090 mit nativem Vulkan und beiden Shadern regulär beendet, einschließlich Shader aus/an, Neuladen und erneutem Weltbeitritt. Dauerhaft veralteter Lichtzustand im alten Stand nachgewiesen und in den veröffentlichten Kandidaten nicht mehr festgestellt; zusätzlicher Lauf mit SIRIS/2× FG an. Keine FPS-Garantie und keine vollständige optische Abnahme.
+Reale Inventaröffnungen von Normal-, Redstone-, Doppel- und Enderkisten mit beiden Shadern geprüft. Kontrollierte Elytra-Flugpose mit/ohne Verzauberung und Standard-/synthetischem Cape-Pfad aufgenommen und verglichen. 17 Migrationstests und portabler JAR-Neubau bestanden. Keine Server betreten; keine allgemeine optische Abnahme und kein FPS-Benchmark.
 
-**Offen:** zeitweise gestreckte Modellflächen, leichtes Rüstungsflackern, Elytra-Schatten, vollständige LOD-Bergschatten (VIRIS-Limit), gemeldeter 5070-Laptopabsturz, Langzeit-Multiplayer. Keine experimentelle EMF-/ETF-Schattenbrücke veröffentlicht. Kisten-Modellreihe mit Blockevents geprüft; nicht jede echte Inventar-/Serverfolge. [Vollständiger Prüfbericht](docs/VISUAL-FIX-ABNAHME.md).
+Offen: echte Server-/Launcher-Cape-Fälle, FPV-Rüstungsflackern, vollständige LOD-Bergschatten, RTX-5070-Laptopabsturz und Langzeit-Multiplayer. [Aktueller Prüfbericht](docs/CHEST-ELYTRA-ABNAHME.md); ältere Berichte gelten für ihren jeweiligen damaligen Stand.

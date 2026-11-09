@@ -49,3 +49,7 @@ SIRIS 1.1.6 von laurensanp wird unverändert von der offiziellen GitHub-Veröffe
 ## 2026.11.09.1: angepasste VIRIS-Fassung
 
 [VIRIS](https://github.com/laurensanp/viris), laurensanp, MIT; Grundlage 0.3.6 / Commit `2d3061bcb73751a6c70cef50eb3b592b6a4659f3`. Eigene Arbeit ist ausschließlich die Lebenszykluskorrektur in `VoxyFrame`. Die JAR heißt `viris-0.3.6+mc26.3-everness-lifecycle.1.jar` und ist ausdrücklich kein offizielles Upstream-Release. Vollständige geänderte Quelldatei, Patch, MIT-Lizenz, Buildskript und Herkunft unter [patches/viris-lifecycle](patches/viris-lifecycle). Die Original-JAR wird mit ihren Lizenzdateien weitergegeben; Voxy bleibt getrennt. Keine EMF-/ETF-Schattenbrücke in der Veröffentlichung.
+
+## 2026.11.09.2: gezielte VIRIS-Zusätze
+
+Auf der oben dokumentierten MIT-Basis ergänzen Everness contributors fünf eigene Klassen für die einmalige EBE-Konfigurationskorrektur und den Grundtexturpfad verzauberter Ausrüstung im Vitrail-Schattenpass. Auch diese Ergänzungen stehen unter MIT. Quelle, vollständige fünf Quelldateien, Lizenz, portable Bauanleitung und SHA-Provenienz unter [patches/viris-equipment](patches/viris-equipment). Bestehende Klassen aus Lifecycle-Fix 1 bleiben unverändert; Voxy, Vitrail, EMF und ETF bleiben eigenständige Abhängigkeiten. Keine Lizenzbehauptung für fremde Shader- oder NVIDIA-Dateien.

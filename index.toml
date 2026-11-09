@@ -927,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/viris.pw.toml"
-hash = "03f85a61d60f28af3aaea38298f247a08915b0b90dc4ca294c21fc4125769ae4"
+hash = "455b5794bce6ac9eaaba254e6b45cf191a939365dbd9346cb68239831b401dee"
 metafile = true
 
 [[files]]

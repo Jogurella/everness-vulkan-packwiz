@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.09.1",
+  "version": "2026.11.09.2",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
@@ -31,7 +31,7 @@
   "rendererStack": [
     "Minecraft native Vulkan",
     "Vitrail 0.13.0-beta + existing Everness depthfix.1",
-    "VIRIS 0.3.6+mc26.3.everness-lifecycle.1",
+    "VIRIS 0.3.6+mc26.3.everness-lifecycle.2",
     "Voxy 0.2.20-beta"
   ],
   "distantHorizons": false,
@@ -46,13 +46,21 @@
     "author": "laurensanp",
     "upstreamVersion": "0.3.6",
     "sourceCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
-    "distribution": "Everness lifecycle patch; not an official upstream release",
+    "distribution": "Everness lifecycle.2: inherited light lifecycle + targeted chest migration and equipment shadow submission",
     "changedExistingEntries": [
-      "com/viris/VoxyFrame.class",
-      "fabric.mod.json"
+      "fabric.mod.json",
+      "viris.mixins.json"
     ],
     "VoxyEmbedded": false,
-    "source": "patches/viris-lifecycle"
+    "source": "patches/viris-equipment",
+    "addedEntries": [
+      "EVERNESS-EQUIPMENT-NOTICE.txt",
+      "com/viris/compat/everness/ChestCompatPreLaunch.class",
+      "com/viris/compat/everness/ChestConfigMigration.class",
+      "com/viris/compat/everness/EquipmentShadowScope.class",
+      "com/viris/mixin/compat/everness/EnchantedEquipmentShadowMixin.class",
+      "com/viris/mixin/compat/everness/VitrailEquipmentShadowScopeMixin.class"
+    ]
   },
   "qolRestoration": {
     "addon": "atlasinventory 0.1.6+mc26.3",
@@ -335,5 +343,93 @@
       }
     },
     "fullVisualAcceptance": false
+  },
+  "chestElytra20261109": {
+    "version": "2026.11.09.2",
+    "jar": "viris-0.3.6+mc26.3-everness-lifecycle.2.jar",
+    "report": "docs/CHEST-ELYTRA-ABNAHME.md",
+    "unchangedSettingsFiles": 132,
+    "originalResourcePacksUnchanged": 29,
+    "originalShaderArchivesUnchanged": 2,
+    "serverJoined": false,
+    "fullVisualAcceptance": false,
+    "runtime": {
+      "baseline-wings": {
+        "variant": "baseline",
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "menus": [],
+        "flights": [
+          "index=0 active=true item=1 minecraft:elytra",
+          "index=1 active=true item=1 minecraft:elytra",
+          "index=2 active=true item=1 minecraft:elytra",
+          "index=3 active=true item=1 minecraft:elytra"
+        ],
+        "errors": [],
+        "shader": "unbound"
+      },
+      "baseline-chests": {
+        "variant": "baseline",
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "menus": [
+          "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=left,waterlogged=false]",
+          "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+          "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+          "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+        ],
+        "flights": [],
+        "errors": [],
+        "shader": "unbound"
+      },
+      "fixed-unbound-verified": {
+        "variant": "fixed",
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "menus": [
+          "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+          "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+          "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+          "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+        ],
+        "flights": [
+          "index=0 active=true item=1 minecraft:elytra",
+          "index=1 active=true item=1 minecraft:elytra",
+          "index=2 active=true item=1 minecraft:elytra",
+          "index=3 active=true item=1 minecraft:elytra"
+        ],
+        "errors": [],
+        "shader": "unbound"
+      },
+      "fixed-pixelated": {
+        "variant": "fixed",
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "menus": [
+          "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+          "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+          "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+          "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+        ],
+        "flights": [
+          "index=0 active=true item=1 minecraft:elytra",
+          "index=1 active=true item=1 minecraft:elytra",
+          "index=2 active=true item=1 minecraft:elytra",
+          "index=3 active=true item=1 minecraft:elytra"
+        ],
+        "errors": [],
+        "shader": "pixelated"
+      }
+    },
+    "migrationChecks": 17,
+    "portableBuildEntriesIdentical": true
   }
 }

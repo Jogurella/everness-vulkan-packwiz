@@ -1,0 +1,14 @@
+Built-in image_gen; 2026-11-09. One generation, no edits. Cover only, not test evidence.
+
+Use case: ads-marketing / stylized Minecraft voxel update cover.
+Create a polished 16:9 landscape news illustration for the Everness Vulkan modpack. High quality Minecraft-style voxel world, soft complementary-inspired daylight, teal/emerald accents, warm wooden chests, sharp readable white block typography, dark translucent information panels. This is an illustrative cover, not a claimed real screenshot or benchmark.
+Large top title exactly: "EVERNESS VULKAN"
+Version below exactly: "2026.11.09.2"
+Main scene: an ordinary Minecraft wooden chest actually open with one raised lid and a visibly hollow interior. Nearby one closed double chest, correctly assembled. A Minecraft player gliding over pale stone with visibly open Elytra wings; on the stone below a coherent winged player shadow matching the flight direction. No duplicated lids, no transparent ground, no detached model pieces.
+Three small dark callout panels, each legible on thumbnails:
+"KISTENMODELLE" with "Ein Modell statt doppeltem Deckel"
+"ELYTRA-SCHATTEN" with "Verzauberte Flügel im Schattenpass"
+"EINSTELLUNGEN" with "Hotkeys und Grafikwerte bleiben"
+Bottom right small caption exactly "Beispielbild"
+Keep typography clean, large enough to read. Balanced gaming update layout, uncluttered scene, no extra logos, no HUD, no speed comparison or FPS numbers, no promises about all bugs, no KI-Illustration label. Output 2048x1152 PNG if available.
+

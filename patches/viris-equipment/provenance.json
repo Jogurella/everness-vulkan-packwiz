@@ -1,0 +1,23 @@
+{
+  "version": "0.3.6+mc26.3.everness-lifecycle.2",
+  "upstreamVersion": "0.3.6",
+  "upstreamCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
+  "jar": "viris-0.3.6+mc26.3-everness-lifecycle.2.jar",
+  "sha256": "aaf84361dc3baabcc3ab7229ac2f2f6195d6b0cd69af23e782f4eae8a94eab04",
+  "sha512": "831ff9e3738032c6e9f8ffd127986f0aae82ecb26191328867e3168d914079659a48dbe8577c5a9013f9d84c9c909b4bc5ed4337594b63ed3074a10e897b5173",
+  "baseSha256": "5b0cbc7974983ce52f13ec47ce2e84f4736c9d5d66090307424b78395936638a",
+  "changedExistingEntries": [
+    "fabric.mod.json",
+    "viris.mixins.json"
+  ],
+  "addedEntries": [
+    "EVERNESS-EQUIPMENT-NOTICE.txt",
+    "com/viris/compat/everness/ChestCompatPreLaunch.class",
+    "com/viris/compat/everness/ChestConfigMigration.class",
+    "com/viris/compat/everness/EquipmentShadowScope.class",
+    "com/viris/mixin/compat/everness/EnchantedEquipmentShadowMixin.class",
+    "com/viris/mixin/compat/everness/VitrailEquipmentShadowScopeMixin.class"
+  ],
+  "inheritedLifecycleFixUnchanged": true,
+  "VoxyEmbedded": false
+}

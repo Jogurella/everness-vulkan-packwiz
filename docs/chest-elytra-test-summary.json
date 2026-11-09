@@ -1,0 +1,355 @@
+{
+  "version": "2026.11.09.2",
+  "environment": {
+    "minecraft": "26.3",
+    "fabric": "0.20.1",
+    "javaMajor": 25,
+    "gpu": "RTX 4090",
+    "renderer": "Minecraft native Vulkan",
+    "serverJoined": false,
+    "mods": 70,
+    "offlineObserverPublished": false,
+    "frameGeneration": false,
+    "SirisSR": "User test-copy setting: Performance, 2561x1440 -> 3842x2160; no FPS benchmark"
+  },
+  "results": {
+    "baseline-wings": {
+      "variant": "baseline",
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "menus": [],
+      "flights": [
+        "index=0 active=true item=1 minecraft:elytra",
+        "index=1 active=true item=1 minecraft:elytra",
+        "index=2 active=true item=1 minecraft:elytra",
+        "index=3 active=true item=1 minecraft:elytra"
+      ],
+      "errors": [],
+      "shader": "unbound"
+    },
+    "baseline-chests": {
+      "variant": "baseline",
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "menus": [
+        "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=left,waterlogged=false]",
+        "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+        "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+        "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+      ],
+      "flights": [],
+      "errors": [],
+      "shader": "unbound"
+    },
+    "fixed-unbound-verified": {
+      "variant": "fixed",
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "menus": [
+        "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+        "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+        "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+        "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+      ],
+      "flights": [
+        "index=0 active=true item=1 minecraft:elytra",
+        "index=1 active=true item=1 minecraft:elytra",
+        "index=2 active=true item=1 minecraft:elytra",
+        "index=3 active=true item=1 minecraft:elytra"
+      ],
+      "errors": [],
+      "shader": "unbound"
+    },
+    "fixed-pixelated": {
+      "variant": "fixed",
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "menus": [
+        "type=0 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+        "type=1 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:trapped_chest}[facing=north,type=single,waterlogged=false] neighbor=Block{minecraft:air}",
+        "type=2 screen=ContainerScreen container=ChestMenu slots=90 block=Block{minecraft:chest}[facing=north,type=left,waterlogged=false] neighbor=Block{minecraft:chest}[facing=north,type=right,waterlogged=false]",
+        "type=3 screen=ContainerScreen container=ChestMenu slots=63 block=Block{minecraft:ender_chest}[facing=north,waterlogged=false] neighbor=Block{minecraft:air}"
+      ],
+      "flights": [
+        "index=0 active=true item=1 minecraft:elytra",
+        "index=1 active=true item=1 minecraft:elytra",
+        "index=2 active=true item=1 minecraft:elytra",
+        "index=3 active=true item=1 minecraft:elytra"
+      ],
+      "errors": [],
+      "shader": "pixelated"
+    }
+  },
+  "visualReview": {
+    "reviewed": true,
+    "pixelatedReviewed": true,
+    "unbound": {
+      "oldChestShowsClosedModelUnderRaisedLid": true,
+      "fixedChestInteriorOpen": true,
+      "fixedDoubleChestOpenAndReclosed": true,
+      "oldPlainElytraShadowVisible": true,
+      "oldEnchantedElytraWingShadowMissing": true,
+      "fixedEnchantedElytraWingShadowVisible": true,
+      "fixedSyntheticCapeEnchantedWingShadowVisible": true,
+      "normalFlightModelCapturedAndViewed": true
+    },
+    "pixelated": {
+      "normalTrappedDoubleEnderOpenCapturesViewed": true,
+      "doubleChestReclosedCaptureViewed": true,
+      "enchantedWingShadowVisible": true,
+      "syntheticCapeEnchantedWingShadowVisible": true
+    },
+    "notes": [
+      "Controlled isFallFlying pose; four camera directions ensure the shadow lies inside the view.",
+      "Images manually inspected, not inferred solely from successful startup or pipeline counters.",
+      "No authenticated server cape or multiplayer test. Not a complete temporal flicker or all-shader visual acceptance.",
+      "Pixelated water reflections and unrelated terrain appearance are outside this targeted acceptance."
+    ]
+  },
+  "migrationChecks": 17,
+  "migrationColdStartObserved": true,
+  "portableBuildEntriesIdentical": true,
+  "jar": {
+    "version": "0.3.6+mc26.3.everness-lifecycle.2",
+    "upstreamVersion": "0.3.6",
+    "upstreamCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
+    "jar": "viris-0.3.6+mc26.3-everness-lifecycle.2.jar",
+    "sha256": "aaf84361dc3baabcc3ab7229ac2f2f6195d6b0cd69af23e782f4eae8a94eab04",
+    "sha512": "831ff9e3738032c6e9f8ffd127986f0aae82ecb26191328867e3168d914079659a48dbe8577c5a9013f9d84c9c909b4bc5ed4337594b63ed3074a10e897b5173",
+    "baseSha256": "5b0cbc7974983ce52f13ec47ce2e84f4736c9d5d66090307424b78395936638a",
+    "changedExistingEntries": [
+      "fabric.mod.json",
+      "viris.mixins.json"
+    ],
+    "addedEntries": [
+      "EVERNESS-EQUIPMENT-NOTICE.txt",
+      "com/viris/compat/everness/ChestCompatPreLaunch.class",
+      "com/viris/compat/everness/ChestConfigMigration.class",
+      "com/viris/compat/everness/EquipmentShadowScope.class",
+      "com/viris/mixin/compat/everness/EnchantedEquipmentShadowMixin.class",
+      "com/viris/mixin/compat/everness/VitrailEquipmentShadowScopeMixin.class"
+    ],
+    "inheritedLifecycleFixUnchanged": true,
+    "VoxyEmbedded": false
+  },
+  "unchangedSettingsFiles": 132,
+  "unchangedArchives": [
+    {
+      "path": "resourcepacks/3D Default 1.21.2+ v1.16.0.zip",
+      "sha256": "2113aa694102da21dcadd7d9bf9c7218cec44b0a3d8abce961d10cba2dad34e5"
+    },
+    {
+      "path": "resourcepacks/3D Harness x Fresh Animations.zip",
+      "sha256": "5b872f867a5e4113f9e4830af60b13bb8004993b8223d6a10e3bbc81f50d5e35"
+    },
+    {
+      "path": "resourcepacks/Animated 3D Wind Charge [1.1].zip",
+      "sha256": "7277c1fbef627a4305ebf4918658402b4405ff189d8e50956ce2c319e2a970e9"
+    },
+    {
+      "path": "resourcepacks/Assorted Frogs x FA - V.1.0.1.zip",
+      "sha256": "6cb2c1bd98db88be565cc252f08a890f218572b8d48098498c7fded2aa651cc8"
+    },
+    {
+      "path": "resourcepacks/Better-Leaves-9.6.zip",
+      "sha256": "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90"
+    },
+    {
+      "path": "resourcepacks/Darkmode - V.1.2 - jannik6879.zip",
+      "sha256": "c9e357234877f55baac7b3764827183f44d5d8a37181022cb010beafde3ed085"
+    },
+    {
+      "path": "resourcepacks/Deepslate-Tuff-Hellrot-26.3.zip",
+      "sha256": "fae0850f132ac1967e13d740456328520bf2ec374943c3575a85e79455e099b6"
+    },
+    {
+      "path": "resourcepacks/enchant-icons-1.21.11-v1.3.zip",
+      "sha256": "18de471d35d52ab6166543a38872dffede0088b88ed8703794951a74fa71ae99"
+    },
+    {
+      "path": "resourcepacks/Enchantment Outlines.zip",
+      "sha256": "ebee6b9c65c179f6117f4743d1fc5259e3986cc7c97b0e7fc318dfd38581bf71"
+    },
+    {
+      "path": "resourcepacks/FA+All_Extensions-v1.10.1.zip",
+      "sha256": "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
+    },
+    {
+      "path": "resourcepacks/FA+Classic_Horses-v1.6.2.zip",
+      "sha256": "21a0aa75c37361bdc5ca3037331a2648727afe877e7603be35e7542de8e06d6c"
+    },
+    {
+      "path": "resourcepacks/FA+Creepers-v2.2.zip",
+      "sha256": "077f535185b2f5ad6f128fa6c7ab61e284f8d2b3ac3967e0040139d64c3b81ee"
+    },
+    {
+      "path": "resourcepacks/FA+Details-v2.4.zip",
+      "sha256": "b2130beea5d343f779866a4bba5741e9b9aff8ed0b649193a7240b5fc3ef3111"
+    },
+    {
+      "path": "resourcepacks/FA+Emissive-v1.7.zip",
+      "sha256": "fb1c800b4e2ca71906b5a61f16ef7cae4cb81298148c78a3a9195e992a8cb5dd"
+    },
+    {
+      "path": "resourcepacks/FA+Objects-v2.1.2.zip",
+      "sha256": "8e4cfc5c2a15c6066f8bd17a83bea0714d3ef3cd214c1300bea83a5e8cc1f9d2"
+    },
+    {
+      "path": "resourcepacks/FA+Player-v1.1.zip",
+      "sha256": "551052cd62a3c2453dd2f3c872b3837dc9e0c09f1dfa04628b8da3775288e2ba"
+    },
+    {
+      "path": "resourcepacks/FA+Quivers-v2.3.zip",
+      "sha256": "d80c0ca8a8c6cb60eb659d655cc5197adbe5453ae7a522dea9280dd6587a826f"
+    },
+    {
+      "path": "resourcepacks/FA+Spiders-v2.3.1.zip",
+      "sha256": "995e1e2442b7449d8d6abf2a44da977cca6e13d03b89fd83a0e2482f7803fdc4"
+    },
+    {
+      "path": "resourcepacks/Flowering Crops (26.3).zip",
+      "sha256": "9988cc0188fff2dd1cb6cdc912d5a72222e3e0ab1f3d754fc0b1a1bc8a5aaf8c"
+    },
+    {
+      "path": "resourcepacks/Fresh Food.zip",
+      "sha256": "12c34f51209794ff5ca4dd5a5aee0ad2ed79fce22b70bf34fdbe14f5271986ee"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.zip",
+      "sha256": "8df24af99d185e49612b16f8f7a5bfc637997728a8e9746d3349b1a44f901e05"
+    },
+    {
+      "path": "resourcepacks/Fyoncle's 3D Trims.zip",
+      "sha256": "bd0d69e65c85be57e5c87fcce28d2130a6dca9f93ff5ea155cd25e2b9975a56f"
+    },
+    {
+      "path": "resourcepacks/Glowing 3D Armor x FA.zip",
+      "sha256": "0af5487ec29a072095633efe5b7df0cf1691e589fe2488a7437925522825c5f1"
+    },
+    {
+      "path": "resourcepacks/Glowing 3D Armor.zip",
+      "sha256": "94fe12b929f4ec0d758a29ed9ea0871ce5727408b387dd89db8aa68089596d5c"
+    },
+    {
+      "path": "resourcepacks/macebut3d-1.0.1.zip",
+      "sha256": "a6235dee42b2fb2abf258b7a8909fe19ce4a4919063308427cd2fad0f8fd9008"
+    },
+    {
+      "path": "resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip",
+      "sha256": "1a997da88e94041dfef02e632dc3c16a1d23864f018fa049a88761b869ed2e5b"
+    },
+    {
+      "path": "resourcepacks/§aBetter Fresher 3D Books v1.5.1.zip",
+      "sha256": "ec909ada451494556dddebd76a3bb611d077d9bcd2af4db2c903ad9583fec81c"
+    },
+    {
+      "path": "resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip",
+      "sha256": "8a92864184aff85c3bf64721ad6cd43c28fd1db300cda40efd5826486e7df083"
+    },
+    {
+      "path": "resourcepacks/§lColourful Containers§8.zip",
+      "sha256": "cd9e9159665fb890124be6bbe052710f121bd61edb62588ab76212471aea750a"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+      "sha256": "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a"
+    },
+    {
+      "path": "shaderpacks/Pixelated.zip",
+      "sha256": "205a33e8b999c98d18fc7e9c00c97c22d1e3260575fbf007d8500a082cec0575"
+    }
+  ],
+  "evidenceCaptureHashes": [
+    {
+      "captureSet": "unbound-baseline",
+      "file": "menu-chest-0-open.png",
+      "sha256": "2b0de49ba1d67658bfb8e48d827281d0401db8bc28f465925d1b36e7a728a161"
+    },
+    {
+      "captureSet": "unbound-baseline",
+      "file": "wing-0-shadow-back.png",
+      "sha256": "a3b62198f4c19e72499271c4ecb40cfac9b65846d0dbe939cb4a0b88196d3dc6"
+    },
+    {
+      "captureSet": "unbound-baseline",
+      "file": "wing-1-shadow-back.png",
+      "sha256": "5017045b1dbdd021a2a3419c83beac09211c89301c55b235563abc94918cafaa"
+    },
+    {
+      "captureSet": "unbound-baseline",
+      "file": "wing-3-shadow-back.png",
+      "sha256": "9f4c5e72f759f6748e1094e9a457c413911a9f9515cdc71c5bdab97723f093c2"
+    },
+    {
+      "captureSet": "unbound-fixed",
+      "file": "menu-chest-0-open.png",
+      "sha256": "1b54329cb37cf5c22ba34139e4833e3fd1c5a9ae8994aeefe9f02cf7daf322dd"
+    },
+    {
+      "captureSet": "unbound-fixed",
+      "file": "menu-chest-2-open.png",
+      "sha256": "2144840c9ea42bbf081564c8c5286e2e40683356f10afae9930d21ab78bc28dc"
+    },
+    {
+      "captureSet": "unbound-fixed",
+      "file": "menu-chest-2-reclosed.png",
+      "sha256": "48e9dd0cda0d225773df3d45b41cbb24d626820d4267f70dcf9e4bd3b84a83c0"
+    },
+    {
+      "captureSet": "unbound-fixed",
+      "file": "wing-1-shadow-back.png",
+      "sha256": "7a457d8b35133f5cba7a41bdb57923158c14bca2f48e2895711190b73e2556f9"
+    },
+    {
+      "captureSet": "unbound-fixed",
+      "file": "wing-3-shadow-back.png",
+      "sha256": "9815850cd6e929c4341df7bf72aa683346eba66baf77206e52fb65a48de25440"
+    },
+    {
+      "captureSet": "pixelated-fixed",
+      "file": "menu-chest-0-open.png",
+      "sha256": "8f0903dd5ef2d46ef39a111bef4176a0b843edf2d6668c4cb5d332abf4b3fed6"
+    },
+    {
+      "captureSet": "pixelated-fixed",
+      "file": "menu-chest-2-open.png",
+      "sha256": "ac119335a685d7b39a84d3422c99e8b1432f3264826bb3b3060a013f71dc890f"
+    },
+    {
+      "captureSet": "pixelated-fixed",
+      "file": "wing-1-shadow-back.png",
+      "sha256": "a6ed9d4a097409a2e2afac8dd9b9b7d2641ee485f4f56f72d49a2d77736c5919"
+    },
+    {
+      "captureSet": "pixelated-fixed",
+      "file": "wing-3-shadow-back.png",
+      "sha256": "c72702fbce6985e15a0f7f12e0b77360d9c078e7689063fa37898d7960e1cce5"
+    }
+  ],
+  "screenshotsPublished": false,
+  "fullVisualAcceptance": false,
+  "fpsBenchmarkPerformed": false,
+  "image": {
+    "path": ".github/assets/update-2026.11.09.2-chests-elytra-vulkan.png",
+    "bytes": 2295866,
+    "dimensions": [
+      1672,
+      941
+    ],
+    "label": "Beispielbild"
+  },
+  "limitations": [
+    "Real authenticated server cape/skin and multiplayer packet sequences not tested",
+    "Controlled gliding pose, not a free-flight input/latency test",
+    "FPV armor flicker, full LOD mountain shadows and RTX 5070 laptop crash not fixed",
+    "No all-animation or all-weather long-run acceptance"
+  ]
+}

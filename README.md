@@ -1,6 +1,19 @@
-# Everness Vulkan – 2026.11.09.1
+# Everness Vulkan – 2026.11.09.2
 
-## Aktuelles Update: Lichtzustand und Original-Kisten
+## Aktuelles Update: Kisten und Elytra-Schatten
+
+**Die alte persönliche EBE-Kistenoption wird jetzt vor dem Laden der Modelle mit Sicherung korrigiert.** Dadurch greift die Kisten-Kompatibilitätsvorgabe auch bei erhaltenen Einstellungen. Zusätzlich zeichnet Vitrail die Grundtextur verzauberter Ausrüstung im Schattenpass: Der fehlende Flügelschatten ließ sich damit im Offline-Vergleich beheben.
+
+![Everness Vulkan 2026.11.09.2 – Beispielbild](.github/assets/update-2026.11.09.2-chests-elytra-vulkan.png)
+
+[Änderungen](CHANGELOG.md) · [Echte Kisteninventare und Flugschatten: Prüfbericht](docs/CHEST-ELYTRA-ABNAHME.md) · [Quellcode und Bauanleitung](patches/viris-equipment)
+
+**70 Mods, 29 Original-Ressourcenpacks, Pixelated und Unbound.** Alle 132 Einstellungsvorlagen bleiben bytegleich: Grafik, Shaderdetails, Sichtweite, SIRIS, Hotkeys, HUD und QoL werden nicht reduziert oder umgestellt. Minecraft nach dem Update vollständig neu starten. OpenGL bleibt unverändert.
+
+Die Kistenmigration prüft auf das aktive Objects-Pack, sichert die alte EBE-Datei unter `.everness/compat-backups/` und läuft pro Installation nur einmal. Die normale Darstellung der verzauberten Elytra behält ihren Glanz. Kein vollständiger Fix aller Server-Capes, Rüstungsflacker-Ursachen, LOD-Bergschatten oder Laptopabstürze; die Grenzen stehen im Prüfbericht.
+
+
+## Vorheriges Update 2026.11.09.1: Lichtzustand und Original-Kisten
 
 **VIRIS mit gezielter Lichtkorrektur:** Nach Shader-Neuladen und Weltwechsel liest Voxy den aktuellen Vitrail-Zustand. Die Kistenvorgabe schaltet EBE-Kistenmodelle aus, damit die vorhandenen Originalmodelle zuständig bleiben. Schilderoptimierung, Animationen und Ressourcenpacks bleiben erhalten.
 

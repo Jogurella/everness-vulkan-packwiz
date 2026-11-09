@@ -26,7 +26,7 @@ assert pack['options']['everness']['settings-sha256']==hashlib.sha256((r/'settin
 mods=[tomllib.loads(f.read_text()) for f in (r/'mods').glob('*.pw.toml')]
 assert len(mods)==70
 assert not any('distanthorizons' in m['filename'].lower() or 'vulkanmod' in m['filename'].lower() for m in mods)
-assert {'viris-0.3.6+mc26.3-everness-lifecycle.1.jar','voxy-0.2.20-beta.jar','sodium-fabric-0.9.2+mc26.3.jar','vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar'}.issubset({m['filename'] for m in mods})
+assert {'viris-0.3.6+mc26.3-everness-lifecycle.2.jar','voxy-0.2.20-beta.jar','sodium-fabric-0.9.2+mc26.3.jar','vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar'}.issubset({m['filename'] for m in mods})
 assert 'config/voxy-config.json' in entries
 assert 'config/DistantHorizons.toml' not in entries
 assert (r/'.github/assets/dh-voxy-beispielbild.png').is_file()
@@ -39,7 +39,7 @@ for line in (r/'downloads/SHA256SUMS.txt').read_text().splitlines():
     expected,name=line.split('  ',1);assert hashlib.sha256((r/'downloads'/name).read_bytes()).hexdigest()==expected
 assert any('weather-glass' in p.name for p in (r/'mods').glob('*.pw.toml'))
 assert (r/'patches/pixelated-setup/dev/everness/shaders/ShaderSetup.java').is_file()
-assert pack['version']=='2026.11.09.1'
+assert pack['version']=='2026.11.09.2'
 assert len(list((r/'shaderpacks').glob('*.pw.toml')))==1
 assert sorted(p.name for p in (r/'shaderpacks').glob('*.zip.txt'))==['ComplementaryUnbound_r5.9.3.zip.txt','Pixelated.zip.txt']
 all_mods=[tomllib.loads(p.read_text()) for p in (r/'mods').glob('*.pw.toml')]
@@ -54,9 +54,12 @@ with zipfile.ZipFile(r/'downloads/Everness-vulkan-Prism-Starter.zip') as starter
 assert {'enhancedblockentities-0.13.3+26.3-fabric.jar','matlib-1.0.0+26.3-fabric.jar'}.issubset({m['filename']for m in mods})
 assert not any('vulkbatch' in m['filename'].lower() for m in mods)
 assert entries['config/enhanced_bes.properties'].get('preserve') is True
-assert pack['options']['everness']['news-image']=='.github/assets/update-2026.11.09.1-visual-fixes-vulkan.png'
+assert pack['options']['everness']['news-image']=='.github/assets/update-2026.11.09.2-chests-elytra-vulkan.png'
 assert (r/pack['options']['everness']['news-image']).is_file()
 assert 'render_enhanced_chests=false' in (r/'config/enhanced_bes.properties').read_text()
 assert (r/'patches/viris-lifecycle/VoxyFrame.java').is_file()
 assert not any('visualcompat' in m['filename'] for m in mods)
+assert (r/'patches/viris-equipment/src/com/viris/compat/everness/ChestConfigMigration.java').is_file()
+assert (r/'patches/viris-equipment/src/com/viris/mixin/compat/everness/EnchantedEquipmentShadowMixin.java').is_file()
+assert json.loads((r/'docs/chest-elytra-test-summary.json').read_text())['portableBuildEntriesIdentical'] is True
 print(json.dumps({'pack':pack['name'],'index_files':len(index['files']),'download_metadata':count,'local_additions':len(all_paths),'result':'PASS'}))

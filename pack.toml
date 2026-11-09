@@ -1,12 +1,12 @@
 name = "Everness Visuals - Vulkan"
 author = "Everness"
-version = "2026.11.09.1"
+version = "2026.11.09.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "56ce2862199232f54ed6075783db8c62238e7fff8e1d11c73c578835dfdac5cf"
+hash = "49414e15b9dd5c59085c7d78e59dd490d774c641e404598b2b465a46629aea3d"
 
 [versions]
 fabric = "0.20.1"
@@ -14,6 +14,6 @@ minecraft = "26.3"
 
 [options]
 [options.everness]
-news-image = ".github/assets/update-2026.11.09.1-visual-fixes-vulkan.png"
-settings-sha256 = "4c56d98edeb84eb53ab6c3edf68877259caa0cd1b8c2afe36e6d76c04decff9b"
+news-image = ".github/assets/update-2026.11.09.2-chests-elytra-vulkan.png"
+settings-sha256 = "4e86eac3099cf049d6410140ea1c3b4aea91e8b69cee7f478118beefbfa88757"
 settings-template = "settings-manifest.json"
