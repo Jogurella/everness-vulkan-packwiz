@@ -44,7 +44,7 @@
     "toggledNightVision": 100,
     "updateToggle": false,
     "nightVisionStep": 2,
-    "brightenFogColor": true,
+    "brightenFogColor": false,
     "showStatusEffect": false,
     "resetOnClose": false,
     "transition": {

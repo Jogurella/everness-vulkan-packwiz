@@ -1,7 +1,7 @@
-# Prüfstand 2026.11.09.2
+# Prüfstand 2026.11.10.1
 
-Kisten-Doppelmodell und fehlender Schatten verzauberter Elytra im alten Offline-Stand reproduziert. Korrektur: gesicherte einmalige EBE-Altconfig-Migration vor dem Ressourcenbau plus echter Grundtexturpfad verzauberter Ausrüstung in der Vitrail-Schatten-Submission. Lifecycle-Lichtfix 1 bleibt enthalten. **70 Mods, 29 Original-Packs, Pixelated und Unbound; alle 132 Vorlagendateien unverändert.**
+Natürliche Gamma-Utils-Nebelfarben, verlängerte atmosphärische Nether-Distanz ohne Shader und getrennter Standardhimmel-Nebelpuffer für Vulkan/Voxy. Reproduzierte Fehler mit isolierten Gegenproben geprüft: fünf Nether-Biome × drei Shader-Modi; endgültige JAR zusätzlich mit Voxy an/aus, Tag/Abend/Nacht/Regen, beiden Shadern, Neuladen und Weltbeitritt. 28 Teilprüfungen und portabler Neubau bestanden.
 
-Reale Inventaröffnungen von Normal-, Redstone-, Doppel- und Enderkisten mit beiden Shadern geprüft. Kontrollierte Elytra-Flugpose mit/ohne Verzauberung und Standard-/synthetischem Cape-Pfad aufgenommen und verglichen. 17 Migrationstests und portabler JAR-Neubau bestanden. Keine Server betreten; keine allgemeine optische Abnahme und kein FPS-Benchmark.
+70 Mods, 29 Original-Packs, Pixelated/Unbound und bisherige Licht-/Kisten-/Elytra-Fixes erhalten. Nur `nightVision.brightenFogColor=false`; 131 andere Vorlagen unverändert. Nachtsicht bleibt an. Kein Serverbeitritt, kein FPS-Benchmark. [Abnahme mit Grenzen](docs/NETHER-HORIZON-ABNAHME.md).
 
-Offen: echte Server-/Launcher-Cape-Fälle, FPV-Rüstungsflackern, vollständige LOD-Bergschatten, RTX-5070-Laptopabsturz und Langzeit-Multiplayer. [Aktueller Prüfbericht](docs/CHEST-ELYTRA-ABNAHME.md); ältere Berichte gelten für ihren jeweiligen damaligen Stand.
+Offen: authentifizierte Server-/Launcher-Cape-Fälle, FPV-Rüstungsflackern, vollständige LOD-Bergschatten, RTX-5070-Laptopabsturz, Langzeit-Multiplayer. Aktive Shader behalten ihren eigenen Nebel und Voxy braucht bereits erfasste Daten. Keine allgemeine Fehlerfreiheitsgarantie.

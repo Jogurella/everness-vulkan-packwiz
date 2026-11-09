@@ -1,0 +1,467 @@
+{
+  "version": "2026.11.10.1",
+  "environment": {
+    "minecraft": "26.3",
+    "fabric": "0.20.1",
+    "jdk": 25,
+    "gpu": "RTX 4090",
+    "renderer": "Minecraft native Vulkan",
+    "mods": 70,
+    "originalResourcepacks": 29,
+    "serverJoined": false,
+    "offlineObserverPublished": false,
+    "frameGeneration": false,
+    "SirisSR": "Existing Performance setting: 2561x1440 -> 3842x2160. This is not a native 4K/FPS benchmark."
+  },
+  "results": {
+    "baseline": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "commandsWithErrors": [],
+      "shaderErrors": [],
+      "samples": [
+        "overworld-vanilla-day dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-voxy-off dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=115.2, renderEnd=128.0, cullDistance=128.0] shaderValues=none",
+        "overworld-vanilla-voxy-on dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-sunset dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.6995517, green=0.8095152, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-night dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.51336896, green=0.5775401, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "nether-0-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=1.0, green=0.15686277, blue=0.15686277, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=none",
+        "nether-0-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.3802817, green=1.0, blue=0.971831, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=none",
+        "nether-0-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.058823533, blue=0.058823533, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=none",
+        "nether-0-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.1923077, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=none",
+        "nether-0-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.92857146, green=0.84821427, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=none",
+        "nether-1-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=1.0, green=0.15686277, blue=0.15686277, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=57 fog=1.0,0.15686277,0.15686277 range=10.0,96.0",
+        "nether-1-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.3802817, green=1.0, blue=0.971831, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=60 fog=0.3802817,1.0,0.971831 range=10.0,96.0",
+        "nether-1-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.058823533, blue=0.058823533, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=59 fog=1.0,0.058823533,0.058823533 range=10.0,96.0",
+        "nether-1-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.1923077, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=58 fog=1.0,0.1923077,1.0 range=10.0,96.0",
+        "nether-1-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.92857146, green=0.84821427, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=61 fog=0.92857146,0.84821427,1.0 range=10.0,96.0",
+        "nether-2-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=1.0, green=0.15686277, blue=0.15686277, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=57 fog=1.0,0.15686277,0.15686277 range=10.0,96.0",
+        "nether-2-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.3802817, green=1.0, blue=0.971831, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=60 fog=0.3802817,1.0,0.971831 range=10.0,96.0",
+        "nether-2-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.058823533, blue=0.058823533, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=59 fog=1.0,0.058823533,0.058823533 range=10.0,96.0",
+        "nether-2-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=1.0, green=0.1923077, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=58 fog=1.0,0.1923077,1.0 range=10.0,96.0",
+        "nether-2-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.92857146, green=0.84821427, blue=1.0, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=61 fog=0.92857146,0.84821427,1.0 range=10.0,96.0",
+        "overworld-vanilla-after-nether dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-rejoined dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none"
+      ],
+      "concurrentOfflineClientAtStart": "not-recorded",
+      "fpsBenchmark": "not-recorded"
+    },
+    "fixed": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "commandsWithErrors": [],
+      "shaderErrors": [],
+      "samples": [
+        "overworld-vanilla-day dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-voxy-off dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=115.2, renderEnd=128.0, cullDistance=128.0] shaderValues=none",
+        "overworld-vanilla-voxy-on dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-sunset dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.65156937, green=0.7539904, blue=0.9314099, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-night dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.036021072, green=0.040523708, blue=0.07016605, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "nether-0-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.025514927, blue=0.025514927, alpha=1.0, environmentalStart=53.333336, environmentalEnd=512.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=512.0] shaderValues=none",
+        "nether-0-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.08611288, green=0.22644499, blue=0.22006625, alpha=1.0, environmentalStart=53.333336, environmentalEnd=512.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=512.0] shaderValues=none",
+        "nether-0-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.009568097, blue=0.009568097, alpha=1.0, environmentalStart=53.333336, environmentalEnd=512.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=512.0] shaderValues=none",
+        "nether-0-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=0.08292351, green=0.01594683, blue=0.08292351, alpha=1.0, environmentalStart=53.333336, environmentalEnd=512.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=512.0] shaderValues=none",
+        "nether-0-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.33169404, green=0.30298975, blue=0.35720897, alpha=1.0, environmentalStart=53.333336, environmentalEnd=512.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=512.0] shaderValues=none",
+        "nether-1-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.025514927, blue=0.025514927, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=57 fog=0.16265765,0.025514927,0.025514927 range=10.0,96.0",
+        "nether-1-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.08611288, green=0.22644499, blue=0.22006625, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=60 fog=0.08611288,0.22644499,0.22006625 range=10.0,96.0",
+        "nether-1-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.009568097, blue=0.009568097, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=59 fog=0.16265765,0.009568097,0.009568097 range=10.0,96.0",
+        "nether-1-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=0.08292351, green=0.01594683, blue=0.08292351, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=58 fog=0.08292351,0.01594683,0.08292351 range=10.0,96.0",
+        "nether-1-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.33169404, green=0.30298975, blue=0.35720897, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=61 fog=0.33169404,0.30298975,0.35720897 range=10.0,96.0",
+        "nether-2-nether_wastes dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.025514927, blue=0.025514927, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=57 fog=0.16265765,0.025514927,0.025514927 range=10.0,96.0",
+        "nether-2-soul_sand_valley dimension=minecraft:the_nether actualBiome=minecraft:soul_sand_valley realChunkAt512=false fog=FogParameters[red=0.08611288, green=0.22644499, blue=0.22006625, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=60 fog=0.08611288,0.22644499,0.22006625 range=10.0,96.0",
+        "nether-2-crimson_forest dimension=minecraft:the_nether actualBiome=minecraft:crimson_forest realChunkAt512=false fog=FogParameters[red=0.16265765, green=0.009568097, blue=0.009568097, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=59 fog=0.16265765,0.009568097,0.009568097 range=10.0,96.0",
+        "nether-2-warped_forest dimension=minecraft:the_nether actualBiome=minecraft:warped_forest realChunkAt512=false fog=FogParameters[red=0.08292351, green=0.01594683, blue=0.08292351, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=58 fog=0.08292351,0.01594683,0.08292351 range=10.0,96.0",
+        "nether-2-basalt_deltas dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.33169404, green=0.30298975, blue=0.35720897, alpha=1.0, environmentalStart=10.0, environmentalEnd=96.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=96.0] shaderValues=dim=-1 biome=61 fog=0.33169404,0.30298975,0.35720897 range=10.0,96.0",
+        "nether-effect-blindness dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.0, green=0.0, blue=0.0, alpha=1.0, environmentalStart=1.25, environmentalEnd=5.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=5.0] shaderValues=none",
+        "nether-lava-submersion dimension=minecraft:the_nether actualBiome=minecraft:basalt_deltas realChunkAt512=false fog=FogParameters[red=0.6, green=0.09803922, blue=0.0, alpha=1.0, environmentalStart=0.25, environmentalEnd=1.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1.0] shaderValues=none",
+        "overworld-vanilla-after-nether dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "overworld-vanilla-rejoined dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7005921, green=0.8108114, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none",
+        "actual-nether-17 dimension=minecraft:the_nether actualBiome=minecraft:nether_wastes realChunkAt512=false fog=FogParameters[red=0.17947213, green=0.028152494, blue=0.028152494, alpha=1.0, environmentalStart=113.33333, environmentalEnd=1088.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1088.0] shaderValues=none",
+        "actual-overworld-17 dimension=minecraft:overworld actualBiome=minecraft:plains realChunkAt512=false fog=FogParameters[red=0.7241638, green=0.8271329, blue=1.0, alpha=1.0, environmentalStart=0.0, environmentalEnd=1024.0, renderStart=1.0E9, renderEnd=1.0E9, cullDistance=1024.0] shaderValues=none"
+      ],
+      "concurrentOfflineClientAtStart": false,
+      "fpsBenchmark": false
+    },
+    "sky-probe": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "commandsWithErrors": [],
+      "shaderErrors": [],
+      "samples": [
+        "on skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE on",
+        "off skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=244.8,272.0 shader=false",
+        "CAPTURE off",
+        "on-again skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE on-again",
+        "sunset skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE sunset",
+        "night skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE night",
+        "rain skyEnd=272.0 cloudEnd=32.0 env=-159.86978,768.2084 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE rain",
+        "clear skyEnd=272.0 cloudEnd=32.0 env=-0.12938824,1023.79297 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE clear",
+        "rejoined skyEnd=272.0 cloudEnd=32.0 env=5.447104E-21,1024.0 render=1.0E9,1.0E9 shader=false",
+        "COMPLETE",
+        "CAPTURE rejoined"
+      ],
+      "concurrentOfflineClientAtStart": false,
+      "fpsBenchmark": false
+    },
+    "sky-scoped-final": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "commandsWithErrors": [],
+      "shaderErrors": [],
+      "samples": [
+        "on skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE on",
+        "off skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=244.8,272.0 shader=false",
+        "CAPTURE off",
+        "on-again skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE on-again",
+        "sunset skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE sunset",
+        "night skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE night",
+        "rain skyEnd=272.0 cloudEnd=32.0 env=-159.87895,768.19366 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE rain",
+        "clear skyEnd=272.0 cloudEnd=32.0 env=-0.14735062,1023.7642 render=1.0E9,1.0E9 shader=false",
+        "CAPTURE clear",
+        "rejoined skyEnd=272.0 cloudEnd=32.0 env=4.5531696E-21,1024.0 render=1.0E9,1.0E9 shader=false",
+        "COMPLETE",
+        "CAPTURE rejoined"
+      ],
+      "concurrentOfflineClientAtStart": false,
+      "fpsBenchmark": false
+    },
+    "final-shader-regression": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "commandsWithErrors": [],
+      "shaderErrors": [],
+      "samples": [
+        "on skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE on",
+        "off skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=244.8,272.0 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE off",
+        "on-again skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE on-again",
+        "sunset skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE sunset",
+        "night skyEnd=272.0 cloudEnd=32.0 env=0.0,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE night",
+        "rain skyEnd=272.0 cloudEnd=32.0 env=-159.85333,768.2347 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE rain",
+        "clear skyEnd=272.0 cloudEnd=32.0 env=-0.12060067,1023.80707 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "PACK_REQUEST ComplementaryUnbound_r5.9.3.zip true",
+        "CAPTURE clear",
+        "unbound-world skyEnd=272.0 cloudEnd=32.0 env=-3.363E-42,1024.0 render=1.0E9,1.0E9 shader=true dim=minecraft:overworld biome=minecraft:plains color=0.7241638,0.8271329,1.0",
+        "CAPTURE unbound-world",
+        "unbound-nether skyEnd=272.0 cloudEnd=32.0 env=10.0,96.0 render=1.0E9,1.0E9 shader=true dim=minecraft:the_nether biome=minecraft:nether_wastes color=0.17947213,0.028152494,0.028152494",
+        "PACK_REQUEST Pixelated.zip true",
+        "CAPTURE unbound-nether",
+        "pixelated-nether skyEnd=272.0 cloudEnd=32.0 env=10.0,96.0 render=1.0E9,1.0E9 shader=true dim=minecraft:the_nether biome=minecraft:nether_wastes color=0.17947213,0.028152494,0.028152494",
+        "PACK_REQUEST Pixelated.zip true",
+        "CAPTURE pixelated-nether",
+        "pixelated-nether-reloaded skyEnd=272.0 cloudEnd=32.0 env=10.0,96.0 render=1.0E9,1.0E9 shader=true dim=minecraft:the_nether biome=minecraft:nether_wastes color=0.17947213,0.028152494,0.028152494",
+        "PACK_REQUEST ComplementaryUnbound_r5.9.3.zip false",
+        "CAPTURE pixelated-nether-reloaded",
+        "after-shader-switch skyEnd=272.0 cloudEnd=32.0 env=-1.57E-42,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "CAPTURE after-shader-switch",
+        "rejoined skyEnd=272.0 cloudEnd=32.0 env=2.018E-42,1024.0 render=1.0E9,1.0E9 shader=false dim=minecraft:overworld biome=minecraft:plains color=none",
+        "COMPLETE",
+        "CAPTURE rejoined"
+      ],
+      "concurrentOfflineClientAtStart": false,
+      "fpsBenchmark": false
+    }
+  },
+  "visualReview": {
+    "reviewed": true,
+    "netherRepresentativeColorsCompared": true,
+    "noShaderLodMarkersVisibleBeyondRealChunks": true,
+    "skyHardDiscEdgeRemovedInFinalCandidate": true,
+    "skyDayEveningNightRainReviewed": true,
+    "shaderReloadAndReturnReviewed": true,
+    "allResourceTexturesRetested": false,
+    "noUniversalVisualGuarantee": true
+  },
+  "unitChecks": 28,
+  "coldMigrationObserved": true,
+  "portableBuildEntriesIdentical": true,
+  "jar": {
+    "base": "0.3.6+mc26.3.everness-lifecycle.2",
+    "version": "0.3.6+mc26.3.everness-lifecycle.3",
+    "jar": "viris-0.3.6+mc26.3-everness-lifecycle.3.jar",
+    "sha256": "1250ec3539068e361cdd7d9d67b166e31712ba9e340b22c46c320103afe3b25a",
+    "sha512": "8f58dc9841e985a78177e6d066653f2dd72355fb133ae4fdba455e14949db65017f736e12ef308c5eeae70e60eded57b5279e0edad740239fa59f62e0b48bbc6",
+    "changedExistingEntries": [
+      "fabric.mod.json",
+      "viris.mixins.json"
+    ],
+    "addedEntries": [
+      "EVERNESS-FOG-NOTICE.txt",
+      "com/viris/compat/everness/FogCompatPreLaunch.class",
+      "com/viris/compat/everness/FogConfigMigration.class",
+      "com/viris/compat/everness/NetherFogPolicy$Range.class",
+      "com/viris/compat/everness/NetherFogPolicy.class",
+      "com/viris/compat/everness/SkyFogUniform.class",
+      "com/viris/mixin/compat/everness/NetherAtmosphereMixin.class",
+      "com/viris/mixin/compat/everness/SkyFogCaptureMixin.class",
+      "com/viris/mixin/compat/everness/SkyFogScopeMixin.class"
+    ],
+    "allPreviousClassesUnchanged": true,
+    "VoxyEmbedded": false
+  },
+  "changedSettingFiles": [
+    "config/gammautils.json"
+  ],
+  "unchangedSettingFiles": 131,
+  "originalArchives": [
+    {
+      "path": "resourcepacks/3D Default 1.21.2+ v1.16.0.zip",
+      "sha256": "2113aa694102da21dcadd7d9bf9c7218cec44b0a3d8abce961d10cba2dad34e5"
+    },
+    {
+      "path": "resourcepacks/3D Harness x Fresh Animations.zip",
+      "sha256": "5b872f867a5e4113f9e4830af60b13bb8004993b8223d6a10e3bbc81f50d5e35"
+    },
+    {
+      "path": "resourcepacks/Animated 3D Wind Charge [1.1].zip",
+      "sha256": "7277c1fbef627a4305ebf4918658402b4405ff189d8e50956ce2c319e2a970e9"
+    },
+    {
+      "path": "resourcepacks/Assorted Frogs x FA - V.1.0.1.zip",
+      "sha256": "6cb2c1bd98db88be565cc252f08a890f218572b8d48098498c7fded2aa651cc8"
+    },
+    {
+      "path": "resourcepacks/Better-Leaves-9.6.zip",
+      "sha256": "cbeeccd774f910ed270dbe9651d789a8f785d055499f846e466d86f9cae91e90"
+    },
+    {
+      "path": "resourcepacks/Darkmode - V.1.2 - jannik6879.zip",
+      "sha256": "c9e357234877f55baac7b3764827183f44d5d8a37181022cb010beafde3ed085"
+    },
+    {
+      "path": "resourcepacks/Deepslate-Tuff-Hellrot-26.3.zip",
+      "sha256": "fae0850f132ac1967e13d740456328520bf2ec374943c3575a85e79455e099b6"
+    },
+    {
+      "path": "resourcepacks/enchant-icons-1.21.11-v1.3.zip",
+      "sha256": "18de471d35d52ab6166543a38872dffede0088b88ed8703794951a74fa71ae99"
+    },
+    {
+      "path": "resourcepacks/Enchantment Outlines.zip",
+      "sha256": "ebee6b9c65c179f6117f4743d1fc5259e3986cc7c97b0e7fc318dfd38581bf71"
+    },
+    {
+      "path": "resourcepacks/FA+All_Extensions-v1.10.1.zip",
+      "sha256": "10bcd8cfec9c70694ceaf37ec52e4b69f3a9b2fcab2ba67f202d6cbfcb7a38c9"
+    },
+    {
+      "path": "resourcepacks/FA+Classic_Horses-v1.6.2.zip",
+      "sha256": "21a0aa75c37361bdc5ca3037331a2648727afe877e7603be35e7542de8e06d6c"
+    },
+    {
+      "path": "resourcepacks/FA+Creepers-v2.2.zip",
+      "sha256": "077f535185b2f5ad6f128fa6c7ab61e284f8d2b3ac3967e0040139d64c3b81ee"
+    },
+    {
+      "path": "resourcepacks/FA+Details-v2.4.zip",
+      "sha256": "b2130beea5d343f779866a4bba5741e9b9aff8ed0b649193a7240b5fc3ef3111"
+    },
+    {
+      "path": "resourcepacks/FA+Emissive-v1.7.zip",
+      "sha256": "fb1c800b4e2ca71906b5a61f16ef7cae4cb81298148c78a3a9195e992a8cb5dd"
+    },
+    {
+      "path": "resourcepacks/FA+Objects-v2.1.2.zip",
+      "sha256": "8e4cfc5c2a15c6066f8bd17a83bea0714d3ef3cd214c1300bea83a5e8cc1f9d2"
+    },
+    {
+      "path": "resourcepacks/FA+Player-v1.1.zip",
+      "sha256": "551052cd62a3c2453dd2f3c872b3837dc9e0c09f1dfa04628b8da3775288e2ba"
+    },
+    {
+      "path": "resourcepacks/FA+Quivers-v2.3.zip",
+      "sha256": "d80c0ca8a8c6cb60eb659d655cc5197adbe5453ae7a522dea9280dd6587a826f"
+    },
+    {
+      "path": "resourcepacks/FA+Spiders-v2.3.1.zip",
+      "sha256": "995e1e2442b7449d8d6abf2a44da977cca6e13d03b89fd83a0e2482f7803fdc4"
+    },
+    {
+      "path": "resourcepacks/Flowering Crops (26.3).zip",
+      "sha256": "9988cc0188fff2dd1cb6cdc912d5a72222e3e0ab1f3d754fc0b1a1bc8a5aaf8c"
+    },
+    {
+      "path": "resourcepacks/Fresh Food.zip",
+      "sha256": "12c34f51209794ff5ca4dd5a5aee0ad2ed79fce22b70bf34fdbe14f5271986ee"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.11.2_26.1+.zip",
+      "sha256": "8df24af99d185e49612b16f8f7a5bfc637997728a8e9746d3349b1a44f901e05"
+    },
+    {
+      "path": "resourcepacks/Fyoncle's 3D Trims.zip",
+      "sha256": "bd0d69e65c85be57e5c87fcce28d2130a6dca9f93ff5ea155cd25e2b9975a56f"
+    },
+    {
+      "path": "resourcepacks/Glowing 3D Armor x FA.zip",
+      "sha256": "0af5487ec29a072095633efe5b7df0cf1691e589fe2488a7437925522825c5f1"
+    },
+    {
+      "path": "resourcepacks/Glowing 3D Armor.zip",
+      "sha256": "94fe12b929f4ec0d758a29ed9ea0871ce5727408b387dd89db8aa68089596d5c"
+    },
+    {
+      "path": "resourcepacks/macebut3d-1.0.1.zip",
+      "sha256": "a6235dee42b2fb2abf258b7a8909fe19ce4a4919063308427cd2fad0f8fd9008"
+    },
+    {
+      "path": "resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip",
+      "sha256": "1a997da88e94041dfef02e632dc3c16a1d23864f018fa049a88761b869ed2e5b"
+    },
+    {
+      "path": "resourcepacks/§aBetter Fresher 3D Books v1.5.1.zip",
+      "sha256": "ec909ada451494556dddebd76a3bb611d077d9bcd2af4db2c903ad9583fec81c"
+    },
+    {
+      "path": "resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip",
+      "sha256": "8a92864184aff85c3bf64721ad6cd43c28fd1db300cda40efd5826486e7df083"
+    },
+    {
+      "path": "resourcepacks/§lColourful Containers§8.zip",
+      "sha256": "cd9e9159665fb890124be6bbe052710f121bd61edb62588ab76212471aea750a"
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.9.3.zip",
+      "sha256": "98ac741dee294d2a3c82d153349148c3bb7fb688c30eb3b49c3b9ac37e968c5a"
+    },
+    {
+      "path": "shaderpacks/Pixelated.zip",
+      "sha256": "c073f0694b36d7d6fff9aa752136c954aedbcb6ce8d7e78aad03ef7b7e220253"
+    }
+  ],
+  "evidenceCaptureHashes": [
+    {
+      "set": "baseline",
+      "file": "overworld-vanilla-voxy-on.png",
+      "sha256": "67cb51c30437d9656321816b0d7ef832edfd7b4c0a737e7c0438a80f7932bb57"
+    },
+    {
+      "set": "baseline",
+      "file": "overworld-vanilla-voxy-off.png",
+      "sha256": "92e69045be22c17ce71dbead146e22d64b8ca790765aeff58134d884a5d2d145"
+    },
+    {
+      "set": "baseline",
+      "file": "nether-0-nether_wastes.png",
+      "sha256": "0106a97b577e0cf2ebe2825d7b56d414bbb27db9dada0521aee5c7f93449e6a6"
+    },
+    {
+      "set": "baseline",
+      "file": "nether-1-warped_forest.png",
+      "sha256": "189d9fb8c4062dd0901ec50b455b702bb781c17eed17b20ea0819d90bf81cafd"
+    },
+    {
+      "set": "nether-fixed-before-sky-extension",
+      "file": "actual-nether-17.png",
+      "sha256": "797d6d3de649f5d1d44762bd5d7593f64554a6aafaec2e3574dbe8796fb021d4"
+    },
+    {
+      "set": "nether-fixed-before-sky-extension",
+      "file": "nether-0-nether_wastes.png",
+      "sha256": "c8bdb0c683c7668227f4d6530e2a87d407e47a84907ae7271de21bb552c65fc4"
+    },
+    {
+      "set": "nether-fixed-before-sky-extension",
+      "file": "nether-1-warped_forest.png",
+      "sha256": "7e23ce901f5e67919f5b614579df1a5a0296120686d309d0848ff6a3bc0f60c0"
+    },
+    {
+      "set": "nether-fixed-before-sky-extension",
+      "file": "nether-effect-blindness.png",
+      "sha256": "c66c9e8cc3dec762377b72ccdf26f68c6c711888adc77ff472ab840c8898f276"
+    },
+    {
+      "set": "nether-fixed-before-sky-extension",
+      "file": "nether-lava-submersion.png",
+      "sha256": "f6415d06f4b27b27569c9dc79ca8a37f006575b13236b99add7f50f19c09a82c"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-on.png",
+      "sha256": "a4563bbfb57b52501701751a89bd94c491ec8aa673f40fad7dc5e593b0e69b43"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-off.png",
+      "sha256": "7bcdf1a131f1205611ec6016e0a2b26e0328909343d401407983c9279924026d"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-on-again.png",
+      "sha256": "5fdeffb4538e85076811d7a9830547625e947dc91ce6c1fad829c94f760b4e96"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-sunset.png",
+      "sha256": "1def7349092a262efe0ce0387764e4abfe0eeb5c2c358cc6b0e0e4e854fbbe03"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-night.png",
+      "sha256": "1d605b63a69b5655cf7413c946521b994daf29698d148637ac5aa914de6f7fcd"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-rain.png",
+      "sha256": "69682d8d4b64ea0180ec98289e01776b7839813ec711b1cdfd087ff1afe95d43"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-unbound-world.png",
+      "sha256": "104c146c1b10de79a0ee20ff3f684e09e666eb7b73d71ab1e46838a1ebadd90d"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-unbound-nether.png",
+      "sha256": "9157f1f153c40711bfdc3507d8c2cbc82f89234fcde21cf6c04356b9709047c3"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-pixelated-nether.png",
+      "sha256": "49cc565420e161d29dea126833137509a74c58cf2d11fbb91bf32f37f8e136ac"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-pixelated-nether-reloaded.png",
+      "sha256": "31942c62aa73acb3567447be0df51c7860e6c2784713e5927148287daa19955a"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-after-shader-switch.png",
+      "sha256": "40eba473582690fc4c5bac6e35bf2dedcde40473f6ccee94d7eb8bf42e7e46c8"
+    },
+    {
+      "set": "final-jar",
+      "file": "sky-rejoined.png",
+      "sha256": "199017377d81136b962922990490ba4b98e8551f1f4ca7313cf62f7690b808b8"
+    }
+  ],
+  "rawLogsOrWorldsPublished": false,
+  "openGLModified": false
+}

@@ -1,6 +1,19 @@
-# Everness Vulkan – 2026.11.09.2
+# Everness Vulkan – 2026.11.10.1
 
-## Aktuelles Update: Kisten und Elytra-Schatten
+## Aktuelles Update: Nether-Farben, Fernsicht und Himmel
+
+Überhelle biomefarbige Voxy-Flächen werden durch natürliche Nebelfarben ersetzt. Ohne Shader reicht der Nether-Nebel jetzt weiter; der Overworld-Himmel bekommt seinen weichen Übergang zurück. Nachtsicht bleibt verfügbar.
+
+![Everness Vulkan 2026.11.10.1 – Beispielbild](.github/assets/update-2026.11.10.1-nether-horizon-vulkan.png)
+
+**Something big is coming stay tuned**
+
+[Änderungen](CHANGELOG.md) · [Offline-Prüfbericht](docs/NETHER-HORIZON-ABNAHME.md) · [Quellcode und Bauanleitung](patches/viris-fog)
+
+**70 Mods, 29 Original-Ressourcenpacks, Pixelated und Unbound.** Keine Reduktion von Shaderdetails, 17 normalen Chunks, Auflösung, Animationen oder Partikeln. Nur der zusätzliche Gamma-Utils-Nebelfarbboost wird ausgestellt; die 131 übrigen Einstellungsvorlagen bleiben bytegleich. Vulkan aktualisieren und Minecraft vollständig neu starten. Voxy zeigt bereits erfasste Daten; aktive Shader bestimmen weiterhin ihren eigenen Nebel. OpenGL bleibt unverändert.
+
+
+## Vorheriges Update 2026.11.09.2: Kisten und Elytra-Schatten
 
 **Die alte persönliche EBE-Kistenoption wird jetzt vor dem Laden der Modelle mit Sicherung korrigiert.** Dadurch greift die Kisten-Kompatibilitätsvorgabe auch bei erhaltenen Einstellungen. Zusätzlich zeichnet Vitrail die Grundtextur verzauberter Ausrüstung im Schattenpass: Der fehlende Flügelschatten ließ sich damit im Offline-Vergleich beheben.
 

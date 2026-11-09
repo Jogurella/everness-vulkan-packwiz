@@ -1,4 +1,4 @@
-# Einstellungsstand 2026.11.09.2
+# Einstellungsstand 2026.11.10.1
 
 Die gemeinsame Vorlage stammt aus dem veröffentlichten Vulkan-Pack. OpenGL setzt den OpenGL-Backendwert und die entsprechenden Iris-Shader-Tasten. HUD-Felder, Jade-Skalierung, Minimap, FOV, Vollbild, Ressourcenpack-Reihenfolge, Punchy und QoL-Mod-Einstellungen entsprechen der Vorlage. Zusätzliche OpenGL-Shader bleiben zur Auswahl erhalten.
 
@@ -31,3 +31,11 @@ Packwiz markiert Einstellungsdateien weiter als `preserve`. Der Everness Launche
 Alle 132 Dateien der Vorlage sind SHA-256-identisch mit 2026.11.09.1. Darunter weiterhin `render_enhanced_chests=false`; keine Änderung an Grafik, Shadern, Auflösung, Sichtweite, SIRIS, FOV, Hotkeys, HUD oder QoL. Packwiz behält `preserve=true` bei.
 
 Neu gegenüber dem historischen Hinweis oben: Die angepasste VIRIS-JAR korrigiert eine noch vorhandene persönliche Alt-Einstellung `render_enhanced_chests=true` einmalig, **vor** EBE seine Ressourcen baut, wenn `FA+Objects` in der aktiven Packliste steht. Sie sichert die unveränderte alte Datei unter `.everness/compat-backups/`, ändert nur diesen einen Wert und legt danach `.everness/compat-migrations/ebe-original-chests-v1.done` an. Bereits ausgeschaltete Kisten bleiben aus. Spätere eigene Änderungen werden nach erfolgreicher Migration respektiert. Mehrdeutige/unbekannte oder fehlende Dateien werden nicht überschrieben. Fehler blockieren den Spielstart nicht.
+
+## 2026.11.10.1: natürliche Nebelfarben, übrige Vorgaben erhalten
+
+Aktuell gilt `config/gammautils.json → nightVision.brightenFogColor=false`. Das ist die einzige geänderte Vorlagendatei gegenüber 2026.11.09.2. Nachtsicht an/100, Gamma, Shaderdetails, Auflösung, Sichtweite, SIRIS, FOV, Hotkeys, HUD und QoL bleiben erhalten. Alle 132 Dateien behalten `preserve=true` im Index.
+
+Bei alten persönlichen Dateien setzt VIRIS ausschließlich diesen einen booleschen Nebelfarbschalter einmalig auf Aus. Vorher wird der exakte Dateiinhalt unter `.everness/compat-backups/gamma-fog-before-*.json` gesichert. Marker: `.everness/compat-migrations/natural-fog-colors-v1.done`. Spätere eigene Änderungen werden respektiert. Unbekannte, mehrdeutige, beschädigte oder übergroße Dateien werden nicht überschrieben; ein Fehler blockiert den Spielstart nicht. Nachtsicht und echte Nachtsichttränke bleiben erhalten.
+
+Ohne Shader und nur bei aktivem Vulkan/Voxy wird Nether-Atmosphärennebel passend zur vorhandenen LOD-Reichweite verlängert: bei 17 normalen Chunks bis 1088 Blöcke, höchstens 2048 und niemals weiter als die Voxy-Reichweite. Das ist eine Nebeldistanz, keine Zusicherung sichtbarer Texturen in unerfassten Chunks. Aktive Shader und Flüssigkeits-/Statusnebel sind ausgenommen. Der Overworld-Himmelpuffer wird getrennt behandelt, ohne Gelände- oder Shader-Nebel global auszuschalten.

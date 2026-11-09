@@ -53,3 +53,7 @@ SIRIS 1.1.6 von laurensanp wird unverändert von der offiziellen GitHub-Veröffe
 ## 2026.11.09.2: gezielte VIRIS-Zusätze
 
 Auf der oben dokumentierten MIT-Basis ergänzen Everness contributors fünf eigene Klassen für die einmalige EBE-Konfigurationskorrektur und den Grundtexturpfad verzauberter Ausrüstung im Vitrail-Schattenpass. Auch diese Ergänzungen stehen unter MIT. Quelle, vollständige fünf Quelldateien, Lizenz, portable Bauanleitung und SHA-Provenienz unter [patches/viris-equipment](patches/viris-equipment). Bestehende Klassen aus Lifecycle-Fix 1 bleiben unverändert; Voxy, Vitrail, EMF und ETF bleiben eigenständige Abhängigkeiten. Keine Lizenzbehauptung für fremde Shader- oder NVIDIA-Dateien.
+
+## 2026.11.10.1: eigene Nebel-/Himmel-Zusätze auf VIRIS
+
+Sieben eigene Java-Quelldateien (acht Klassen) ergänzen ausschließlich die MIT-basierte VIRIS-Fassung. Vollständige Quellen, MIT-Lizenz, portable Bauanleitung und Prüfsummen unter [patches/viris-fog](patches/viris-fog). Kein Gamma-Utils-Code übernommen oder eingebettet; dessen bestehende Einstellung wird gesichert angepasst. Voxy und Vitrail bleiben separat. Alle bisherigen Klassen/Notices und Original-Pack-Lizenzen bleiben erhalten.

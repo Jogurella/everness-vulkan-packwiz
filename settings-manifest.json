@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2026.11.09.2",
+  "version": "2026.11.10.1",
   "profile": "Everness-Vulkan",
   "files": [
     {
@@ -137,7 +137,7 @@
     },
     {
       "path": "config/gammautils.json",
-      "sha256": "55becfa7067253191f46c349780e5499c43f08e647d3379bf8cd3a9789feb454"
+      "sha256": "fba466355a896dffc4fd47b02a34427e363770675678b4d5a64241552103e07d"
     },
     {
       "path": "config/hud-registry.json",

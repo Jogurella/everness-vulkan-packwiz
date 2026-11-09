@@ -1,3 +1,18 @@
+## [2026.11.10.1] - 2026-11-10
+### Behoben
+- **Neonfarbige Nether-Fernchunks:** Die zusätzliche Nebelfarb-Aufhellung von Gamma Utils ist aus. Nachtsicht und ihre Helligkeit bleiben an. Bereits gespeicherte Altwerte werden einmalig mit exakter Sicherung korrigiert, auch bei „Eigene Einstellungen behalten“.
+- **Zu kurze Nether-Fernsicht ohne Shader:** Mit aktivem Voxy wird der atmosphärische Nebel an die Fernsicht angepasst. Im Offline-Test sind LOD-Markierungen außerhalb der normalen Chunk-Grenze wieder sichtbar. Lava, Blindheit und die eigene Nebelgestaltung aktiver Shader bleiben erhalten.
+- **Harte Overworld-Himmelskante ohne Shader:** Der Himmel verwendet einen eigenen Nebelpuffer statt der für Voxy erweiterten Gelände-Nebelwerte. Der weiche Verlauf wurde mit Voxy an/aus, Tag, Abend, Nacht, Regen und erneutem Weltbeitritt geprüft.
+### Geändert
+- VIRIS 0.3.6 mit offen dokumentiertem Everness-Zusatz **lifecycle.3**. Die bisherigen Licht-, Kisten- und Elytra-Schattenkorrekturen bleiben bytegleich erhalten; Voxy bleibt eine separate Mod.
+- Neues passendes Beispielbild und erneuerte Starter-/Einstellungs-ZIPs. **131 von 132 Einstellungsvorlagen unverändert**; in Gamma Utils nur `nightVision.brightenFogColor=false`. 17 normale Chunks, Shaderdetails, SIRIS, FOV, HUD, Hotkeys, 29 Original-Packs und beide Shader bleiben erhalten. Nur Vulkan wird aktualisiert.
+### Neu
+- **Something big is coming stay tuned**
+### Hinweise für Spieler
+- Vulkan im Everness Launcher aktualisieren und Minecraft vollständig neu starten. Die Sicherung liegt lokal unter `.everness/compat-backups/`; spätere eigene Änderungen werden nach erfolgreicher Einmalmigration respektiert.
+- Die Nebelfarben unterscheiden sich weiterhin absichtlich nach Nether-Biom. Gemeint ist die Korrektur der überhellen Farbflächen, kein Entfernen des biomeigenen Nebels. Shader behalten ihre eigenen Sicht-/Nebeleinstellungen. Voxy kann nur bereits erfasste LODs zeigen.
+- [Offline-Spieltests und offene Grenzen](docs/NETHER-HORIZON-ABNAHME.md). Kein Serverbeitritt, kein FPS-Versprechen und keine pauschale Behebung des RTX-5070-Laptopabsturzes oder aller Schatten-/Rüstungsfehler.
+
 ## [2026.11.09.2] - 2026-11-09
 ### Behoben
 - **Kistendeckel doppelt nach Updates mit erhaltenen Einstellungen:** Bei aktivem Fresh-Animations-Objects-Pack wird die alte EBE-Kistenoption vor der Ressourcenerzeugung einmalig auf `false` korrigiert. Die bisherige persönliche Datei wird gesichert. Original-Kistenmodelle und Animationen bleiben zuständig; Schilderoptimierung bleibt an.

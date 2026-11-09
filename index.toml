@@ -167,7 +167,7 @@ preserve = true
 
 [[files]]
 file = "config/gammautils.json"
-hash = "55becfa7067253191f46c349780e5499c43f08e647d3379bf8cd3a9789feb454"
+hash = "fba466355a896dffc4fd47b02a34427e363770675678b4d5a64241552103e07d"
 preserve = true
 
 [[files]]
@@ -927,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/viris.pw.toml"
-hash = "455b5794bce6ac9eaaba254e6b45cf191a939365dbd9346cb68239831b401dee"
+hash = "718bd8900423e89bf644cb35332d7aec8e6e3d5e8403908037e4f5a0772ce370"
 metafile = true
 
 [[files]]

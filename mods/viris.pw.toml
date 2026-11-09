@@ -1,9 +1,9 @@
-name = "VIRIS – Everness Licht-, Kisten- und Ausrüstungskorrektur"
-filename = "viris-0.3.6+mc26.3-everness-lifecycle.2.jar"
+name = "VIRIS – Everness Nether-, Himmel- und Lifecycle-Korrekturen"
+filename = "viris-0.3.6+mc26.3-everness-lifecycle.3.jar"
 side = "client"
 pin = true
 
 [download]
-url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/viris-0.3.6%2Bmc26.3-everness-lifecycle.2.jar"
+url = "https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/viris-0.3.6%2Bmc26.3-everness-lifecycle.3.jar"
 hash-format = "sha512"
-hash = "831ff9e3738032c6e9f8ffd127986f0aae82ecb26191328867e3168d914079659a48dbe8577c5a9013f9d84c9c909b4bc5ed4337594b63ed3074a10e897b5173"
+hash = "8f58dc9841e985a78177e6d066653f2dd72355fb133ae4fdba455e14949db65017f736e12ef308c5eeae70e60eded57b5279e0edad740239fa59f62e0b48bbc6"

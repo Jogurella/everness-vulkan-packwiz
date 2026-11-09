@@ -2,6 +2,8 @@
 
 ## Bisherige Zusatzaufträge
 
+Vulkan 2026.11.10.1: natürliche Nebelfarben durch einmalige gesicherte Gamma-Utils-Korrektur, Nether-Atmosphärendistanz ohne Shader und eigener Standardhimmel-Nebelpuffer. [Abnahme](docs/NETHER-HORIZON-ABNAHME.md) beachten. Nachtsicht bleibt an; 131 übrige Vorlagen und alle Originalarchive bleiben erhalten. Teaser in News/Bild: Something big is coming stay tuned. Nur Vulkan.
+
 Vulkan 2026.11.09.2: gezielte EBE-Altconfig-Migration vor dem Ressourcenbau und Grundtexturpfad für verzauberte Ausrüstung im Vitrail-Schattenpass. [Abnahme](docs/CHEST-ELYTRA-ABNAHME.md) beachten; echte Server-Capes, Rüstungsflackern, komplette LOD-Bergschatten und Laptopabsturz nicht als vollständig behoben ausgeben. Alle 132 Vorlagendateien und 29 Original-Packs unverändert. Kein OpenGL-Update.
 
 Vulkan 2026.11.09.1: VIRIS-Lifecycle-Fix gegen veraltete Vitrail-Lichtzustände; EBE-Kisten aus, Schilder weiter an. Keine EMF-/ETF-Schattenbrücke veröffentlicht. [Abnahme](docs/VISUAL-FIX-ABNAHME.md) mit offenen Rüstungs-/Elytra-/Laptop- und LOD-Schattenpunkten beachten. Original-Packs und 131 übrige Settings erhalten.

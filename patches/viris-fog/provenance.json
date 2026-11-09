@@ -1,0 +1,29 @@
+{
+  "base": "0.3.6+mc26.3.everness-lifecycle.2",
+  "version": "0.3.6+mc26.3.everness-lifecycle.3",
+  "jar": "viris-0.3.6+mc26.3-everness-lifecycle.3.jar",
+  "sha256": "1250ec3539068e361cdd7d9d67b166e31712ba9e340b22c46c320103afe3b25a",
+  "sha512": "8f58dc9841e985a78177e6d066653f2dd72355fb133ae4fdba455e14949db65017f736e12ef308c5eeae70e60eded57b5279e0edad740239fa59f62e0b48bbc6",
+  "changedExistingEntries": [
+    "fabric.mod.json",
+    "viris.mixins.json"
+  ],
+  "addedEntries": [
+    "EVERNESS-FOG-NOTICE.txt",
+    "com/viris/compat/everness/FogCompatPreLaunch.class",
+    "com/viris/compat/everness/FogConfigMigration.class",
+    "com/viris/compat/everness/NetherFogPolicy$Range.class",
+    "com/viris/compat/everness/NetherFogPolicy.class",
+    "com/viris/compat/everness/SkyFogUniform.class",
+    "com/viris/mixin/compat/everness/NetherAtmosphereMixin.class",
+    "com/viris/mixin/compat/everness/SkyFogCaptureMixin.class",
+    "com/viris/mixin/compat/everness/SkyFogScopeMixin.class"
+  ],
+  "allPreviousClassesUnchanged": true,
+  "VoxyEmbedded": false,
+  "upstreamVersion": "0.3.6",
+  "upstreamCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
+  "baseSha256": "aaf84361dc3baabcc3ab7229ac2f2f6195d6b0cd69af23e782f4eae8a94eab04",
+  "sourceFiles": 7,
+  "license": "MIT"
+}
