@@ -45,3 +45,7 @@ SIRIS 1.1.6 von laurensanp wird unverändert von der offiziellen GitHub-Veröffe
 - [Enhanced Block Entities Reloaded](https://github.com/Mat0u5/EnhancedBlockEntitiesReloaded), Mat0u5 / FoundationGames: LGPL-3.0, unveränderte offizielle Modrinth-Datei `fabric-0.13.3+26.3`. Lizenzkopie unter `licenses/EBE-Reloaded-LGPL-3.0.txt`; Quellen beim ursprünglichen Projekt. Keine Einbettung in eigene JARs.
 - [MatLib](https://modrinth.com/mod/matlib), Mat0u5: MIT, unveränderte offizielle Datei `fabric-1.0.0+26.3`. Download und Prüfsumme sind in der Packwiz-Metadatei gepinnt.
 - Eigene Arbeit: Auswahl, kompatibilitätsorientierte Konfiguration, isolierter Test und Veröffentlichung. Kein eigener EBE-/MatLib-Code und keine eigene VulkBatch-Fassung.
+
+## 2026.11.09.1: angepasste VIRIS-Fassung
+
+[VIRIS](https://github.com/laurensanp/viris), laurensanp, MIT; Grundlage 0.3.6 / Commit `2d3061bcb73751a6c70cef50eb3b592b6a4659f3`. Eigene Arbeit ist ausschließlich die Lebenszykluskorrektur in `VoxyFrame`. Die JAR heißt `viris-0.3.6+mc26.3-everness-lifecycle.1.jar` und ist ausdrücklich kein offizielles Upstream-Release. Vollständige geänderte Quelldatei, Patch, MIT-Lizenz, Buildskript und Herkunft unter [patches/viris-lifecycle](patches/viris-lifecycle). Die Original-JAR wird mit ihren Lizenzdateien weitergegeben; Voxy bleibt getrennt. Keine EMF-/ETF-Schattenbrücke in der Veröffentlichung.

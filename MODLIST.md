@@ -1,6 +1,6 @@
-# Downloadliste 2026.11.08.4
+# Downloadliste 2026.11.09.1
 
-100 gepinnte Archive plus lokal gepatchtes Pixelated-Shaderpack.
+100 gepinnte Archive plus lokal erzeugtes Pixelated. VIRIS enthält den offen dokumentierten Everness-Lifecycle-Patch.
 
 | Name | Installierte Datei | Quelle |
 |---|---|---|
@@ -92,7 +92,7 @@
 | Texture Builder | `mods/texture-builder - 26.3 - 1.1.0.jar` | [Download](https://cdn.modrinth.com/data/eApKqn79/versions/s4y6rZYU/texture-builder%20-%2026.3%20-%201.1.0.jar) |
 | Tweakeroo | `mods/tweakeroo-fabric-26.3-0.30.1.jar` | [Download](https://cdn.modrinth.com/data/t5wuYk45/versions/fWxKATn6/tweakeroo-fabric-26.3-0.30.1.jar) |
 | VanillaTweaks_r144903_MC1.21.x | `resourcepacks/VanillaTweaks_r144903_MC1.21.x.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-vanillatweaks-r144903-mc1-21-x-ea51c5b70f.zip) |
-| VIRIS | `mods/viris-0.3.6+mc26.3.jar` | [Download](https://github.com/laurensanp/viris/releases/download/v0.3.6/viris-0.3.6%2Bmc26.3.jar) |
+| VIRIS – Everness Lichtkorrektur | `mods/viris-0.3.6+mc26.3-everness-lifecycle.1.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/viris-0.3.6%2Bmc26.3-everness-lifecycle.1.jar) |
 | Visuality | `mods/visuality-0.7.15+26.3.jar` | [Download](https://cdn.modrinth.com/data/rI0hvYcd/versions/BNe9kpJ7/visuality-0.7.15%2B26.3.jar) |
 | Vitrail | `mods/vitrail-0.13.0-beta+mc26.3-everness-depthfix.1.jar` | [Download](https://raw.githubusercontent.com/Jogurella/everness-vulkan-packwiz/main/downloads/mods/vitrail-0.13.0-beta%2Bmc26.3-everness-depthfix.1.jar) |
 | Voxy | `mods/voxy-0.2.20-beta.jar` | [Download](https://cdn.modrinth.com/data/fxxUqruK/versions/iIrM8ZKQ/voxy-0.2.20-beta.jar) |
@@ -104,5 +104,3 @@
 | §aBetter Fresher 3D Books v1.5.1 | `resourcepacks/§aBetter Fresher 3D Books v1.5.1.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-better-fresher-3d-books-v1-5-1-68e54f0f7d.zip) |
 | §f§lActually §6§l3D §fBlocks & Items!§7 | `resourcepacks/§f§lActually §6§l3D §fBlocks & Items!§7.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-actually-3d-blocks-items-d0103240df.zip) |
 | §lColourful Containers§8 | `resourcepacks/§lColourful Containers§8.zip` | [Download](https://github.com/Jogurella/everness-opengl-packwiz/releases/download/v2026.11.06.1/resourcepack-colourful-containers-8ce887bdbf.zip) |
-
-Pixelated: [lokale Patchinstallation](patches/pixelated-setup).

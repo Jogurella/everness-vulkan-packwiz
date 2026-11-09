@@ -1,0 +1,12 @@
+{
+  "upstreamVersion": "0.3.6",
+  "upstreamCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
+  "version": "0.3.6+mc26.3.everness-lifecycle.1",
+  "sha256": "5b0cbc7974983ce52f13ec47ce2e84f4736c9d5d66090307424b78395936638a",
+  "sha512": "bf17776bc9402e3b529ab42feec5ce5f6ad58c076ea4338e098ebdcc6ce39338a7a6836233e0d43edd29afcceec64b17be71fc61cc3d431a7189ccdd38425def",
+  "changedExistingEntries": [
+    "com/viris/VoxyFrame.class",
+    "fabric.mod.json"
+  ],
+  "VoxyEmbedded": false
+}

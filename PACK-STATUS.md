@@ -1,7 +1,7 @@
-# Prüfstand 2026.11.08.4
+# Prüfstand 2026.11.09.1
 
-Vulkan-Update: EBE Reloaded + MatLib für Kisten/Schilder. Zwei isolierte Offline-Varianten liefen mit Vulkan, beiden Shadern und erneutem Weltbeitritt ohne Prozessabsturz durch. Kistenmodellreihe inklusive Öffnen/Schließen kontrolliert. **Keine belastbare FPS-Steigerung ermittelt**; der Zusatzvergleich wurde durch manuelle Eingaben verändert.
+Gezielter VIRIS-Lifecycle-Fix gegen veraltete Vitrail-Lichtzustände nach Shader-Neuladen/Weltwechsel, zusätzlich EBE-Kisten in der Vorlage aus; Schilder weiter an. **70 Mods, 29 unveränderte Original-Ressourcenpacks, Pixelated und Unbound.** 131 übrige Einstellungsdateien unverändert, kein OpenGL-Update.
 
-**70 Mods, 29 Ressourcenpacks, zwei Shader im Spiel.** Shaderdetails, SIRIS, Sichtweite, Hotkeys, HUD und übrige bisherige Einstellungen unverändert. Kein Serverbeitritt.
+Getrennte Offline-Abläufe auf RTX 4090 mit nativem Vulkan und beiden Shadern regulär beendet, einschließlich Shader aus/an, Neuladen und erneutem Weltbeitritt. Dauerhaft veralteter Lichtzustand im alten Stand nachgewiesen und in den veröffentlichten Kandidaten nicht mehr festgestellt; zusätzlicher Lauf mit SIRIS/2× FG an. Keine FPS-Garantie und keine vollständige optische Abnahme.
 
-Offen: vorhandener gestreckter Mob-Geometriefehler in der künstlichen Testgruppe (auch ohne EBE), vollständige Objektanimations-/Shader-Matrix und Langzeit-Multiplayer. Keine allgemeine Fehlerfreiheits- oder FPS-Zusage. EBE-Kistenrenderer kann Custom-Objektbewegungen verändern und ist in Mod Menu abschaltbar. [Ausführlicher Bericht](docs/FARM-PERFORMANCE-ABNAHME.md).
+**Offen:** zeitweise gestreckte Modellflächen, leichtes Rüstungsflackern, Elytra-Schatten, vollständige LOD-Bergschatten (VIRIS-Limit), gemeldeter 5070-Laptopabsturz, Langzeit-Multiplayer. Keine experimentelle EMF-/ETF-Schattenbrücke veröffentlicht. Kisten-Modellreihe mit Blockevents geprüft; nicht jede echte Inventar-/Serverfolge. [Vollständiger Prüfbericht](docs/VISUAL-FIX-ABNAHME.md).

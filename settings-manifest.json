@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "version": "2026.11.08.4",
+  "version": "2026.11.09.1",
   "profile": "Everness-Vulkan",
   "files": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "path": "config/enhanced_bes.properties",
-      "sha256": "75080dc3ed545fc12495f07a9e226e6b00b226bd9055d838ca6f0b270b2edc92"
+      "sha256": "adc0c6b64ae0b35606245e79a35a495a25b52f06ec94850d744376bcafc686dc"
     },
     {
       "path": "config/entity_model_features.json",

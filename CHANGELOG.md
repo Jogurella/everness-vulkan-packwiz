@@ -1,3 +1,15 @@
+## [2026.11.09.1] - 2026-11-09
+### Behoben
+- **Veraltete Voxy-Lichtwerte nach Shader-Neuladen oder erneutem Weltbeitritt:** Die angepasste VIRIS-Fassung erkennt jetzt auch einen ausgetauschten Vitrail-Lichtzustand bei unverändertem Shadernamen und baut die LOD-Pipeline neu auf. Der alte Stand ließ sich offline mit Tageslicht in der Ferne trotz Nacht reproduzieren.
+### Geändert
+- **Original-Kistenmodelle haben Vorrang:** `render_enhanced_chests=false` schaltet den zusätzlichen EBE-Kistenrenderer in der Vorlage aus. Fresh Animations Objects und die ursprünglichen Packs bleiben erhalten; EBE für Schilder bleibt an. Das ist eine Kompatibilitätsvorgabe, kein nachgewiesener Fix jeder Kistenflacker-Ursache.
+- Gepinnte **VIRIS 0.3.6 mit Everness-Lifecycle-Fix 1** samt MIT-Lizenz, offenem Patch und Bauanleitung. Voxy bleibt eine separate unveränderte Mod.
+- Eigenes Updatebild, aktualisierte Vorlagen und beide Export-ZIPs. Alle übrigen **131 Einstellungsdateien** sowie die **29 Ressourcenpacks** und beide Shaderarchive bleiben unverändert. Kein OpenGL-Update.
+### Hinweise für Spieler
+- Im Everness Launcher **Vulkan aktualisieren und Minecraft vollständig neu starten**. Bei aktivem „Eigene Einstellungen behalten“ wird die persönliche EBE-Datei erhalten; dann unter **Mod Menu → Enhanced Block Entities Reloaded → Einstellungen** die Kistenoptimierung ausschalten, falls sie noch an ist. Die Lichtkorrektur in der Mod wird unabhängig davon installiert.
+- Die Offline-Abnahme prüft Unbound, Pixelated, Shader aus/an, Neuladen und erneuten Eintritt in dieselbe Testwelt auf der RTX 4090. [Prüfbericht und offene Punkte](docs/VISUAL-FIX-ABNAHME.md).
+- **Nicht als behoben ausgewiesen:** vollständige Schatten entfernter LOD-Berge, leichtes Rüstungsflackern in FPV, fehlender Elytra-Schatten und der gemeldete Weltbeitrittsabsturz des RTX-5070-Laptops. Eine zusätzliche EMF-/ETF-Schattenanbindung wurde wegen auffälliger Modellflächen nicht veröffentlicht. Kein allgemeines Fehlerfreiheits- oder FPS-Versprechen.
+
 ## [2026.11.08.4] - 2026-11-08
 ### Neu
 - **Enhanced Block Entities Reloaded 0.13.3 für 26.3** und die erforderliche **MatLib 1.0.0 für 26.3**. Geschlossene Kisten können als Blockmodelle statt ständig als einzelne Block-Entities gezeichnet werden. Das zielt auf Lager- und Farmbereiche mit vielen Kisten.

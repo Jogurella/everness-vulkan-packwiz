@@ -1,5 +1,5 @@
 {
-  "version": "2026.11.08.4",
+  "version": "2026.11.09.1",
   "minecraft": "26.3",
   "fabric": "0.20.1",
   "renderer": "vulkan",
@@ -30,8 +30,8 @@
   },
   "rendererStack": [
     "Minecraft native Vulkan",
-    "Vitrail 0.13.0-beta",
-    "VIRIS 0.3.6",
+    "Vitrail 0.13.0-beta + existing Everness depthfix.1",
+    "VIRIS 0.3.6+mc26.3.everness-lifecycle.1",
     "Voxy 0.2.20-beta"
   ],
   "distantHorizons": false,
@@ -46,9 +46,13 @@
     "author": "laurensanp",
     "upstreamVersion": "0.3.6",
     "sourceCommit": "2d3061bcb73751a6c70cef50eb3b592b6a4659f3",
-    "distribution": "official upstream release",
-    "classBytesIdenticalToLocalBuild": true,
-    "VoxyEmbedded": false
+    "distribution": "Everness lifecycle patch; not an official upstream release",
+    "changedExistingEntries": [
+      "com/viris/VoxyFrame.class",
+      "fabric.mod.json"
+    ],
+    "VoxyEmbedded": false,
+    "source": "patches/viris-lifecycle"
   },
   "qolRestoration": {
     "addon": "atlasinventory 0.1.6+mc26.3",
@@ -244,6 +248,92 @@
         "reason": "Manual player/camera and scene edits during the extra run; samples excluded."
       }
     },
-    "fpsUpliftEstablished": false
+    "fpsUpliftEstablished": false,
+    "currentEnhancedChests": false,
+    "configurationChangedIn": "2026.11.09.1"
+  },
+  "visualFix20261109": {
+    "jar": "viris-0.3.6+mc26.3-everness-lifecycle.1.jar",
+    "report": "docs/VISUAL-FIX-ABNAHME.md",
+    "ebeEnhancedChests": false,
+    "originalResourcePacksUnchanged": 29,
+    "unchangedSettingsFiles": 131,
+    "experimentalEmfEtfBridgeIncluded": false,
+    "serverJoined": false,
+    "runtime": {
+      "baseline": {
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "freshSamples": 39,
+        "staleSamples": 22,
+        "patchedRebuildEvents": 0,
+        "visualStagesRequested": true,
+        "visualStagesComplete": true,
+        "flightReferenceGlidingConfirmed": false,
+        "flightShadowGlidingConfirmed": false,
+        "settledStaleSamples": 20,
+        "renderStateProbe": {
+          "shadowRecognised": 0,
+          "shadowMissed": 24642,
+          "normalLeaks": 0,
+          "shaderRecognised": 0,
+          "shaderMissed": 2496
+        },
+        "publishedCandidate": false
+      },
+      "chest-compat": {
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "freshSamples": 59,
+        "staleSamples": 3,
+        "patchedRebuildEvents": 3,
+        "visualStagesRequested": true,
+        "visualStagesComplete": true,
+        "flightReferenceGlidingConfirmed": true,
+        "flightShadowGlidingConfirmed": true,
+        "settledStaleSamples": 0,
+        "renderStateProbe": {
+          "shadowRecognised": 0,
+          "shadowMissed": 21279,
+          "normalLeaks": 0,
+          "shaderRecognised": 0,
+          "shaderMissed": 2457
+        },
+        "publishedCandidate": true,
+        "frameGenerationRequested": false
+      },
+      "patched": {
+        "exitCode": 0,
+        "complete": true,
+        "backendVulkan": true,
+        "qaFailure": false,
+        "shaderReportedErrors": false,
+        "freshSamples": 43,
+        "staleSamples": 2,
+        "patchedRebuildEvents": 3,
+        "visualStagesRequested": false,
+        "visualStagesComplete": false,
+        "flightReferenceGlidingConfirmed": false,
+        "flightShadowGlidingConfirmed": false,
+        "settledStaleSamples": 0,
+        "renderStateProbe": {
+          "shadowRecognised": 0,
+          "shadowMissed": 12306,
+          "normalLeaks": 0,
+          "shaderRecognised": 0,
+          "shaderMissed": 1802
+        },
+        "publishedCandidate": true,
+        "frameGenerationRequested": true,
+        "requestedMultiplier": 2
+      }
+    },
+    "fullVisualAcceptance": false
   }
 }

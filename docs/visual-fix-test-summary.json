@@ -1,0 +1,145 @@
+{
+  "version": "2026.11.09.1",
+  "testEnvironment": {
+    "minecraft": "26.3",
+    "fabric": "0.20.1",
+    "javaMajor": 25,
+    "gpu": "NVIDIA RTX 4090",
+    "renderer": "Minecraft native Vulkan",
+    "serverJoined": false,
+    "productionInstancesModified": false
+  },
+  "variants": {
+    "baseline": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "freshSamples": 39,
+      "staleSamples": 22,
+      "patchedRebuildEvents": 0,
+      "visualStagesRequested": true,
+      "visualStagesComplete": true,
+      "flightReferenceGlidingConfirmed": false,
+      "flightShadowGlidingConfirmed": false,
+      "settledStaleSamples": 20,
+      "renderStateProbe": {
+        "shadowRecognised": 0,
+        "shadowMissed": 24642,
+        "normalLeaks": 0,
+        "shaderRecognised": 0,
+        "shaderMissed": 2496
+      },
+      "publishedCandidate": false
+    },
+    "visual-compat": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "freshSamples": 57,
+      "staleSamples": 2,
+      "patchedRebuildEvents": 3,
+      "visualStagesRequested": true,
+      "visualStagesComplete": true,
+      "flightReferenceGlidingConfirmed": true,
+      "flightShadowGlidingConfirmed": true,
+      "settledStaleSamples": 0,
+      "renderStateProbe": {
+        "shadowRecognised": 19437,
+        "shadowMissed": 0,
+        "normalLeaks": 0,
+        "shaderRecognised": 2335,
+        "shaderMissed": 0
+      },
+      "publishedCandidate": false,
+      "reasonNotPublished": "API recognition works, but conspicuous model streaks occurred. Similar streaks also appeared without this bridge; causality is not established. No visual acceptance of the extra bridge."
+    },
+    "chest-compat": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "freshSamples": 59,
+      "staleSamples": 3,
+      "patchedRebuildEvents": 3,
+      "visualStagesRequested": true,
+      "visualStagesComplete": true,
+      "flightReferenceGlidingConfirmed": true,
+      "flightShadowGlidingConfirmed": true,
+      "settledStaleSamples": 0,
+      "renderStateProbe": {
+        "shadowRecognised": 0,
+        "shadowMissed": 21279,
+        "normalLeaks": 0,
+        "shaderRecognised": 0,
+        "shaderMissed": 2457
+      },
+      "publishedCandidate": true,
+      "frameGenerationRequested": false
+    },
+    "patched": {
+      "exitCode": 0,
+      "complete": true,
+      "backendVulkan": true,
+      "qaFailure": false,
+      "shaderReportedErrors": false,
+      "freshSamples": 43,
+      "staleSamples": 2,
+      "patchedRebuildEvents": 3,
+      "visualStagesRequested": false,
+      "visualStagesComplete": false,
+      "flightReferenceGlidingConfirmed": false,
+      "flightShadowGlidingConfirmed": false,
+      "settledStaleSamples": 0,
+      "renderStateProbe": {
+        "shadowRecognised": 0,
+        "shadowMissed": 12306,
+        "normalLeaks": 0,
+        "shaderRecognised": 0,
+        "shaderMissed": 1802
+      },
+      "publishedCandidate": true,
+      "frameGenerationRequested": true,
+      "requestedMultiplier": 2
+    }
+  },
+  "jar": {
+    "version": "0.3.6+mc26.3.everness-lifecycle.1",
+    "sha256": "5b0cbc7974983ce52f13ec47ce2e84f4736c9d5d66090307424b78395936638a",
+    "sha512": "bf17776bc9402e3b529ab42feec5ce5f6ad58c076ea4338e098ebdcc6ce39338a7a6836233e0d43edd29afcceec64b17be71fc61cc3d431a7189ccdd38425def",
+    "changedExistingEntries": [
+      "com/viris/VoxyFrame.class",
+      "fabric.mod.json"
+    ],
+    "VoxyEmbedded": false
+  },
+  "rebuildEntriesIdentical": true,
+  "resourcePacksUnchanged": 29,
+  "unchangedSettingsFiles": 131,
+  "changedSettings": [
+    "config/enhanced_bes.properties"
+  ],
+  "fullVisualAcceptance": false,
+  "fpsBenchmarkPerformed": false,
+  "limitations": [
+    "Persistent light-state bug fixed in tested reload/rejoin cases, not all lighting issues",
+    "Model streaks occurred in the fixture including without the extra EMF/ETF bridge; not fixed",
+    "Armor flicker and Elytra shadow not accepted as fixed",
+    "Full LOD mountain shadows remain unsupported by upstream VIRIS",
+    "5070 laptop entry crash not reproduced or fixed on the 4090",
+    "Controlled chest block-events are not a complete live inventory/multiplayer test",
+    "FG output image quality and latency were not measured independently"
+  ],
+  "image": {
+    "path": ".github/assets/update-2026.11.09.1-visual-fixes-vulkan.png",
+    "bytes": 1988047,
+    "dimensions": [
+      1672,
+      941
+    ]
+  }
+}

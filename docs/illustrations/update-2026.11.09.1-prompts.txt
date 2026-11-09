@@ -1,0 +1,23 @@
+Built-in image_gen tool. Final image is an illustrative release cover, labelled Beispielbild.
+
+Initial generation prompt (verbatim):
+Use case: ads-marketing.
+Asset type: release cover for the Everness Minecraft Vulkan modpack, version 2026.11.09.1. Create a polished 16:9 wide bitmap, ideally 2048x1152. German text, highly legible on a launcher news card.
+Scene: an atmospheric Minecraft voxel valley at blue hour with coherent cool lighting across the close grassy ridge and the distant forest and hills. A small warm-lit timber storage shelter contains ONE open chest whose single lid is visibly open, beside a static armored Minecraft player. Keep every object recognizably Minecraft, pixel materials, detailed cinematic voxel lighting, restrained teal and warm amber accents. This is an illustrative release graphic, not an actual game screenshot and not a performance comparison.
+Composition: beautiful scene on the left and background; dark charcoal translucent information panel occupying the right half, generous margins, uncluttered. Strong white block typography with small teal/green accents. Large title across top left:
+"EVERNESS VULKAN"
+Below, exact version:
+"2026.11.09.1"
+On the right panel, three compact clean rows with exact German text:
+"LICHTWERTE AKTUELL"
+"Nach Shader-Neuladen"
+"EMF + ETF"
+"Vitrail-Anbindung"
+"ORIGINAL-PACKS"
+"Unverändert erhalten"
+Footer, exact text "Beispielbild".
+Constraints: all text readable and accurately spelled. No additional logos, no FPS numbers, no graphs, no claim that all shadows or all visual bugs are fixed. Do not show see-through terrain, duplicated chest lids, crazy bright oversaturation, UI screenshots or fake benchmarks. Keep an elegant consistent Everness release style: Minecraft voxel scene, charcoal panels, white block letters and teal/green highlights.
+
+Targeted edit prompt (verbatim):
+Edit the previously generated Everness Vulkan 2026.11.09.1 release cover. Preserve the complete composition, voxel scenery, single open chest, armored character, palette, lighting, all other text and all margins exactly. Change ONLY the second row of the dark right-hand information panel. Replace "EMF + ETF" with "ORIGINAL-KISTEN" and replace "Vitrail-Anbindung" with "EBE-Kistenrenderer aus". Use the same font size hierarchy and white/teal style, accurate spelling and clear legibility. Leave "LICHTWERTE AKTUELL", "Nach Shader-Neuladen", "ORIGINAL-PACKS", "Unverändert erhalten", version 2026.11.09.1 and footer "Beispielbild" unchanged. Keep the output wide 16:9 and do not add any other wording.
+

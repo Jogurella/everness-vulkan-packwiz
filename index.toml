@@ -97,7 +97,7 @@ preserve = true
 
 [[files]]
 file = "config/enhanced_bes.properties"
-hash = "75080dc3ed545fc12495f07a9e226e6b00b226bd9055d838ca6f0b270b2edc92"
+hash = "adc0c6b64ae0b35606245e79a35a495a25b52f06ec94850d744376bcafc686dc"
 preserve = true
 
 [[files]]
@@ -927,7 +927,7 @@ metafile = true
 
 [[files]]
 file = "mods/viris.pw.toml"
-hash = "20e57d7393ffe0cd27b0c0a31cdc3d7cb4985177e00b22016f6e65bde4cd5619"
+hash = "03f85a61d60f28af3aaea38298f247a08915b0b90dc4ca294c21fc4125769ae4"
 metafile = true
 
 [[files]]

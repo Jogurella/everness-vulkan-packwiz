@@ -1,0 +1,18 @@
+--- a/mod/src/main/java/com/viris/VoxyFrame.java
++++ b/mod/src/main/java/com/viris/VoxyFrame.java
+@@ -409,7 +409,14 @@
+         int width = main.width;
+         int height = main.height;
+         String key = pack.path() + "|" + pack.chosen() + "|" + pack.profile() + "|" + pack.world() + "|" + width + "x" + height;
+-        if (!key.equals(packKey)) {
++        // The same pack/settings can acquire a NEW PackValues on a synchronous reload or a
++        // world-entry rebuild. The old pipeline captures its catalog and WorldState suppliers;
++        // keeping it would keep reading the retired chain's lighting/camera values forever.
++        boolean replacedValues = packPipeline != null && packPipeline.pack.values() != pack.values();
++        if (!key.equals(packKey) || replacedValues) {
++            if (replacedValues) {
++                Viris.LOGGER.info("VIRIS: rebuilding the LOD pipeline for the new Vitrail lighting state");
++            }
+             dropPackPipeline();
+             packKey = key;
+             packPipeline = com.viris.pack.PackPipeline.create(pack, width, height);

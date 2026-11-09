@@ -1,6 +1,6 @@
 {
   "profile": "Everness-Vulkan",
-  "snapshotVersion": "2026.11.08.4",
+  "snapshotVersion": "2026.11.09.1",
   "note": "Official Complementary downloads separately; Pixelated is generated locally by the bundled patch helper. No separate local imports required.",
   "files": []
 }

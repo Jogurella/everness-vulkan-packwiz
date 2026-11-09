@@ -2,6 +2,8 @@
 
 ## Bisherige Zusatzaufträge
 
+Vulkan 2026.11.09.1: VIRIS-Lifecycle-Fix gegen veraltete Vitrail-Lichtzustände; EBE-Kisten aus, Schilder weiter an. Keine EMF-/ETF-Schattenbrücke veröffentlicht. [Abnahme](docs/VISUAL-FIX-ABNAHME.md) mit offenen Rüstungs-/Elytra-/Laptop- und LOD-Schattenpunkten beachten. Original-Packs und 131 übrige Settings erhalten.
+
 Vulkan 2026.11.08.4 ergänzt EBE Reloaded + MatLib für Kisten/Schilder. VulkBatch wurde nach Quellprüfung abgelehnt. Bestehende Shader-, HUD-, Hotkey- und Performancewerte bleiben erhalten. Prüfbericht `docs/FARM-PERFORMANCE-ABNAHME.md` beachten.
 
 Weather Glass wurde mit 2026.11.08.2 aufgenommen und bleibt erhalten. Ab 2026.11.08.3 gibt es nur Pixelated + Unbound; Cozy samt Generator ist entfernt. Vulkan nutzt SIRIS statt Purescale, OpenGL behält Purescale. Den aktuellen Prüfstand und noch offene Sichtprüfungen in [docs/NEXT-PACK-UPDATE.md](docs/NEXT-PACK-UPDATE.md) und PACK-STATUS.md beachten. Neue Aufgaben nur nach konkretem Nutzerauftrag ergänzen.

@@ -1,6 +1,19 @@
-# Everness Vulkan – 2026.11.08.4
+# Everness Vulkan – 2026.11.09.1
 
-## Aktuelles Update: gezielte Kistenoptimierung
+## Aktuelles Update: Lichtzustand und Original-Kisten
+
+**VIRIS mit gezielter Lichtkorrektur:** Nach Shader-Neuladen und Weltwechsel liest Voxy den aktuellen Vitrail-Zustand. Die Kistenvorgabe schaltet EBE-Kistenmodelle aus, damit die vorhandenen Originalmodelle zuständig bleiben. Schilderoptimierung, Animationen und Ressourcenpacks bleiben erhalten.
+
+![Everness Vulkan 2026.11.09.1 – Beispielbild](.github/assets/update-2026.11.09.1-visual-fixes-vulkan.png)
+
+[Änderungen](CHANGELOG.md) · [Tatsächliche Tests und offene Punkte](docs/VISUAL-FIX-ABNAHME.md) · [Eigener VIRIS-Patch und Bauanleitung](patches/viris-lifecycle)
+
+**70 Mods, 29 unveränderte Ressourcenpacks, Pixelated und Unbound.** Alle bisherigen Grafik-, Shader-, Sichtweiten-, FOV-, HUD-, Hotkey- und QoL-Dateien bleiben erhalten; ausschließlich der EBE-Kistenschalter ändert sich in der Vorlage. Update und Minecraft-Neustart erforderlich. Wer persönliche Einstellungen erhält, kann den Kistenschalter in Mod Menu selbst ausschalten.
+
+Das Update ist **kein vollständiger Schatten-/Rüstungs-/Laptop-Crash-Fix**. Vollständige Fernberg-Schatten sind weiterhin eine VIRIS-Grenze. Eine zusätzliche Schattenanbindung mit auffälliger Modellgeometrie wurde bewusst nicht freigegeben; der Prüfbericht unterscheidet getestete Funktionen und offene Fehler.
+
+
+## Vorheriges Update 2026.11.08.4: Kistenoptimierung
 
 **EBE Reloaded 0.13.3 + MatLib 1.0.0** ergänzen den bestehenden nativen Vulkan-/Vitrail-/VIRIS-/Voxy-Aufbau. Kisten und Schilder werden gezielt optimiert. Deine bisherigen Shader-, Sichtweiten-, SIRIS-, HUD- und Hotkey-Einstellungen bleiben erhalten. **70 Mods, 29 Ressourcenpacks, Pixelated und Unbound.**
 

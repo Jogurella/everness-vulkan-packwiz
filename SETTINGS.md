@@ -1,4 +1,4 @@
-# Einstellungsstand 2026.11.08.4
+# Einstellungsstand 2026.11.09.1
 
 Die gemeinsame Vorlage stammt aus dem veröffentlichten Vulkan-Pack. OpenGL setzt den OpenGL-Backendwert und die entsprechenden Iris-Shader-Tasten. HUD-Felder, Jade-Skalierung, Minimap, FOV, Vollbild, Ressourcenpack-Reihenfolge, Punchy und QoL-Mod-Einstellungen entsprechen der Vorlage. Zusätzliche OpenGL-Shader bleiben zur Auswahl erhalten.
 
@@ -19,3 +19,9 @@ Die beiden Sidecars `shaderpacks/Pixelated.zip.txt` und `shaderpacks/Complementa
 ## 2026.11.08.4: EBE
 
 Neu ist ausschließlich `config/enhanced_bes.properties`: Kisten/Schilder an, andere EBE-Modelltypen aus, alle Schildtexte an, Ressourcenpack-Kompatibilitätsmodus an. Bestehende 131 Einstellungsdateien sind unverändert. Mod Menu bietet Schalter zum Zurückstellen. Das Einstellungsmanifest und beide Export-ZIPs enthalten die neue Datei; persönliche vorhandene Werte werden von packwiz als `preserve` behandelt.
+
+## 2026.11.09.1: Kistenmodelle und Erhalt persönlicher Werte
+
+Einzige Änderung an der bisherigen Vorlage: `config/enhanced_bes.properties`, `render_enhanced_chests=false`. EBE-Schilder bleiben an; Fresh Animations Objects, Skins, Animationen, Reihenfolge der 29 Packs, beide Shader-Sidecars, SIRIS, Sichtweite und sämtliche QoL-/HUD-/Hotkey-Dateien bleiben bytegleich. 131 von 132 bisherigen Einstellungsdateien sind unverändert.
+
+Packwiz markiert Einstellungsdateien weiter als `preserve`. Der Everness Launcher übernimmt neue Vorlagen mit seiner normalen Vorlagenfunktion; ist „Eigene Einstellungen behalten“ aktiviert, respektiert er die vorhandenen Werte. Deshalb gegebenenfalls den EBE-Kistenschalter in Mod Menu manuell ausschalten. Es gibt keine versteckte erzwungene Config-Migration. Die neue VIRIS-JAR wird unabhängig von persönlichen Einstellungen aktualisiert.
